@@ -88,19 +88,22 @@ header {
   -webkit-transition: 0.6s;
   transition: 0.6s;
   height: 100px;
-  -webkit-box-shadow: -1px -1px 20px 0px rgba(0, 0, 0, 0.3764705882);
-          box-shadow: -1px -1px 20px 0px rgba(0, 0, 0, 0.3764705882);
+  -webkit-box-shadow: 0px 0px 9px 4px rgba(0, 0, 0, 0.8);
+          box-shadow: 0px 0px 9px 4px rgba(0, 0, 0, 0.8);
 }
 header .headcontain {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  height: 100%;
 }
 header .headcontain .image {
   max-width: 100px;
+  height: 100%;
 }
 header .headcontain .image img {
   width: 100%;
+  height: 100%;
   -webkit-filter: none;
           filter: none;
   -webkit-transition: 0.3s ease-in-out;
@@ -116,7 +119,6 @@ header .navForMob {
   z-index: 500;
   width: 100%;
   height: 100vh;
-  background-color: #001124;
   left: 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -355,33 +357,41 @@ header .navForMob .bottom i {
     opacity: 1;
   }
 }
-header .light {
+
+.light {
   background-color: #001124;
 }
-header .star1 {
+
+.star1 {
   -webkit-animation: 3s linear 1s infinite alternate twinkle;
           animation: 3s linear 1s infinite alternate twinkle;
 }
-header .star2 {
+
+.star2 {
   -webkit-animation: 4s linear 0s infinite alternate twinkle;
           animation: 4s linear 0s infinite alternate twinkle;
 }
-header .star3 {
+
+.star3 {
   -webkit-animation: 3.5s linear 0.5s infinite alternate twinkle;
           animation: 3.5s linear 0.5s infinite alternate twinkle;
 }
-header .star4 {
+
+.star4 {
   -webkit-animation: 1.25s linear 1.5s infinite alternate twinkle;
           animation: 1.25s linear 1.5s infinite alternate twinkle;
 }
-header .star5 {
+
+.star5 {
   -webkit-animation: 4s linear 2s infinite alternate twinkle;
           animation: 4s linear 2s infinite alternate twinkle;
 }
-header .star6 {
+
+.star6 {
   -webkit-animation: 2.5s linear 1s infinite alternate twinkle;
           animation: 2.5s linear 1s infinite alternate twinkle;
 }
+
 @-webkit-keyframes twinkle {
   0% {
     opacity: 1;
@@ -393,6 +403,7 @@ header .star6 {
     opacity: 1;
   }
 }
+
 @keyframes twinkle {
   0% {
     opacity: 1;
@@ -404,7 +415,6 @@ header .star6 {
     opacity: 1;
   }
 }
-
 .headcontain {
   position: relative;
   -webkit-box-align: center;
@@ -467,12 +477,15 @@ header .star6 {
   display: none;
   position: absolute;
   right: 0;
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+          transform: translate(0, -50%);
   background: transparent;
   border: none;
   outline: none;
   cursor: pointer;
   padding: 8px;
-  margin: 7px 15px 0 0;
+  margin: 0px 15px 0 0;
   z-index: 2;
   -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
@@ -507,7 +520,12 @@ header .star6 {
           transform: translateY(-8px) rotate(-45deg);
 }
 
+section {
+  position: relative;
+}
+
 .landing {
+  overflow: hidden;
   width: 100%;
   height: 100vh;
   background-image: url(../image/fotor_2023-1-20_1_2_13.png);

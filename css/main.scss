@@ -70,20 +70,22 @@ a {
 }
 // strat header
 header {
-  //   background-color: #00011e;
+  // background-color: rgba(12, 49, 55, 0.8);
   position: fixed;
   z-index: 2000;
   width: 100%;
   transition: 0.6s;
   height: 100px;
-  box-shadow: -1px -1px 20px 0px #00000060;
+  box-shadow: 0px 0px 9px 4px rgb(0 0 0 / 80%);
   .headcontain {
     display: flex;
+    height: 100%;
     .image {
       max-width: 100px;
+      height: 100%;
       img {
         width: 100%;
-
+        height: 100%;
         filter: none;
         transition: 0.3s ease-in-out;
         &:hover {
@@ -197,7 +199,8 @@ header {
 
     width: 100%;
     height: 100vh;
-    background-color: #001124;
+    // background-color: #001124;
+    // background-color: rgba(0, 5, 10, 0.8);
     // color: #73dada;
     left: 0;
     display: flex;
@@ -290,45 +293,45 @@ header {
       opacity: 1;
     }
   }
+}
 
-  .light {
-    background-color: #001124;
+.light {
+  background-color: #001124;
+}
+
+.star1 {
+  animation: 3s linear 1s infinite alternate twinkle;
+}
+
+.star2 {
+  animation: 4s linear 0s infinite alternate twinkle;
+}
+
+.star3 {
+  animation: 3.5s linear 0.5s infinite alternate twinkle;
+}
+
+.star4 {
+  animation: 1.25s linear 1.5s infinite alternate twinkle;
+}
+
+.star5 {
+  animation: 4s linear 2s infinite alternate twinkle;
+}
+
+.star6 {
+  animation: 2.5s linear 1s infinite alternate twinkle;
+}
+
+@keyframes twinkle {
+  0% {
+    opacity: 1;
   }
-
-  .star1 {
-    animation: 3s linear 1s infinite alternate twinkle;
+  50% {
+    opacity: 0;
   }
-
-  .star2 {
-    animation: 4s linear 0s infinite alternate twinkle;
-  }
-
-  .star3 {
-    animation: 3.5s linear 0.5s infinite alternate twinkle;
-  }
-
-  .star4 {
-    animation: 1.25s linear 1.5s infinite alternate twinkle;
-  }
-
-  .star5 {
-    animation: 4s linear 2s infinite alternate twinkle;
-  }
-
-  .star6 {
-    animation: 2.5s linear 1s infinite alternate twinkle;
-  }
-
-  @keyframes twinkle {
-    0% {
-      opacity: 1;
-    }
-    50% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
+  100% {
+    opacity: 1;
   }
 }
 .headcontain {
@@ -382,15 +385,17 @@ header {
   .burger {
     display: none;
     position: absolute;
-
     right: 0;
+    top: 50%;
+    transform: translate(0, -50%);
     background: transparent;
     border: none;
     outline: none;
     cursor: pointer;
     padding: 8px;
-    margin: 7px 15px 0 0;
+    margin: 0px 15px 0 0;
     z-index: 2;
+    -webkit-transition: 0.3s ease-in-out;
     transition: 0.3s ease-in-out;
 
     .bar {
@@ -423,8 +428,13 @@ header {
     }
   }
 }
+// section *****************
+section {
+  position: relative;
+}
 
 .landing {
+  overflow: hidden;
   width: 100%;
   height: 100vh;
   background-image: url(../image/fotor_2023-1-20_1_2_13.png);

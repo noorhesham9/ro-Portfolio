@@ -1,12 +1,46 @@
 const sizes = [1, 1, 2, 2, 3];
-let light = document.getElementById("light");
+const sizes2 = [1, 3, 2, 2, 3, 4, 4];
+let light = document.querySelectorAll(".light");
 //get random position between 1 - 100;
 function randomPosition(min, max) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
-const body = document.querySelector(".body");
+for (let i = 0; i < 300; i++) {
+  const top = randomPosition(1, 100);
+  const left = randomPosition(1, 100);
+  const random = Math.floor(Math.random() * sizes2.length);
+  const randomSize = sizes2[random];
+  const div = document.createElement("div");
+  div.style.position = "absolute";
+  div.style.top = top + "%";
+  div.style.left = left + "%";
+  div.style.height = randomSize + "px";
+  div.style.width = randomSize + "px";
+  div.style.backgroundColor = "#FFFFFF";
+  div.style.borderRadius = "50%";
+  if (i <= 50) {
+    div.classList.add("star1");
+  }
+  if (i <= 100 && i > 50) {
+    div.classList.add("star2");
+  }
+  if (i <= 150 && i > 100) {
+    div.classList.add("star3");
+  }
+  if (i <= 200 && i > 150) {
+    div.classList.add("star4");
+  }
+  if (i <= 250 && i > 200) {
+    div.classList.add("star5");
+  }
+  if (i <= 300 && i > 250) {
+    div.classList.add("star6");
+  }
+  console.log(light.length);
 
+  light[1].appendChild(div);
+}
 for (let i = 0; i < 300; i++) {
   const top = randomPosition(1, 100);
   const left = randomPosition(1, 100);
@@ -38,7 +72,9 @@ for (let i = 0; i < 300; i++) {
   if (i <= 300 && i > 250) {
     div.classList.add("star6");
   }
-  light.appendChild(div);
+  console.log(light.length);
+
+  // light[0].appendChild(div);
 }
 
 let navForMob = document.querySelector(".navForMob");
@@ -135,18 +171,44 @@ burger.addEventListener("click", function () {
 
 let header = document.getElementById("header");
 
-let didScroll = false;
+window.addEventListener("resize", WindowSize);
+window.addEventListener("load", WindowSize);
+function WindowSize() {
+  myWidth = window.innerWidth;
+  if (myWidth < 767) {
+    header.style.backgroundColor = "rgba(36, 36, 36, 0.9)";
 
-window.onscroll = () => (didScroll = true);
-
-setInterval(() => {
-  if (didScroll) {
-    didScroll = false;
-    header.style.backgroundColor = "#00011f";
+    header.style.height = "80px";
   } else {
-    header.style.backgroundColor = "transparent";
+    header.style.backgroundColor = "rgba(36, 36, 36, 0.6)";
+
+    header.style.height = "100px";
   }
-}, 200);
+}
+
+window.onscroll = function () {
+  if (window.scrollY >= 140) {
+    header.style.backgroundColor = "rgba(36, 36, 36, 0.9)";
+    header.style.height = "80px";
+  } else if (window.scrollY <= 130 && myWidth > 767) {
+    header.style.backgroundColor = "rgba(36, 36, 36, 0.6)";
+
+    header.style.height = "100px";
+  }
+};
+
+// let didScroll = false;
+
+// window.onscroll = () => (didScroll = true);
+
+// setInterval(() => {
+//   if (didScroll) {
+//     didScroll = false;
+//     header.style.backgroundColor = "#00011f";
+//   } else {
+//     header.style.backgroundColor = "transparent";
+//   }
+// }, 200);
 
 // window.addEventListener("scroll", function () {
 
