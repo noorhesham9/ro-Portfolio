@@ -17,7 +17,7 @@ for (let i = 0; i < 300; i++) {
   div.style.left = left + "%";
   div.style.height = randomSize + "px";
   div.style.width = randomSize + "px";
-  div.style.backgroundColor = "#FFFFFF";
+
   div.style.borderRadius = "50%";
   if (i <= 50) {
     div.classList.add("star1");
@@ -52,7 +52,7 @@ for (let i = 0; i < 300; i++) {
   div.style.left = left + "%";
   div.style.height = randomSize + "px";
   div.style.width = randomSize + "px";
-  div.style.backgroundColor = "#FFFFFF";
+
   div.style.borderRadius = "50%";
   if (i <= 50) {
     div.classList.add("star1");
@@ -74,7 +74,7 @@ for (let i = 0; i < 300; i++) {
   }
   console.log(light.length);
 
-  // light[0].appendChild(div);
+  light[0].appendChild(div);
 }
 
 let navForMob = document.querySelector(".navForMob");
