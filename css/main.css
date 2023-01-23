@@ -738,6 +738,7 @@ section .mainhead h2 {
     gap: 20px;
   }
   .landing .image {
+    margin-top: 90px;
     width: 250px;
     max-width: 100%;
     margin-bottom: 20px;
@@ -804,16 +805,16 @@ section .mainhead h2 {
 }
 .meteor-1 {
   position: absolute;
-  top: 180px;
-  left: 47%;
+  top: 61px;
+  left: 83%;
   width: 300px;
   height: 1px;
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
   background-image: -webkit-gradient(linear, left top, right top, from(#fff), to(rgba(255, 255, 255, 0)));
   background-image: linear-gradient(to right, #fff, rgba(255, 255, 255, 0));
-  -webkit-animation: meteor 6.9s linear infinite;
-          animation: meteor 6.9s linear infinite;
+  -webkit-animation: meteor 4.9s linear infinite;
+          animation: meteor 4.9s linear infinite;
 }
 .meteor-1:before {
   content: "";
@@ -829,16 +830,16 @@ section .mainhead h2 {
 
 .meteor-2 {
   position: absolute;
-  top: 258px;
-  left: 24%;
+  top: 71px;
+  left: 29%;
   width: 300px;
   height: 1px;
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
   background-image: -webkit-gradient(linear, left top, right top, from(#fff), to(rgba(255, 255, 255, 0)));
   background-image: linear-gradient(to right, #fff, rgba(255, 255, 255, 0));
-  -webkit-animation: meteor 9.8s linear infinite;
-          animation: meteor 9.8s linear infinite;
+  -webkit-animation: meteor 8.3s linear infinite;
+          animation: meteor 8.3s linear infinite;
 }
 .meteor-2:before {
   content: "";
@@ -854,16 +855,16 @@ section .mainhead h2 {
 
 .meteor-3 {
   position: absolute;
-  top: 78px;
-  left: 99%;
+  top: 86px;
+  left: 52%;
   width: 300px;
   height: 1px;
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
   background-image: -webkit-gradient(linear, left top, right top, from(#fff), to(rgba(255, 255, 255, 0)));
   background-image: linear-gradient(to right, #fff, rgba(255, 255, 255, 0));
-  -webkit-animation: meteor 4s linear infinite;
-          animation: meteor 4s linear infinite;
+  -webkit-animation: meteor 3.6s linear infinite;
+          animation: meteor 3.6s linear infinite;
 }
 .meteor-3:before {
   content: "";
@@ -879,16 +880,16 @@ section .mainhead h2 {
 
 .meteor-4 {
   position: absolute;
-  top: 173px;
-  left: 65%;
+  top: 64px;
+  left: 60%;
   width: 300px;
   height: 1px;
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
   background-image: -webkit-gradient(linear, left top, right top, from(#fff), to(rgba(255, 255, 255, 0)));
   background-image: linear-gradient(to right, #fff, rgba(255, 255, 255, 0));
-  -webkit-animation: meteor 4.1s linear infinite;
-          animation: meteor 4.1s linear infinite;
+  -webkit-animation: meteor 4.8s linear infinite;
+          animation: meteor 4.8s linear infinite;
 }
 .meteor-4:before {
   content: "";
@@ -904,16 +905,16 @@ section .mainhead h2 {
 
 .meteor-5 {
   position: absolute;
-  top: 199px;
-  left: 19%;
+  top: 119px;
+  left: 92%;
   width: 300px;
   height: 1px;
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
   background-image: -webkit-gradient(linear, left top, right top, from(#fff), to(rgba(255, 255, 255, 0)));
   background-image: linear-gradient(to right, #fff, rgba(255, 255, 255, 0));
-  -webkit-animation: meteor 10s linear infinite;
-          animation: meteor 10s linear infinite;
+  -webkit-animation: meteor 6.8s linear infinite;
+          animation: meteor 6.8s linear infinite;
 }
 .meteor-5:before {
   content: "";
@@ -929,16 +930,16 @@ section .mainhead h2 {
 
 .meteor-6 {
   position: absolute;
-  top: 235px;
-  left: 36%;
+  top: 123px;
+  left: 60%;
   width: 300px;
   height: 1px;
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
   background-image: -webkit-gradient(linear, left top, right top, from(#fff), to(rgba(255, 255, 255, 0)));
   background-image: linear-gradient(to right, #fff, rgba(255, 255, 255, 0));
-  -webkit-animation: meteor 8.7s linear infinite;
-          animation: meteor 8.7s linear infinite;
+  -webkit-animation: meteor 9s linear infinite;
+          animation: meteor 9s linear infinite;
 }
 .meteor-6:before {
   content: "";
@@ -954,16 +955,16 @@ section .mainhead h2 {
 
 .meteor-7 {
   position: absolute;
-  top: 105px;
-  left: 87%;
+  top: 300px;
+  left: 85%;
   width: 300px;
   height: 1px;
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
   background-image: -webkit-gradient(linear, left top, right top, from(#fff), to(rgba(255, 255, 255, 0)));
   background-image: linear-gradient(to right, #fff, rgba(255, 255, 255, 0));
-  -webkit-animation: meteor 5.1s linear infinite;
-          animation: meteor 5.1s linear infinite;
+  -webkit-animation: meteor 3.2s linear infinite;
+          animation: meteor 3.2s linear infinite;
 }
 .meteor-7:before {
   content: "";
@@ -1027,8 +1028,10 @@ section .mainhead h2 {
   width: 400px;
   aspect-ratio: 0.7498262682;
   position: relative;
+  max-width: 100%;
 }
 .about .content .image .gerd {
+  opacity: 1;
   width: 100%;
   height: 100%;
   background-image: -webkit-gradient(linear, left top, left bottom, from(black), to(#c5b1af));
@@ -1084,7 +1087,7 @@ section .mainhead h2 {
 .about .content .text .sentence span:nth-child(3) {
   font-size: 17px;
   letter-spacing: 0.4px;
-  line-height: 23.3px;
+  line-height: 1.4;
 }
 .about .content .text .sentence span:nth-child(3) p {
   margin-top: 7px;
@@ -1178,6 +1181,7 @@ section .mainhead h2 {
   display: -ms-flexbox;
   display: flex;
   gap: 9px;
+  text-align: center;
   line-height: 1.8;
   font-size: 14px;
 }
@@ -1188,4 +1192,60 @@ section .mainhead h2 {
 }
 .about .content .infor .right {
   width: 50%;
+}
+@media (max-width: 991px) {
+  .about .content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 30px !important;
+  }
+  .about .content .text {
+    width: 100%;
+    text-align: center;
+  }
+  .about .content .text .sentence span:first-child {
+    margin-bottom: 7px;
+  }
+  .about .content .infor .cat {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+  }
+}
+
+@media (max-width: 767px) {
+  .content .image {
+    width: 300px !important;
+  }
+}
+@media (max-width: 570px) {
+  .content .image .gerd {
+    display: none;
+  }
+  .content .text .sentence span:nth-child(2) {
+    font-size: 20px !important;
+  }
+  .content .text .sentence span:nth-child(3) {
+    font-size: 15px !important;
+  }
+}
+@media (max-width: 350px) {
+  .content .infor {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .content .infor .left {
+    width: 100% !important;
+  }
+  .content .infor .right {
+    width: 100% !important;
+  }
 }
