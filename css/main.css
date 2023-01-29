@@ -94,6 +94,11 @@ header {
   -webkit-box-shadow: 0px 0px 9px 4px rgba(0, 0, 0, 0.8);
           box-shadow: 0px 0px 9px 4px rgba(0, 0, 0, 0.8);
 }
+header .loadGRip {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
 header .headcontain {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -808,16 +813,16 @@ section .mainhead h2 {
 }
 .meteor-1 {
   position: absolute;
-  top: 60px;
-  left: 69%;
+  top: 188px;
+  left: 88%;
   width: 300px;
   height: 1px;
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
   background-image: -webkit-gradient(linear, left top, right top, from(#fff), to(rgba(255, 255, 255, 0)));
   background-image: linear-gradient(to right, #fff, rgba(255, 255, 255, 0));
-  -webkit-animation: meteor 5s linear infinite;
-          animation: meteor 5s linear infinite;
+  -webkit-animation: meteor 7.2s linear infinite;
+          animation: meteor 7.2s linear infinite;
 }
 .meteor-1:before {
   content: "";
@@ -833,16 +838,16 @@ section .mainhead h2 {
 
 .meteor-2 {
   position: absolute;
-  top: 130px;
-  left: 67%;
+  top: 209px;
+  left: 61%;
   width: 300px;
   height: 1px;
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
   background-image: -webkit-gradient(linear, left top, right top, from(#fff), to(rgba(255, 255, 255, 0)));
   background-image: linear-gradient(to right, #fff, rgba(255, 255, 255, 0));
-  -webkit-animation: meteor 3.4s linear infinite;
-          animation: meteor 3.4s linear infinite;
+  -webkit-animation: meteor 5.8s linear infinite;
+          animation: meteor 5.8s linear infinite;
 }
 .meteor-2:before {
   content: "";
@@ -858,16 +863,16 @@ section .mainhead h2 {
 
 .meteor-3 {
   position: absolute;
-  top: 193px;
-  left: 50%;
+  top: 176px;
+  left: 68%;
   width: 300px;
   height: 1px;
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
   background-image: -webkit-gradient(linear, left top, right top, from(#fff), to(rgba(255, 255, 255, 0)));
   background-image: linear-gradient(to right, #fff, rgba(255, 255, 255, 0));
-  -webkit-animation: meteor 7s linear infinite;
-          animation: meteor 7s linear infinite;
+  -webkit-animation: meteor 3.8s linear infinite;
+          animation: meteor 3.8s linear infinite;
 }
 .meteor-3:before {
   content: "";
@@ -883,16 +888,16 @@ section .mainhead h2 {
 
 .meteor-4 {
   position: absolute;
-  top: 118px;
-  left: 66%;
+  top: 241px;
+  left: 98%;
   width: 300px;
   height: 1px;
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
   background-image: -webkit-gradient(linear, left top, right top, from(#fff), to(rgba(255, 255, 255, 0)));
   background-image: linear-gradient(to right, #fff, rgba(255, 255, 255, 0));
-  -webkit-animation: meteor 4.6s linear infinite;
-          animation: meteor 4.6s linear infinite;
+  -webkit-animation: meteor 6.9s linear infinite;
+          animation: meteor 6.9s linear infinite;
 }
 .meteor-4:before {
   content: "";
@@ -908,16 +913,16 @@ section .mainhead h2 {
 
 .meteor-5 {
   position: absolute;
-  top: 125px;
-  left: 12%;
+  top: 243px;
+  left: 13%;
   width: 300px;
   height: 1px;
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
   background-image: -webkit-gradient(linear, left top, right top, from(#fff), to(rgba(255, 255, 255, 0)));
   background-image: linear-gradient(to right, #fff, rgba(255, 255, 255, 0));
-  -webkit-animation: meteor 7.7s linear infinite;
-          animation: meteor 7.7s linear infinite;
+  -webkit-animation: meteor 9.6s linear infinite;
+          animation: meteor 9.6s linear infinite;
 }
 .meteor-5:before {
   content: "";
@@ -933,16 +938,16 @@ section .mainhead h2 {
 
 .meteor-6 {
   position: absolute;
-  top: 245px;
-  left: 50%;
+  top: 114px;
+  left: 79%;
   width: 300px;
   height: 1px;
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
   background-image: -webkit-gradient(linear, left top, right top, from(#fff), to(rgba(255, 255, 255, 0)));
   background-image: linear-gradient(to right, #fff, rgba(255, 255, 255, 0));
-  -webkit-animation: meteor 6.4s linear infinite;
-          animation: meteor 6.4s linear infinite;
+  -webkit-animation: meteor 3.6s linear infinite;
+          animation: meteor 3.6s linear infinite;
 }
 .meteor-6:before {
   content: "";
@@ -958,16 +963,16 @@ section .mainhead h2 {
 
 .meteor-7 {
   position: absolute;
-  top: 179px;
-  left: 93%;
+  top: 260px;
+  left: 82%;
   width: 300px;
   height: 1px;
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
   background-image: -webkit-gradient(linear, left top, right top, from(#fff), to(rgba(255, 255, 255, 0)));
   background-image: linear-gradient(to right, #fff, rgba(255, 255, 255, 0));
-  -webkit-animation: meteor 6.9s linear infinite;
-          animation: meteor 6.9s linear infinite;
+  -webkit-animation: meteor 4s linear infinite;
+          animation: meteor 4s linear infinite;
 }
 .meteor-7:before {
   content: "";
