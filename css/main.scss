@@ -82,8 +82,10 @@ a {
 // strat header
 header {
   .loadGRip {
-    position: relative;
+    position: absolute;
     width: 100%;
+    top: 0;
+    left: 0;
     height: 100%;
   }
   // background-color: rgba(12, 49, 55, 0.8);
