@@ -1,3 +1,11 @@
+// @import "compass/css3";
+$cubeWidth: 200px;
+$cubeHeight: 200px;
+$cubeDepth: 200px;
+$cubeWidth1: 430px;
+$cubeHeight1: 430px;
+$cubeDepth1: 430px;
+
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -6,6 +14,8 @@
   margin: 0;
 }
 :root {
+  --cubeWidth: 240px;
+  --cubeHeight: 240px;
   --white: white;
   --black: black;
   --subcolor-orange: #cf9c63;
@@ -1012,6 +1022,779 @@ $shadow: ();
       }
       .right {
         width: 100% !important;
+      }
+    }
+  }
+}
+
+.services {
+  background-image: url(../image/astronaut-lost-in-space_3840x2160_xtrafondos.com-01.jpeg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  &::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  .servForMopile {
+    display: none;
+    .content {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      // flex-direction: column;
+      flex-wrap: wrap;
+      .box {
+        width: calc(50% - 20px);
+        border-radius: 6px;
+        position: relative;
+        padding: 15px;
+        background-color: #001124;
+        overflow: hidden;
+        transition: 0.5s ease-in-out;
+        .title {
+          width: 100%;
+          height: 30px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border-top: 1.4px solid white;
+          margin-top: 9px;
+          padding-top: 15px;
+          text-align: center;
+          z-index: 3;
+          font-size: 16px;
+          font-weight: 600;
+          -webkit-transition: 0.5s ease-in-out;
+          transition: 0.5s ease-in-out;
+        }
+        .childImage {
+          border-radius: 6px;
+          overflow: hidden;
+          img {
+            border-radius: 6px;
+
+            max-width: 100%;
+            max-height: 100%;
+          }
+          transition: 0.5s ease-in-out;
+        }
+      }
+    }
+  }
+  .servForComp {
+    display: block;
+    position: relative;
+    .maintitles {
+      position: absolute;
+      z-index: 5;
+      display: flex;
+      height: 100%;
+      width: 100%;
+      top: 0;
+      text-align: center;
+      justify-content: space-between;
+      > div {
+        display: flex;
+        width: 200px;
+        flex-direction: column;
+        transition: 0.5s;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+        transform: translatex(calc(-50%));
+
+        .title {
+          background-color: #000;
+          font-size: 17px;
+          border: 1px solid #00ddff;
+          border-radius: 6px;
+          padding: 10px 18px;
+          cursor: pointer;
+          transition: 0.5s;
+
+          &.logo {
+            width: 135px;
+            position: relative;
+            height: 42px;
+            &::before {
+              transition: 0.5s;
+              position: absolute;
+              top: 0;
+              left: 0;
+              width: 100%;
+              height: 100%;
+              opacity: 0;
+              background-image: url(../image/logoDesign\ cutted.png);
+              background-position: center center;
+              background-repeat: no-repeat;
+              background-size: cover;
+              content: "";
+            }
+          }
+          &.social {
+            width: 196px;
+            position: relative;
+
+            height: 42px;
+            &::before {
+              transition: 0.5s;
+              position: absolute;
+              top: 0;
+              left: 0;
+              width: 100%;
+              height: 100%;
+              opacity: 0;
+              background-image: url(../image/IMG-20220527-WA0102-01.jpeg);
+              background-position: center center;
+              background-repeat: no-repeat;
+              background-size: cover;
+              content: "";
+            }
+          }
+          &.Illustrations {
+            position: relative;
+
+            width: 132px;
+            height: 42px;
+            &::before {
+              transition: 0.5s;
+              position: absolute;
+              top: 0;
+              left: 0;
+              width: 100%;
+              height: 100%;
+              opacity: 0;
+              background-image: url(../image/night\ crop.png);
+              background-position: center center;
+              background-repeat: no-repeat;
+              background-size: cover;
+              content: "";
+            }
+          }
+          &.decore {
+            position: relative;
+
+            width: 95px;
+            height: 42px;
+            &::before {
+              transition: 0.5s;
+              position: absolute;
+              top: 0;
+              left: 0;
+              width: 100%;
+              height: 100%;
+              opacity: 0;
+              background-image: url(../image/fotor_2023-1-23_19_26_3.png);
+              background-position: center center;
+              background-repeat: no-repeat;
+              background-size: cover;
+              content: "";
+            }
+          }
+          &.branding {
+            position: relative;
+
+            width: 110px;
+            height: 42px;
+
+            &::before {
+              transition: 0.5s;
+              position: absolute;
+              top: 0;
+              left: 0;
+              width: 100%;
+              height: 100%;
+              opacity: 0;
+              background-image: url(../image/WhatsApp\ Image\ 2021-10-23\ at\ 1.00.57\ AM.jpeg);
+              background-position: center center;
+              background-repeat: no-repeat;
+              background-size: cover;
+              content: "";
+            }
+          }
+          &.courses {
+            position: relative;
+
+            width: 102px;
+            height: 42px;
+            &::before {
+              transition: 0.5s;
+              position: absolute;
+              top: 0;
+              left: 0;
+              width: 100%;
+              height: 100%;
+              opacity: 0;
+              background-image: url(../image/fotor_2023-1-23_19_27_28.png);
+              background-position: center center;
+              background-repeat: no-repeat;
+              background-size: cover;
+              content: "";
+            }
+          }
+          &:hover {
+            width: 100%;
+            height: 200px;
+
+            &.logo {
+              &::before {
+                opacity: 0.5;
+              }
+            }
+            &.social {
+              &::before {
+                opacity: 0.5;
+              }
+            }
+            &.Illustrations {
+              &::before {
+                opacity: 0.5;
+              }
+            }
+            &.decore {
+              &::before {
+                opacity: 0.5;
+              }
+            }
+            &.branding {
+              &::before {
+                opacity: 0.5;
+              }
+            }
+            &.courses {
+              &::before {
+                opacity: 0.5;
+              }
+            }
+          }
+        }
+      }
+
+      @media (max-width: 1200px) {
+        .right {
+          transform: translatex(calc(-71px));
+        }
+        .left {
+          transform: translatex(calc(71px));
+        }
+      }
+      @media (min-width: 1200px) {
+        .right {
+          transform: translatex(calc(-197px));
+        }
+        .left {
+          transform: translatex(calc(197px));
+        }
+      }
+      // &:hover {
+      //   ~ .content .space3d ._3dbox {
+      //     transform: rotateX(45deg) rotateY(-45deg) !important;
+      //   }
+      // }
+    }
+    .content {
+      overflow: hidden;
+
+      .title {
+        display: none;
+      }
+      .counter {
+        display: none;
+        visibility: visible;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        right: 50px;
+        top: 50px;
+        border-radius: 50%;
+        aspect-ratio: 1;
+        width: 35px;
+        height: 35px;
+        z-index: 5;
+        box-shadow: 0px 0px 20px 4px black;
+        background-color: #000;
+        border: 2px solid #00ddff;
+        &.anima {
+          animation: opacit 5.25s ease-in-out 0s infinite,
+            topandD 3s ease-in-out 0s infinite;
+        }
+
+        #seconds {
+          opacity: 1;
+          padding: 6px;
+          font-size: 20px;
+          position: relative;
+          top: 0;
+          left: 0;
+        }
+      }
+      @keyframes topandD {
+        0%,
+        100% {
+          top: 50px;
+        }
+        50% {
+          top: 35px;
+        }
+      }
+      @keyframes opacit {
+        0% {
+          opacity: 1;
+        }
+        100% {
+          opacity: 0.3;
+        }
+      }
+
+      &.vvv {
+        .title {
+          display: block;
+          > div {
+            position: absolute;
+            opacity: 0;
+            transition: 0.6s ease-in-out;
+            top: 50px;
+            color: #fff;
+            background-color: rgba(0, 0, 0, 0.55);
+            border: 1px solid #00ddff;
+            border-radius: 8px;
+            padding: 6px 17px;
+            font-size: 24px;
+            font-family: acumin-pro;
+            display: block;
+            z-index: 10;
+            left: 50%;
+            transform: translatex(-50%);
+          }
+        }
+        .space3d {
+          perspective: 1000px;
+          width: $cubeWidth1;
+          height: $cubeHeight1;
+          text-align: center;
+          transition: 1.3s;
+          display: inline-block;
+        }
+        ._3dbox {
+          display: inline-block;
+          transition: all 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+          text-align: center;
+          position: relative;
+          width: 100%;
+          height: 100%;
+          transform-style: preserve-3d;
+          transform: rotateX(45deg) rotatey(-45deg);
+        }
+        ._3dface {
+          overflow: hidden;
+          position: absolute;
+
+          border: 1px solid #888;
+          background: #fff;
+          box-shadow: inset 0 0 60px rgba(0, 0, 0, 0.1),
+            0 0 50px rgba(0, 0, 0, 0.3);
+          color: #333;
+          line-height: $cubeWidth1;
+          opacity: 1;
+          transition: 1.4s;
+        }
+        ._3dface--front {
+          width: $cubeWidth1;
+          height: $cubeHeight1;
+          transform: translate3d(0, 0, $cubeDepth1 / 2);
+          transition: 1.4s;
+        }
+
+        ._3dface--top {
+          width: $cubeWidth1;
+          height: $cubeDepth1;
+          transition: 1.4s;
+
+          transform: rotateX(90deg) translate3d(0, 0, $cubeHeight1 / 2);
+        }
+
+        ._3dface--bottom {
+          width: $cubeWidth1;
+          transition: 1.4s;
+
+          height: $cubeDepth1;
+          transform: rotateX(-90deg) translate3d(0, 0, $cubeHeight1 / 2);
+        }
+
+        ._3dface--left {
+          transition: 1.4s;
+
+          width: $cubeDepth1;
+          height: $cubeHeight1;
+          left: 50%;
+          margin-left: -$cubeDepth1 / 2;
+          transform: rotateY(-90deg) translate3d(0, 0, $cubeWidth1 / 2);
+        }
+
+        ._3dface--right {
+          transition: 1.4s;
+
+          width: $cubeDepth1;
+          height: $cubeHeight1;
+          left: 50%;
+          margin-left: -$cubeDepth1 / 2;
+          transform: rotateY(90deg) translate3d(0, 0, $cubeWidth1 / 2);
+        }
+
+        ._3dface--back {
+          transition: 1.4s;
+
+          width: $cubeWidth1;
+          height: $cubeHeight1;
+          transform: rotateY(180deg) translate3d(0, 0, $cubeDepth1 / 2);
+        }
+        // Apply backgrounds
+
+        ._3dface--front {
+          background-image: url(../image/logoDesign\ cutted.png);
+          background-size: 100%;
+        }
+
+        ._3dface--left {
+          background-image: url(../image/IMG-20220527-WA0102-01.jpeg);
+          background-size: auto 100%;
+        }
+
+        ._3dface--right {
+          background-image: url(../image/night\ crop.png);
+          background-size: auto 100%;
+        }
+
+        ._3dface--top {
+          background-image: url(../image/fotor_2023-1-23_19_26_3.png);
+          background-size: auto 100%;
+        }
+
+        ._3dface--bottom {
+          background-image: url(../image/WhatsApp\ Image\ 2021-10-23\ at\ 1.00.57\ AM.jpeg);
+          background-size: auto 100%;
+        }
+
+        ._3dface--back {
+          background-image: url(../image/fotor_2023-1-23_19_27_28.png);
+          background-size: auto 100%;
+        }
+      }
+
+      .space3d {
+        perspective: 1000px;
+        width: $cubeWidth;
+        height: $cubeHeight;
+        transition: 1.4s;
+        text-align: center;
+        display: inline-block;
+      }
+      ._3dbox {
+        display: inline-block;
+        transition: all 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
+        text-align: center;
+        position: relative;
+        width: 100%;
+        height: 100%;
+        transform-style: preserve-3d;
+        &.deg45 {
+          transform: rotateX(45deg) rotatey(-35deg) !important;
+        }
+        &.deg45_2 {
+          transform: rotateX(45deg) rotatey(125deg) !important;
+        }
+        &.deg45_3 {
+          transform: rotateX(45deg) rotatey(-55deg) !important;
+        }
+        &.deg45_4 {
+          transform: rotateX(-45deg) rotatey(45deg) !important;
+        }
+        &.deg45_5 {
+          transform: rotateX(135deg) rotatey(-45deg) !important;
+        }
+        &.deg45_6 {
+          transform: rotateX(25deg) rotatey(-145deg) !important;
+        }
+
+        &.deg1 {
+          transform: rotateX(0deg) rotateY(0deg) !important;
+        }
+        &.deg2 {
+          transform: rotateX(0deg) rotateY(90deg) !important;
+        }
+        &.deg3 {
+          transform: rotateX(0deg) rotateY(-90deg) !important;
+        }
+        &.deg4 {
+          transform: rotateX(-90deg) rotateY(0deg) !important;
+        }
+        &.deg5 {
+          transform: rotateX(90deg) rotateY(0deg) !important;
+        }
+        &.deg6 {
+          transform: rotateX(0deg) rotateY(-180deg) !important;
+        }
+      }
+
+      // @keyframes threed {
+      //   0%,
+      //   100% {
+      //     transform: rotateX(0deg) rotatey(0deg);
+      //   }
+      //   16.66% {
+      //     transform: rotateY(90deg);
+      //   }
+      //   33.33% {
+      //     transform: rotateY(-90deg);
+      //   }
+      //   50% {
+      //     transform: rotateX(90deg);
+      //   }
+      //   66.66666% {
+      //     transform: rotateX(-90deg);
+      //   }
+      //   83.4% {
+      //     transform: rotateY(180deg);
+      //   }
+      // }
+      ._3dface {
+        transition: 1.4s;
+
+        overflow: hidden;
+        position: absolute;
+
+        border: 1px solid #888;
+        background: #fff;
+        box-shadow: inset 0 0 60px rgba(0, 0, 0, 0.1),
+          0 0 50px rgba(0, 0, 0, 0.3);
+        color: #333;
+        line-height: $cubeWidth;
+        opacity: 1;
+      }
+      ._3dface--front {
+        transition: 1.4s;
+
+        width: $cubeWidth;
+        height: $cubeHeight;
+        transform: translate3d(0, 0, $cubeDepth / 2);
+      }
+
+      ._3dface--top {
+        transition: 1.4s;
+
+        width: $cubeWidth;
+        height: $cubeDepth;
+        transform: rotateX(90deg) translate3d(0, 0, $cubeHeight / 2);
+      }
+
+      ._3dface--bottom {
+        transition: 1.4s;
+
+        width: $cubeWidth;
+        height: $cubeDepth;
+        transform: rotateX(-90deg) translate3d(0, 0, $cubeHeight / 2);
+      }
+
+      ._3dface--left {
+        transition: 1.4s;
+
+        width: $cubeDepth;
+        height: $cubeHeight;
+        left: 50%;
+        margin-left: -$cubeDepth / 2;
+        transform: rotateY(-90deg) translate3d(0, 0, $cubeWidth / 2);
+      }
+
+      ._3dface--right {
+        transition: 1.4s;
+
+        width: $cubeDepth;
+        height: $cubeHeight;
+        left: 50%;
+        margin-left: -$cubeDepth / 2;
+        transform: rotateY(90deg) translate3d(0, 0, $cubeWidth / 2);
+      }
+
+      ._3dface--back {
+        transition: 1.4s;
+
+        width: $cubeWidth;
+        height: $cubeHeight;
+        transform: rotateY(180deg) translate3d(0, 0, $cubeDepth / 2);
+      }
+      // Apply backgrounds
+
+      ._3dface--front {
+        background-image: url(../image/logoDesign\ cutted.png);
+        background-size: 100%;
+      }
+
+      ._3dface--left {
+        background-image: url(../image/IMG-20220527-WA0102-01.jpeg);
+        background-size: auto 100%;
+      }
+
+      ._3dface--right {
+        background-image: url(../image/night\ crop.png);
+        background-size: auto 100%;
+      }
+
+      ._3dface--top {
+        background-image: url(../image/fotor_2023-1-23_19_26_3.png);
+        background-size: auto 100%;
+      }
+
+      ._3dface--bottom {
+        background-image: url(../image/WhatsApp\ Image\ 2021-10-23\ at\ 1.00.57\ AM.jpeg);
+        background-size: auto 100%;
+      }
+
+      ._3dface--back {
+        background-image: url(../image/fotor_2023-1-23_19_27_28.png);
+        background-size: auto 100%;
+      }
+
+      position: relative;
+      z-index: 4;
+      margin: auto;
+      width: 550px;
+      aspect-ratio: 1;
+      border: 2px solid #00ddff;
+      border-radius: 8px;
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      // .left {
+      //   transform: translatex(calc(-50% - 20px));
+      //   .box {
+      //     cursor: pointer;
+      //     position: relative;
+      //     padding: 10px 18px;
+      //     font-size: 20px;
+      //     width: fit-content;
+      //     margin: 30px auto;
+      //     border-radius: 5px;
+      //     border: 1px solid red;
+      //     transition: 0.4s ease-in-out;
+      //     .title {
+      //       position: relative;
+      //       z-index: 5;
+      //     }
+      //     .childImage {
+      //       position: absolute;
+      //       width: 600px;
+      //       height: auto;
+      //       aspect-ratio: 1;
+      //       img {
+      //         width: 100%;
+      //       }
+      //     }
+      //     &:hover {
+      //       box-shadow: -6px 2px 14px 4px black;
+      //       color: black;
+      //       font-weight: 600;
+      //       &:before {
+      //         width: 100%;
+      //       }
+      //     }
+      //     &:before {
+      //       position: absolute;
+      //       content: "";
+      //       width: 0%;
+      //       height: 100%;
+      //       border-radius: 5px;
+
+      //       transition: 0.4s ease-in-out;
+      //       top: 0;
+      //       left: 0;
+      //       background-color: #00ddff;
+      //     }
+      //   }
+      // }
+      // .right {
+      //   transform: translatex(calc(50% + 20px));
+      //   .box {
+      //     cursor: pointer;
+      //     position: relative;
+      //     padding: 10px 18px;
+      //     font-size: 20px;
+      //     width: fit-content;
+      //     margin: 30px auto;
+      //     border-radius: 5px;
+      //     border: 1px solid red;
+      //     overflow: hidden;
+      //     transition: 0.4s ease-in-out;
+      //     .title {
+      //       position: relative;
+      //       z-index: 5;
+      //     }
+      //     .childImage {
+      //       position: absolute;
+      //       width: 100%;
+      //       height: 100%;
+      //       img {
+      //         width: 100%;
+      //       }
+      //     }
+      //     &:hover {
+      //       box-shadow: 6px 2px 14px 4px black;
+      //       color: black;
+      //       font-weight: 600;
+      //       &:before {
+      //         width: 100%;
+      //       }
+      //     }
+      //     &:before {
+      //       position: absolute;
+      //       content: "";
+      //       width: 0%;
+      //       height: 100%;
+      //       transition: 0.4s ease-in-out;
+      //       top: 0;
+      //       left: 0;
+      //       background-color: #00ddffc4;
+      //     }
+      //   }
+      // }
+    }
+    @media (max-width: 991px) {
+      .content {
+        width: 500px !important;
+      }
+    }
+  }
+  @media (max-width: 992px) {
+    .servForMopile {
+      display: block;
+    }
+    .servForComp {
+      display: none;
+    }
+  }
+  @media (max-width: 545px) {
+    .servForMopile {
+      .content {
+        .box {
+          width: calc(100%);
+          max-width: 350px;
+          .title {
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+        }
       }
     }
   }

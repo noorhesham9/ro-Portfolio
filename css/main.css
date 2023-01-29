@@ -6,6 +6,8 @@
 }
 
 :root {
+  --cubeWidth: 240px;
+  --cubeHeight: 240px;
   --white: white;
   --black: black;
   --subcolor-orange: #cf9c63;
@@ -805,16 +807,16 @@ section .mainhead h2 {
 }
 .meteor-1 {
   position: absolute;
-  top: 61px;
-  left: 83%;
+  top: 171px;
+  left: 19%;
   width: 300px;
   height: 1px;
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
   background-image: -webkit-gradient(linear, left top, right top, from(#fff), to(rgba(255, 255, 255, 0)));
   background-image: linear-gradient(to right, #fff, rgba(255, 255, 255, 0));
-  -webkit-animation: meteor 4.9s linear infinite;
-          animation: meteor 4.9s linear infinite;
+  -webkit-animation: meteor 8.4s linear infinite;
+          animation: meteor 8.4s linear infinite;
 }
 .meteor-1:before {
   content: "";
@@ -830,16 +832,16 @@ section .mainhead h2 {
 
 .meteor-2 {
   position: absolute;
-  top: 71px;
-  left: 29%;
+  top: 95px;
+  left: 88%;
   width: 300px;
   height: 1px;
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
   background-image: -webkit-gradient(linear, left top, right top, from(#fff), to(rgba(255, 255, 255, 0)));
   background-image: linear-gradient(to right, #fff, rgba(255, 255, 255, 0));
-  -webkit-animation: meteor 8.3s linear infinite;
-          animation: meteor 8.3s linear infinite;
+  -webkit-animation: meteor 9.7s linear infinite;
+          animation: meteor 9.7s linear infinite;
 }
 .meteor-2:before {
   content: "";
@@ -855,16 +857,16 @@ section .mainhead h2 {
 
 .meteor-3 {
   position: absolute;
-  top: 86px;
-  left: 52%;
+  top: 97px;
+  left: 87%;
   width: 300px;
   height: 1px;
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
   background-image: -webkit-gradient(linear, left top, right top, from(#fff), to(rgba(255, 255, 255, 0)));
   background-image: linear-gradient(to right, #fff, rgba(255, 255, 255, 0));
-  -webkit-animation: meteor 3.6s linear infinite;
-          animation: meteor 3.6s linear infinite;
+  -webkit-animation: meteor 6.4s linear infinite;
+          animation: meteor 6.4s linear infinite;
 }
 .meteor-3:before {
   content: "";
@@ -880,16 +882,16 @@ section .mainhead h2 {
 
 .meteor-4 {
   position: absolute;
-  top: 64px;
-  left: 60%;
+  top: 129px;
+  left: 79%;
   width: 300px;
   height: 1px;
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
   background-image: -webkit-gradient(linear, left top, right top, from(#fff), to(rgba(255, 255, 255, 0)));
   background-image: linear-gradient(to right, #fff, rgba(255, 255, 255, 0));
-  -webkit-animation: meteor 4.8s linear infinite;
-          animation: meteor 4.8s linear infinite;
+  -webkit-animation: meteor 5.3s linear infinite;
+          animation: meteor 5.3s linear infinite;
 }
 .meteor-4:before {
   content: "";
@@ -905,16 +907,16 @@ section .mainhead h2 {
 
 .meteor-5 {
   position: absolute;
-  top: 119px;
-  left: 92%;
+  top: 205px;
+  left: 53%;
   width: 300px;
   height: 1px;
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
   background-image: -webkit-gradient(linear, left top, right top, from(#fff), to(rgba(255, 255, 255, 0)));
   background-image: linear-gradient(to right, #fff, rgba(255, 255, 255, 0));
-  -webkit-animation: meteor 6.8s linear infinite;
-          animation: meteor 6.8s linear infinite;
+  -webkit-animation: meteor 5.6s linear infinite;
+          animation: meteor 5.6s linear infinite;
 }
 .meteor-5:before {
   content: "";
@@ -930,16 +932,16 @@ section .mainhead h2 {
 
 .meteor-6 {
   position: absolute;
-  top: 123px;
-  left: 60%;
+  top: 166px;
+  left: 26%;
   width: 300px;
   height: 1px;
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
   background-image: -webkit-gradient(linear, left top, right top, from(#fff), to(rgba(255, 255, 255, 0)));
   background-image: linear-gradient(to right, #fff, rgba(255, 255, 255, 0));
-  -webkit-animation: meteor 9s linear infinite;
-          animation: meteor 9s linear infinite;
+  -webkit-animation: meteor 9.7s linear infinite;
+          animation: meteor 9.7s linear infinite;
 }
 .meteor-6:before {
   content: "";
@@ -955,16 +957,16 @@ section .mainhead h2 {
 
 .meteor-7 {
   position: absolute;
-  top: 300px;
-  left: 85%;
+  top: 225px;
+  left: 76%;
   width: 300px;
   height: 1px;
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
   background-image: -webkit-gradient(linear, left top, right top, from(#fff), to(rgba(255, 255, 255, 0)));
   background-image: linear-gradient(to right, #fff, rgba(255, 255, 255, 0));
-  -webkit-animation: meteor 3.2s linear infinite;
-          animation: meteor 3.2s linear infinite;
+  -webkit-animation: meteor 8.3s linear infinite;
+          animation: meteor 8.3s linear infinite;
 }
 .meteor-7:before {
   content: "";
@@ -1247,5 +1249,703 @@ section .mainhead h2 {
   }
   .content .infor .right {
     width: 100% !important;
+  }
+}
+.services {
+  background-image: url(../image/astronaut-lost-in-space_3840x2160_xtrafondos.com-01.jpeg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+.services::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.services .servForMopile {
+  display: none;
+}
+.services .servForMopile .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 10px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.services .servForMopile .content .box {
+  width: calc(50% - 20px);
+  border-radius: 6px;
+  position: relative;
+  padding: 15px;
+  background-color: #001124;
+  overflow: hidden;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+.services .servForMopile .content .box .title {
+  width: 100%;
+  height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-top: 1.4px solid white;
+  margin-top: 9px;
+  padding-top: 15px;
+  text-align: center;
+  z-index: 3;
+  font-size: 16px;
+  font-weight: 600;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+.services .servForMopile .content .box .childImage {
+  border-radius: 6px;
+  overflow: hidden;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+.services .servForMopile .content .box .childImage img {
+  border-radius: 6px;
+  max-width: 100%;
+  max-height: 100%;
+}
+.services .servForComp {
+  display: block;
+  position: relative;
+}
+.services .servForComp .maintitles {
+  position: absolute;
+  z-index: 5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  text-align: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.services .servForComp .maintitles > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 200px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  gap: 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transform: translatex(-50%);
+          transform: translatex(-50%);
+}
+.services .servForComp .maintitles > div .title {
+  background-color: #000;
+  font-size: 17px;
+  border: 1px solid #00ddff;
+  border-radius: 6px;
+  padding: 10px 18px;
+  cursor: pointer;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.services .servForComp .maintitles > div .title.logo {
+  width: 135px;
+  position: relative;
+  height: 42px;
+}
+.services .servForComp .maintitles > div .title.logo::before {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  background-image: url(../image/logoDesign\ cutted.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  content: "";
+}
+.services .servForComp .maintitles > div .title.social {
+  width: 196px;
+  position: relative;
+  height: 42px;
+}
+.services .servForComp .maintitles > div .title.social::before {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  background-image: url(../image/IMG-20220527-WA0102-01.jpeg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  content: "";
+}
+.services .servForComp .maintitles > div .title.Illustrations {
+  position: relative;
+  width: 132px;
+  height: 42px;
+}
+.services .servForComp .maintitles > div .title.Illustrations::before {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  background-image: url(../image/night\ crop.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  content: "";
+}
+.services .servForComp .maintitles > div .title.decore {
+  position: relative;
+  width: 95px;
+  height: 42px;
+}
+.services .servForComp .maintitles > div .title.decore::before {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  background-image: url(../image/fotor_2023-1-23_19_26_3.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  content: "";
+}
+.services .servForComp .maintitles > div .title.branding {
+  position: relative;
+  width: 110px;
+  height: 42px;
+}
+.services .servForComp .maintitles > div .title.branding::before {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  background-image: url(../image/WhatsApp\ Image\ 2021-10-23\ at\ 1.00.57\ AM.jpeg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  content: "";
+}
+.services .servForComp .maintitles > div .title.courses {
+  position: relative;
+  width: 102px;
+  height: 42px;
+}
+.services .servForComp .maintitles > div .title.courses::before {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  background-image: url(../image/fotor_2023-1-23_19_27_28.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  content: "";
+}
+.services .servForComp .maintitles > div .title:hover {
+  width: 100%;
+  height: 200px;
+}
+.services .servForComp .maintitles > div .title:hover.logo::before {
+  opacity: 0.5;
+}
+.services .servForComp .maintitles > div .title:hover.social::before {
+  opacity: 0.5;
+}
+.services .servForComp .maintitles > div .title:hover.Illustrations::before {
+  opacity: 0.5;
+}
+.services .servForComp .maintitles > div .title:hover.decore::before {
+  opacity: 0.5;
+}
+.services .servForComp .maintitles > div .title:hover.branding::before {
+  opacity: 0.5;
+}
+.services .servForComp .maintitles > div .title:hover.courses::before {
+  opacity: 0.5;
+}
+@media (max-width: 1200px) {
+  .services .servForComp .maintitles .right {
+    -webkit-transform: translatex(-71px);
+            transform: translatex(-71px);
+  }
+  .services .servForComp .maintitles .left {
+    -webkit-transform: translatex(71px);
+            transform: translatex(71px);
+  }
+}
+@media (min-width: 1200px) {
+  .services .servForComp .maintitles .right {
+    -webkit-transform: translatex(-197px);
+            transform: translatex(-197px);
+  }
+  .services .servForComp .maintitles .left {
+    -webkit-transform: translatex(197px);
+            transform: translatex(197px);
+  }
+}
+.services .servForComp .content {
+  overflow: hidden;
+  position: relative;
+  z-index: 4;
+  margin: auto;
+  width: 550px;
+  aspect-ratio: 1;
+  border: 2px solid #00ddff;
+  border-radius: 8px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.services .servForComp .content .title {
+  display: none;
+}
+.services .servForComp .content .counter {
+  display: none;
+  visibility: visible;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  right: 50px;
+  top: 50px;
+  border-radius: 50%;
+  aspect-ratio: 1;
+  width: 35px;
+  height: 35px;
+  z-index: 5;
+  -webkit-box-shadow: 0px 0px 20px 4px black;
+          box-shadow: 0px 0px 20px 4px black;
+  background-color: #000;
+  border: 2px solid #00ddff;
+}
+.services .servForComp .content .counter.anima {
+  -webkit-animation: opacit 5.25s ease-in-out 0s infinite, topandD 3s ease-in-out 0s infinite;
+          animation: opacit 5.25s ease-in-out 0s infinite, topandD 3s ease-in-out 0s infinite;
+}
+.services .servForComp .content .counter #seconds {
+  opacity: 1;
+  padding: 6px;
+  font-size: 20px;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+@-webkit-keyframes topandD {
+  0%, 100% {
+    top: 50px;
+  }
+  50% {
+    top: 35px;
+  }
+}
+@keyframes topandD {
+  0%, 100% {
+    top: 50px;
+  }
+  50% {
+    top: 35px;
+  }
+}
+@-webkit-keyframes opacit {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.3;
+  }
+}
+@keyframes opacit {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.3;
+  }
+}
+.services .servForComp .content.vvv .title {
+  display: block;
+}
+.services .servForComp .content.vvv .title > div {
+  position: absolute;
+  opacity: 0;
+  -webkit-transition: 0.6s ease-in-out;
+  transition: 0.6s ease-in-out;
+  top: 50px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.55);
+  border: 1px solid #00ddff;
+  border-radius: 8px;
+  padding: 6px 17px;
+  font-size: 24px;
+  font-family: acumin-pro;
+  display: block;
+  z-index: 10;
+  left: 50%;
+  -webkit-transform: translatex(-50%);
+          transform: translatex(-50%);
+}
+.services .servForComp .content.vvv .space3d {
+  -webkit-perspective: 1000px;
+          perspective: 1000px;
+  width: 430px;
+  height: 430px;
+  text-align: center;
+  -webkit-transition: 1.3s;
+  transition: 1.3s;
+  display: inline-block;
+}
+.services .servForComp .content.vvv ._3dbox {
+  display: inline-block;
+  -webkit-transition: all 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: all 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  text-align: center;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-transform: rotateX(45deg) rotatey(-45deg);
+          transform: rotateX(45deg) rotatey(-45deg);
+}
+.services .servForComp .content.vvv ._3dface {
+  overflow: hidden;
+  position: absolute;
+  border: 1px solid #888;
+  background: #fff;
+  -webkit-box-shadow: inset 0 0 60px rgba(0, 0, 0, 0.1), 0 0 50px rgba(0, 0, 0, 0.3);
+          box-shadow: inset 0 0 60px rgba(0, 0, 0, 0.1), 0 0 50px rgba(0, 0, 0, 0.3);
+  color: #333;
+  line-height: 430px;
+  opacity: 1;
+  -webkit-transition: 1.4s;
+  transition: 1.4s;
+}
+.services .servForComp .content.vvv ._3dface--front {
+  width: 430px;
+  height: 430px;
+  -webkit-transform: translate3d(0, 0, 215px);
+          transform: translate3d(0, 0, 215px);
+  -webkit-transition: 1.4s;
+  transition: 1.4s;
+}
+.services .servForComp .content.vvv ._3dface--top {
+  width: 430px;
+  height: 430px;
+  -webkit-transition: 1.4s;
+  transition: 1.4s;
+  -webkit-transform: rotateX(90deg) translate3d(0, 0, 215px);
+          transform: rotateX(90deg) translate3d(0, 0, 215px);
+}
+.services .servForComp .content.vvv ._3dface--bottom {
+  width: 430px;
+  -webkit-transition: 1.4s;
+  transition: 1.4s;
+  height: 430px;
+  -webkit-transform: rotateX(-90deg) translate3d(0, 0, 215px);
+          transform: rotateX(-90deg) translate3d(0, 0, 215px);
+}
+.services .servForComp .content.vvv ._3dface--left {
+  -webkit-transition: 1.4s;
+  transition: 1.4s;
+  width: 430px;
+  height: 430px;
+  left: 50%;
+  margin-left: -215px;
+  -webkit-transform: rotateY(-90deg) translate3d(0, 0, 215px);
+          transform: rotateY(-90deg) translate3d(0, 0, 215px);
+}
+.services .servForComp .content.vvv ._3dface--right {
+  -webkit-transition: 1.4s;
+  transition: 1.4s;
+  width: 430px;
+  height: 430px;
+  left: 50%;
+  margin-left: -215px;
+  -webkit-transform: rotateY(90deg) translate3d(0, 0, 215px);
+          transform: rotateY(90deg) translate3d(0, 0, 215px);
+}
+.services .servForComp .content.vvv ._3dface--back {
+  -webkit-transition: 1.4s;
+  transition: 1.4s;
+  width: 430px;
+  height: 430px;
+  -webkit-transform: rotateY(180deg) translate3d(0, 0, 215px);
+          transform: rotateY(180deg) translate3d(0, 0, 215px);
+}
+.services .servForComp .content.vvv ._3dface--front {
+  background-image: url(../image/logoDesign\ cutted.png);
+  background-size: 100%;
+}
+.services .servForComp .content.vvv ._3dface--left {
+  background-image: url(../image/IMG-20220527-WA0102-01.jpeg);
+  background-size: auto 100%;
+}
+.services .servForComp .content.vvv ._3dface--right {
+  background-image: url(../image/night\ crop.png);
+  background-size: auto 100%;
+}
+.services .servForComp .content.vvv ._3dface--top {
+  background-image: url(../image/fotor_2023-1-23_19_26_3.png);
+  background-size: auto 100%;
+}
+.services .servForComp .content.vvv ._3dface--bottom {
+  background-image: url(../image/WhatsApp\ Image\ 2021-10-23\ at\ 1.00.57\ AM.jpeg);
+  background-size: auto 100%;
+}
+.services .servForComp .content.vvv ._3dface--back {
+  background-image: url(../image/fotor_2023-1-23_19_27_28.png);
+  background-size: auto 100%;
+}
+.services .servForComp .content .space3d {
+  -webkit-perspective: 1000px;
+          perspective: 1000px;
+  width: 200px;
+  height: 200px;
+  -webkit-transition: 1.4s;
+  transition: 1.4s;
+  text-align: center;
+  display: inline-block;
+}
+.services .servForComp .content ._3dbox {
+  display: inline-block;
+  -webkit-transition: all 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: all 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  text-align: center;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+}
+.services .servForComp .content ._3dbox.deg45 {
+  -webkit-transform: rotateX(45deg) rotatey(-35deg) !important;
+          transform: rotateX(45deg) rotatey(-35deg) !important;
+}
+.services .servForComp .content ._3dbox.deg45_2 {
+  -webkit-transform: rotateX(45deg) rotatey(125deg) !important;
+          transform: rotateX(45deg) rotatey(125deg) !important;
+}
+.services .servForComp .content ._3dbox.deg45_3 {
+  -webkit-transform: rotateX(45deg) rotatey(-55deg) !important;
+          transform: rotateX(45deg) rotatey(-55deg) !important;
+}
+.services .servForComp .content ._3dbox.deg45_4 {
+  -webkit-transform: rotateX(-45deg) rotatey(45deg) !important;
+          transform: rotateX(-45deg) rotatey(45deg) !important;
+}
+.services .servForComp .content ._3dbox.deg45_5 {
+  -webkit-transform: rotateX(135deg) rotatey(-45deg) !important;
+          transform: rotateX(135deg) rotatey(-45deg) !important;
+}
+.services .servForComp .content ._3dbox.deg45_6 {
+  -webkit-transform: rotateX(25deg) rotatey(-145deg) !important;
+          transform: rotateX(25deg) rotatey(-145deg) !important;
+}
+.services .servForComp .content ._3dbox.deg1 {
+  -webkit-transform: rotateX(0deg) rotateY(0deg) !important;
+          transform: rotateX(0deg) rotateY(0deg) !important;
+}
+.services .servForComp .content ._3dbox.deg2 {
+  -webkit-transform: rotateX(0deg) rotateY(90deg) !important;
+          transform: rotateX(0deg) rotateY(90deg) !important;
+}
+.services .servForComp .content ._3dbox.deg3 {
+  -webkit-transform: rotateX(0deg) rotateY(-90deg) !important;
+          transform: rotateX(0deg) rotateY(-90deg) !important;
+}
+.services .servForComp .content ._3dbox.deg4 {
+  -webkit-transform: rotateX(-90deg) rotateY(0deg) !important;
+          transform: rotateX(-90deg) rotateY(0deg) !important;
+}
+.services .servForComp .content ._3dbox.deg5 {
+  -webkit-transform: rotateX(90deg) rotateY(0deg) !important;
+          transform: rotateX(90deg) rotateY(0deg) !important;
+}
+.services .servForComp .content ._3dbox.deg6 {
+  -webkit-transform: rotateX(0deg) rotateY(-180deg) !important;
+          transform: rotateX(0deg) rotateY(-180deg) !important;
+}
+.services .servForComp .content ._3dface {
+  -webkit-transition: 1.4s;
+  transition: 1.4s;
+  overflow: hidden;
+  position: absolute;
+  border: 1px solid #888;
+  background: #fff;
+  -webkit-box-shadow: inset 0 0 60px rgba(0, 0, 0, 0.1), 0 0 50px rgba(0, 0, 0, 0.3);
+          box-shadow: inset 0 0 60px rgba(0, 0, 0, 0.1), 0 0 50px rgba(0, 0, 0, 0.3);
+  color: #333;
+  line-height: 200px;
+  opacity: 1;
+}
+.services .servForComp .content ._3dface--front {
+  -webkit-transition: 1.4s;
+  transition: 1.4s;
+  width: 200px;
+  height: 200px;
+  -webkit-transform: translate3d(0, 0, 100px);
+          transform: translate3d(0, 0, 100px);
+}
+.services .servForComp .content ._3dface--top {
+  -webkit-transition: 1.4s;
+  transition: 1.4s;
+  width: 200px;
+  height: 200px;
+  -webkit-transform: rotateX(90deg) translate3d(0, 0, 100px);
+          transform: rotateX(90deg) translate3d(0, 0, 100px);
+}
+.services .servForComp .content ._3dface--bottom {
+  -webkit-transition: 1.4s;
+  transition: 1.4s;
+  width: 200px;
+  height: 200px;
+  -webkit-transform: rotateX(-90deg) translate3d(0, 0, 100px);
+          transform: rotateX(-90deg) translate3d(0, 0, 100px);
+}
+.services .servForComp .content ._3dface--left {
+  -webkit-transition: 1.4s;
+  transition: 1.4s;
+  width: 200px;
+  height: 200px;
+  left: 50%;
+  margin-left: -100px;
+  -webkit-transform: rotateY(-90deg) translate3d(0, 0, 100px);
+          transform: rotateY(-90deg) translate3d(0, 0, 100px);
+}
+.services .servForComp .content ._3dface--right {
+  -webkit-transition: 1.4s;
+  transition: 1.4s;
+  width: 200px;
+  height: 200px;
+  left: 50%;
+  margin-left: -100px;
+  -webkit-transform: rotateY(90deg) translate3d(0, 0, 100px);
+          transform: rotateY(90deg) translate3d(0, 0, 100px);
+}
+.services .servForComp .content ._3dface--back {
+  -webkit-transition: 1.4s;
+  transition: 1.4s;
+  width: 200px;
+  height: 200px;
+  -webkit-transform: rotateY(180deg) translate3d(0, 0, 100px);
+          transform: rotateY(180deg) translate3d(0, 0, 100px);
+}
+.services .servForComp .content ._3dface--front {
+  background-image: url(../image/logoDesign\ cutted.png);
+  background-size: 100%;
+}
+.services .servForComp .content ._3dface--left {
+  background-image: url(../image/IMG-20220527-WA0102-01.jpeg);
+  background-size: auto 100%;
+}
+.services .servForComp .content ._3dface--right {
+  background-image: url(../image/night\ crop.png);
+  background-size: auto 100%;
+}
+.services .servForComp .content ._3dface--top {
+  background-image: url(../image/fotor_2023-1-23_19_26_3.png);
+  background-size: auto 100%;
+}
+.services .servForComp .content ._3dface--bottom {
+  background-image: url(../image/WhatsApp\ Image\ 2021-10-23\ at\ 1.00.57\ AM.jpeg);
+  background-size: auto 100%;
+}
+.services .servForComp .content ._3dface--back {
+  background-image: url(../image/fotor_2023-1-23_19_27_28.png);
+  background-size: auto 100%;
+}
+@media (max-width: 991px) {
+  .services .servForComp .content {
+    width: 500px !important;
+  }
+}
+@media (max-width: 992px) {
+  .services .servForMopile {
+    display: block;
+  }
+  .services .servForComp {
+    display: none;
+  }
+}
+@media (max-width: 545px) {
+  .services .servForMopile .content .box {
+    width: 100%;
+    max-width: 350px;
+  }
+  .services .servForMopile .content .box .title {
+    height: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
 }

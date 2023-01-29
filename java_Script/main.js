@@ -213,3 +213,479 @@ window.onscroll = function () {
 // window.addEventListener("scroll", function () {
 
 // });
+
+let _3dbox = document.querySelector("._3dbox");
+let servcomcont = document.getElementById("servcomcont");
+let servlogo = document.querySelector(".left .logo");
+let servsocial = document.querySelector(".left .social");
+let servIllustrations = document.querySelector(".left .Illustrations");
+let servdecore = document.querySelector(".right .decore");
+let servbranding = document.querySelector(".right .branding");
+let servcourses = document.querySelector(".right .courses");
+let servleft = document.querySelector(".maintitles .left");
+let servright = document.querySelector(".maintitles .right");
+
+let contlogo = document.querySelector(".content .title .logo");
+let contsocial = document.querySelector(".content .title .social");
+let contIllustrations = document.querySelector(
+  ".content .title .Illustrations"
+);
+let contdecore = document.querySelector(".content .title .decore");
+let contbranding = document.querySelector(".content .title .branding");
+let contcourses = document.querySelector(".content .title .courses");
+
+let clock = document.getElementById("clock");
+let seconds = document.getElementById("seconds");
+
+servlogo.addEventListener("click", function () {
+  let sec = 4;
+  seconds.innerHTML = `5`;
+
+  let timer = setInterval(() => {
+    seconds.innerHTML = `${sec}`;
+    sec--;
+  }, 1000);
+  clock.style.display = "flex";
+  clock.classList.add("anima");
+
+  _3dbox.classList.add("deg1");
+  servcomcont.classList.add("vvv");
+  servleft.style.opacity = "0";
+  servright.style.opacity = "0";
+  setTimeout(() => {
+    servleft.style.display = "none";
+    servright.style.display = "none";
+  }, 500);
+
+  setTimeout(() => {
+    servcomcont.classList.remove("vvv");
+    servleft.style.display = "flex";
+    servright.style.display = "flex";
+
+    setTimeout(() => {
+      servleft.style.opacity = "1";
+      servright.style.opacity = "1";
+    }, 500);
+    clearInterval(timer);
+    contlogo.style.opacity = "0";
+  }, 5000);
+
+  setTimeout(() => {
+    _3dbox.classList.remove("deg1");
+    contlogo.style.display = "none";
+  }, 5400);
+  setTimeout(() => {
+    clock.style.display = "none";
+  }, 5200);
+
+  contlogo.style.display = "block";
+
+  setTimeout(() => {
+    contlogo.style.opacity = "1";
+  }, 400);
+
+  contsocial.style.display = "none";
+  contIllustrations.style.display = "none";
+  contdecore.style.display = "none";
+  contbranding.style.display = "none";
+  contcourses.style.display = "none";
+});
+
+servsocial.addEventListener("click", function () {
+  setTimeout(() => {
+    _3dbox.classList.remove("deg2");
+    contsocial.style.display = "none";
+  }, 5400);
+  _3dbox.classList.add("deg2");
+  contsocial.style.display = "block";
+  contIllustrations.style.display = "none";
+  contdecore.style.display = "none";
+  contbranding.style.display = "none";
+  contcourses.style.display = "none";
+  contlogo.style.display = "none";
+
+  let sec = 4;
+  seconds.innerHTML = `5`;
+  let timer = setInterval(() => {
+    seconds.innerHTML = `${sec}`;
+    sec--;
+  }, 1000);
+  clock.style.display = "flex";
+  clock.classList.add("anima");
+  servcomcont.classList.add("vvv");
+  servleft.style.opacity = "0";
+  servright.style.opacity = "0";
+  setTimeout(() => {
+    servleft.style.display = "none";
+    servright.style.display = "none";
+  }, 500);
+  setTimeout(() => {
+    servcomcont.classList.remove("vvv");
+    servleft.style.display = "flex";
+    servright.style.display = "flex";
+    setTimeout(() => {
+      servleft.style.opacity = "1";
+      servright.style.opacity = "1";
+    }, 500);
+
+    clearInterval(timer);
+    contsocial.style.opacity = "0";
+  }, 5000);
+
+  setTimeout(() => {
+    clock.style.display = "none";
+  }, 5200);
+  setTimeout(() => {
+    contsocial.style.opacity = "1";
+  }, 400);
+});
+
+servIllustrations.addEventListener("click", function () {
+  setTimeout(() => {
+    _3dbox.classList.remove("deg3");
+    contIllustrations.style.display = "none";
+  }, 5400);
+  _3dbox.classList.add("deg3");
+  contsocial.style.display = "none";
+  contIllustrations.style.display = "block";
+  contdecore.style.display = "none";
+  contbranding.style.display = "none";
+  contcourses.style.display = "none";
+  contlogo.style.display = "none";
+  setTimeout(() => {
+    contIllustrations.style.opacity = "1";
+  }, 400);
+
+  let sec = 4;
+  seconds.innerHTML = `5`;
+  let timer = setInterval(() => {
+    seconds.innerHTML = `${sec}`;
+    sec--;
+  }, 1000);
+  clock.style.display = "flex";
+  clock.classList.add("anima");
+  servcomcont.classList.add("vvv");
+  servleft.style.opacity = "0";
+  servright.style.opacity = "0";
+  setTimeout(() => {
+    servleft.style.display = "none";
+    servright.style.display = "none";
+  }, 500);
+  setTimeout(() => {
+    servcomcont.classList.remove("vvv");
+    servleft.style.display = "flex";
+    servright.style.display = "flex";
+    setTimeout(() => {
+      servleft.style.opacity = "1";
+      servright.style.opacity = "1";
+    }, 500);
+
+    clearInterval(timer);
+    contIllustrations.style.opacity = "0";
+  }, 5000);
+
+  setTimeout(() => {
+    clock.style.display = "none";
+  }, 5200);
+});
+
+servdecore.addEventListener("click", function () {
+  setTimeout(() => {
+    _3dbox.classList.remove("deg4");
+    contdecore.style.display = "none";
+  }, 5400);
+  _3dbox.classList.add("deg4");
+  contsocial.style.display = "none";
+  contIllustrations.style.display = "none";
+  contdecore.style.display = "block";
+  contbranding.style.display = "none";
+  contcourses.style.display = "none";
+  contlogo.style.display = "none";
+  setTimeout(() => {
+    contdecore.style.opacity = "1";
+  }, 400);
+
+  let sec = 4;
+  seconds.innerHTML = `5`;
+  let timer = setInterval(() => {
+    seconds.innerHTML = `${sec}`;
+    sec--;
+  }, 1000);
+  clock.style.display = "flex";
+  clock.classList.add("anima");
+  servcomcont.classList.add("vvv");
+  servleft.style.opacity = "0";
+  servright.style.opacity = "0";
+  setTimeout(() => {
+    servleft.style.display = "none";
+    servright.style.display = "none";
+  }, 500);
+  setTimeout(() => {
+    servcomcont.classList.remove("vvv");
+    servleft.style.display = "flex";
+    servright.style.display = "flex";
+    setTimeout(() => {
+      servleft.style.opacity = "1";
+      servright.style.opacity = "1";
+    }, 500);
+
+    clearInterval(timer);
+    contdecore.style.opacity = "0";
+  }, 5000);
+
+  setTimeout(() => {
+    clock.style.display = "none";
+  }, 5200);
+});
+
+servbranding.addEventListener("click", function () {
+  setTimeout(() => {
+    _3dbox.classList.remove("deg5");
+    contbranding.style.display = "none";
+  }, 5400);
+  _3dbox.classList.add("deg5");
+  contsocial.style.display = "none";
+  contIllustrations.style.display = "none";
+  contdecore.style.display = "none";
+  contbranding.style.display = "block";
+  contcourses.style.display = "none";
+  contlogo.style.display = "none";
+  setTimeout(() => {
+    contbranding.style.opacity = "1";
+  }, 400);
+
+  let sec = 4;
+  seconds.innerHTML = `5`;
+  let timer = setInterval(() => {
+    seconds.innerHTML = `${sec}`;
+    sec--;
+  }, 1000);
+  clock.style.display = "flex";
+  clock.classList.add("anima");
+  servcomcont.classList.add("vvv");
+  servleft.style.opacity = "0";
+  servright.style.opacity = "0";
+  setTimeout(() => {
+    servleft.style.display = "none";
+    servright.style.display = "none";
+  }, 500);
+  setTimeout(() => {
+    servcomcont.classList.remove("vvv");
+    servleft.style.display = "flex";
+    servright.style.display = "flex";
+    setTimeout(() => {
+      servleft.style.opacity = "1";
+      servright.style.opacity = "1";
+    }, 500);
+
+    clearInterval(timer);
+    contbranding.style.opacity = "0";
+  }, 5000);
+
+  setTimeout(() => {
+    clock.style.display = "none";
+  }, 5200);
+});
+
+servcourses.addEventListener("click", function () {
+  setTimeout(() => {
+    _3dbox.classList.remove("deg6");
+    contcourses.style.display = "none";
+  }, 5400);
+  _3dbox.classList.add("deg6");
+  contsocial.style.display = "none";
+  contIllustrations.style.display = "none";
+  contdecore.style.display = "none";
+  contbranding.style.display = "none";
+  contcourses.style.display = "block";
+  contlogo.style.display = "none";
+  setTimeout(() => {
+    contcourses.style.opacity = "1";
+  }, 400);
+
+  let sec = 4;
+  seconds.innerHTML = `5`;
+  let timer = setInterval(() => {
+    seconds.innerHTML = `${sec}`;
+    sec--;
+  }, 1000);
+  clock.style.display = "flex";
+  clock.classList.add("anima");
+  servcomcont.classList.add("vvv");
+  servleft.style.opacity = "0";
+  servright.style.opacity = "0";
+  setTimeout(() => {
+    servleft.style.display = "none";
+    servright.style.display = "none";
+  }, 500);
+  setTimeout(() => {
+    contcourses.style.opacity = "0";
+
+    servcomcont.classList.remove("vvv");
+    servleft.style.display = "flex";
+    servright.style.display = "flex";
+    setTimeout(() => {
+      servleft.style.opacity = "1";
+      servright.style.opacity = "1";
+    }, 500);
+
+    clearInterval(timer);
+  }, 5000);
+
+  setTimeout(() => {
+    clock.style.display = "none";
+  }, 5200);
+});
+
+servlogo.addEventListener("mouseenter", function () {
+  _3dbox.classList.add("deg45");
+  _3dbox.classList.remove("deg45_2");
+  _3dbox.classList.remove("deg45_3");
+  _3dbox.classList.remove("deg45_4");
+  _3dbox.classList.remove("deg45_5");
+  _3dbox.classList.remove("deg45_6");
+
+  // clearInterval(n2interval);
+  // clearInterval(n1interval);
+  // clearInterval(n3interval);
+  // clearInterval(n4interval);
+  // clearInterval(n5interval);
+  // clearInterval(n6interval);
+});
+
+servlogo.addEventListener("mouseleave", function () {
+  _3dbox.classList.remove("deg45");
+});
+servsocial.addEventListener("mouseenter", function () {
+  _3dbox.classList.add("deg45_2");
+  _3dbox.classList.remove("deg45");
+  _3dbox.classList.remove("deg45_3");
+  _3dbox.classList.remove("deg45_4");
+  _3dbox.classList.remove("deg45_5");
+  _3dbox.classList.remove("deg45_6");
+});
+
+servsocial.addEventListener("mouseleave", function () {
+  _3dbox.classList.remove("deg45_2");
+});
+
+servIllustrations.addEventListener("mouseenter", function () {
+  _3dbox.classList.remove("deg45_2");
+  _3dbox.classList.remove("deg45");
+  _3dbox.classList.remove("deg45_4");
+  _3dbox.classList.remove("deg45_5");
+  _3dbox.classList.remove("deg45_6");
+
+  _3dbox.classList.add("deg45_3");
+});
+
+servIllustrations.addEventListener("mouseleave", function () {
+  _3dbox.classList.remove("deg45_3");
+});
+
+servdecore.addEventListener("mouseenter", function () {
+  _3dbox.classList.remove("deg45_2");
+  _3dbox.classList.remove("deg45");
+  _3dbox.classList.remove("deg45_5");
+  _3dbox.classList.add("deg45_4");
+  _3dbox.classList.remove("deg45_6");
+
+  _3dbox.classList.remove("deg45_3");
+});
+servdecore.addEventListener("mouseleave", function () {
+  _3dbox.classList.remove("deg45_4");
+});
+
+servbranding.addEventListener("mouseenter", function () {
+  _3dbox.classList.remove("deg45_2");
+  _3dbox.classList.remove("deg45");
+  _3dbox.classList.remove("deg45_4");
+  _3dbox.classList.remove("deg45_6");
+  _3dbox.classList.add("deg45_5");
+
+  _3dbox.classList.remove("deg45_3");
+});
+
+servbranding.addEventListener("mouseleave", function () {
+  _3dbox.classList.remove("deg45_5");
+});
+servcourses.addEventListener("mouseenter", function () {
+  _3dbox.classList.remove("deg45_2");
+  _3dbox.classList.remove("deg45");
+  _3dbox.classList.remove("deg45_4");
+  _3dbox.classList.add("deg45_6");
+  _3dbox.classList.remove("deg45_5");
+
+  _3dbox.classList.remove("deg45_3");
+});
+servcourses.addEventListener("mouseleave", function () {
+  _3dbox.classList.remove("deg45_6");
+});
+
+function animationservices() {
+  setTimeout(() => {
+    _3dbox.style.transform = "rotateX(0deg) rotatey(0deg) ";
+  }, 0);
+
+  setTimeout(() => {
+    _3dbox.style.transform = "rotateX(0deg)  rotateY(90deg) ";
+  }, 1500);
+
+  setTimeout(() => {
+    _3dbox.style.transform = " rotateX(90deg) ";
+  }, 3000);
+
+  setTimeout(() => {
+    _3dbox.style.transform = " rotateY(-90deg) ";
+  }, 4500);
+  setTimeout(() => {
+    _3dbox.style.transform = "  rotateY(180deg) ";
+  }, 6000);
+  setTimeout(() => {
+    _3dbox.style.transform = " rotateX(-90deg)";
+  }, 7500);
+}
+
+animationservices();
+
+// let animationinfinte = setInterval(() => {
+
+let n1interval, n2interval, n3interval, n4interval, n5interval, n6interval;
+
+let n1out = setTimeout(() => {
+  n1interval = setInterval(() => {
+    _3dbox.style.transform = "rotateX(0deg) rotatey(0deg) ";
+  }, 9000);
+}, 0);
+
+let n2out = setTimeout(() => {
+  n2interval = setInterval(() => {
+    _3dbox.style.transform = "rotateX(0deg)  rotateY(90deg) ";
+  }, 9000);
+}, 1500);
+
+let n3out = setTimeout(() => {
+  n3interval = setInterval(() => {
+    _3dbox.style.transform = " rotateX(90deg) ";
+  }, 9000);
+}, 3000);
+let n4out = setTimeout(() => {
+  n4interval = setInterval(() => {
+    _3dbox.style.transform = " rotateY(-90deg) ";
+  }, 9000);
+}, 4500);
+let n5out = setTimeout(() => {
+  n5interval = setInterval(() => {
+    _3dbox.style.transform = "  rotateY(180deg) ";
+  }, 9000);
+}, 6000);
+
+let n6out = setTimeout(() => {
+  n6interval = setInterval(() => {
+    _3dbox.style.transform = " rotateX(-90deg)";
+  }, 9000);
+}, 7500);
+
+// setInterval(() => {
+//   _3dbox.style.transform = " rotateX(45deg) rotatey(-45deg)";
+// }, 6000);
