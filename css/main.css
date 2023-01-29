@@ -20,6 +20,7 @@ html {
 
 body {
   font-family: "Open Sans", sans-serif;
+  position: relative;
 }
 
 ul {
@@ -807,16 +808,16 @@ section .mainhead h2 {
 }
 .meteor-1 {
   position: absolute;
-  top: 149px;
-  left: 22%;
+  top: 60px;
+  left: 69%;
   width: 300px;
   height: 1px;
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
   background-image: -webkit-gradient(linear, left top, right top, from(#fff), to(rgba(255, 255, 255, 0)));
   background-image: linear-gradient(to right, #fff, rgba(255, 255, 255, 0));
-  -webkit-animation: meteor 3.3s linear infinite;
-          animation: meteor 3.3s linear infinite;
+  -webkit-animation: meteor 5s linear infinite;
+          animation: meteor 5s linear infinite;
 }
 .meteor-1:before {
   content: "";
@@ -832,16 +833,16 @@ section .mainhead h2 {
 
 .meteor-2 {
   position: absolute;
-  top: 265px;
-  left: 62%;
+  top: 130px;
+  left: 67%;
   width: 300px;
   height: 1px;
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
   background-image: -webkit-gradient(linear, left top, right top, from(#fff), to(rgba(255, 255, 255, 0)));
   background-image: linear-gradient(to right, #fff, rgba(255, 255, 255, 0));
-  -webkit-animation: meteor 9.7s linear infinite;
-          animation: meteor 9.7s linear infinite;
+  -webkit-animation: meteor 3.4s linear infinite;
+          animation: meteor 3.4s linear infinite;
 }
 .meteor-2:before {
   content: "";
@@ -857,16 +858,16 @@ section .mainhead h2 {
 
 .meteor-3 {
   position: absolute;
-  top: 242px;
-  left: 55%;
+  top: 193px;
+  left: 50%;
   width: 300px;
   height: 1px;
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
   background-image: -webkit-gradient(linear, left top, right top, from(#fff), to(rgba(255, 255, 255, 0)));
   background-image: linear-gradient(to right, #fff, rgba(255, 255, 255, 0));
-  -webkit-animation: meteor 3.5s linear infinite;
-          animation: meteor 3.5s linear infinite;
+  -webkit-animation: meteor 7s linear infinite;
+          animation: meteor 7s linear infinite;
 }
 .meteor-3:before {
   content: "";
@@ -882,16 +883,16 @@ section .mainhead h2 {
 
 .meteor-4 {
   position: absolute;
-  top: 79px;
-  left: 41%;
+  top: 118px;
+  left: 66%;
   width: 300px;
   height: 1px;
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
   background-image: -webkit-gradient(linear, left top, right top, from(#fff), to(rgba(255, 255, 255, 0)));
   background-image: linear-gradient(to right, #fff, rgba(255, 255, 255, 0));
-  -webkit-animation: meteor 4.2s linear infinite;
-          animation: meteor 4.2s linear infinite;
+  -webkit-animation: meteor 4.6s linear infinite;
+          animation: meteor 4.6s linear infinite;
 }
 .meteor-4:before {
   content: "";
@@ -907,16 +908,16 @@ section .mainhead h2 {
 
 .meteor-5 {
   position: absolute;
-  top: 291px;
-  left: 56%;
+  top: 125px;
+  left: 12%;
   width: 300px;
   height: 1px;
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
   background-image: -webkit-gradient(linear, left top, right top, from(#fff), to(rgba(255, 255, 255, 0)));
   background-image: linear-gradient(to right, #fff, rgba(255, 255, 255, 0));
-  -webkit-animation: meteor 9.2s linear infinite;
-          animation: meteor 9.2s linear infinite;
+  -webkit-animation: meteor 7.7s linear infinite;
+          animation: meteor 7.7s linear infinite;
 }
 .meteor-5:before {
   content: "";
@@ -932,16 +933,16 @@ section .mainhead h2 {
 
 .meteor-6 {
   position: absolute;
-  top: 233px;
-  left: 26%;
+  top: 245px;
+  left: 50%;
   width: 300px;
   height: 1px;
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
   background-image: -webkit-gradient(linear, left top, right top, from(#fff), to(rgba(255, 255, 255, 0)));
   background-image: linear-gradient(to right, #fff, rgba(255, 255, 255, 0));
-  -webkit-animation: meteor 3.8s linear infinite;
-          animation: meteor 3.8s linear infinite;
+  -webkit-animation: meteor 6.4s linear infinite;
+          animation: meteor 6.4s linear infinite;
 }
 .meteor-6:before {
   content: "";
@@ -957,16 +958,16 @@ section .mainhead h2 {
 
 .meteor-7 {
   position: absolute;
-  top: 67px;
-  left: 49%;
+  top: 179px;
+  left: 93%;
   width: 300px;
   height: 1px;
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
   background-image: -webkit-gradient(linear, left top, right top, from(#fff), to(rgba(255, 255, 255, 0)));
   background-image: linear-gradient(to right, #fff, rgba(255, 255, 255, 0));
-  -webkit-animation: meteor 8.4s linear infinite;
-          animation: meteor 8.4s linear infinite;
+  -webkit-animation: meteor 6.9s linear infinite;
+          animation: meteor 6.9s linear infinite;
 }
 .meteor-7:before {
   content: "";
@@ -1948,5 +1949,332 @@ section .mainhead h2 {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+  }
+}
+
+.loadingPage {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-transition: 0.8s ease-in-out;
+  transition: 0.8s ease-in-out;
+  z-index: 2001;
+  background-color: #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.loadingPage img {
+  width: 300px;
+  max-width: 100%;
+  margin-right: 60px;
+}
+@media (max-width: 400px) {
+  .loadingPage img {
+    margin-right: 0px;
+  }
+}
+.loadingPage .loader {
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 125px;
+  height: 125px;
+  margin: -100px 0 0 -45px;
+  border-radius: 50%;
+  border: 3px solid transparent;
+  border-top-color: #00ddff;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+  z-index: 1001;
+}
+.loadingPage .loader::after {
+  content: "";
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  right: 15px;
+  bottom: 15px;
+  border-radius: 50%;
+  border: 3px solid transparent;
+  border-top-color: #ffffff;
+  -webkit-animation: spin 1.5s linear infinite;
+          animation: spin 1.5s linear infinite;
+}
+.loadingPage .loader:before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  right: 5px;
+  bottom: 5px;
+  border-radius: 50%;
+  border: 3px solid transparent;
+  border-top-color: #00ddff;
+  -webkit-animation: spin 3s linear infinite;
+          animation: spin 3s linear infinite;
+}
+.loadingPage .loader2 {
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 120px;
+  height: 120px;
+  margin: -100px 0 0 -45px;
+  border-radius: 50%;
+  border: 3.5px solid transparent;
+  border-top-color: #00ddff;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2.4s linear infinite;
+  z-index: 1001;
+}
+.loadingPage .loader2::after {
+  content: "";
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  right: 15px;
+  bottom: 15px;
+  border-radius: 50%;
+  border: 3px solid transparent;
+  border-top-color: #ffffff;
+  -webkit-animation: spin 1.5s linear infinite;
+          animation: spin 1.5s linear infinite;
+}
+.loadingPage .loader2:before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  right: 5px;
+  bottom: 5px;
+  border-radius: 50%;
+  border: 3.2px solid transparent;
+  border-top-color: #00ddff;
+  -webkit-animation: spin 3s linear infinite;
+          animation: spin 3s linear infinite;
+}
+.loadingPage .loader3 {
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 100px;
+  height: 100px;
+  margin: -90px 0 0 -35px;
+  border-radius: 50%;
+  border: 3.5px solid transparent;
+  border-top-color: #00ddff;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2.5s linear infinite;
+  z-index: 1001;
+}
+.loadingPage .loader3::after {
+  content: "";
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  right: 15px;
+  bottom: 15px;
+  border-radius: 50%;
+  border: 3.7px solid transparent;
+  border-top-color: #ffffff;
+  -webkit-animation: spin 1.5s linear infinite;
+          animation: spin 1.5s linear infinite;
+}
+.loadingPage .loader3:before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  right: 5px;
+  bottom: 5px;
+  border-radius: 50%;
+  border: 3.2px solid transparent;
+  border-top-color: #00ddff;
+  -webkit-animation: spin 3s linear infinite;
+          animation: spin 3s linear infinite;
+}
+.loadingPage .try {
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 160px;
+  height: 160px;
+  margin: -83px 0 0 -71px;
+  border-radius: 50%;
+  border: solid transparent;
+  border-bottom-color: #00ddff;
+  z-index: 1001;
+  -webkit-animation: spin180 2.3s linear infinite;
+          animation: spin180 2.3s linear infinite;
+}
+.loadingPage .try2 {
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 155px;
+  height: 155px;
+  margin: -83px 0 0 -71px;
+  border-radius: 50%;
+  border: solid transparent;
+  border-bottom-color: #00ddff;
+  z-index: 1001;
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: -83px 0 0 -71px;
+  border-radius: 50%;
+  border: solid transparent;
+  border-bottom-color: #00ddff;
+  z-index: 1001;
+  -webkit-animation: spin180 1.8s linear infinite;
+          animation: spin180 1.8s linear infinite;
+}
+.loadingPage .try3 {
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 150px;
+  height: 150px;
+  margin: -83px 0 0 -71px;
+  border-radius: 50%;
+  border: solid transparent;
+  border-bottom-color: #00ddff;
+  z-index: 1001;
+  -webkit-animation: spin180 2.5s linear infinite;
+          animation: spin180 2.5s linear infinite;
+}
+.loadingPage .try4 {
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 165px;
+  height: 165px;
+  margin: -83px 0 0 -71px;
+  border-radius: 50%;
+  border: solid transparent;
+  border-bottom-color: #00ddff;
+  z-index: 1001;
+  -webkit-animation: spin180 3s linear infinite;
+          animation: spin180 3s linear infinite;
+}
+.loadingPage .try6 {
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 165px;
+  height: 165px;
+  margin: -83px 0 0 -71px;
+  border-radius: 50%;
+  border: solid transparent;
+  border-bottom-color: #00ddff;
+  z-index: 1001;
+  -webkit-animation: spin180 2.5s linear infinite;
+          animation: spin180 2.5s linear infinite;
+}
+.loadingPage .try5 {
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 145px;
+  height: 145px;
+  margin: -83px 0 0 -71px;
+  border-radius: 50%;
+  border: solid transparent;
+  border-bottom-color: #00ddff;
+  z-index: 1001;
+  -webkit-animation: spin180 2.8s linear infinite;
+          animation: spin180 2.8s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(-360deg);
+            transform: rotate(-360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(-360deg);
+            transform: rotate(-360deg);
+  }
+}
+@-webkit-keyframes spin180 {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    opacity: 0.2;
+    border-width: 2px;
+  }
+  25% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.3;
+  }
+  55% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotate(-360deg);
+            transform: rotate(-360deg);
+    opacity: 0.2;
+    border-width: 2px;
+  }
+}
+@keyframes spin180 {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    opacity: 0.2;
+    border-width: 2px;
+  }
+  25% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.3;
+  }
+  55% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotate(-360deg);
+            transform: rotate(-360deg);
+    opacity: 0.2;
+    border-width: 2px;
   }
 }

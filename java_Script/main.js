@@ -214,6 +214,18 @@ window.onscroll = function () {
 
 // });
 
+// start loading page
+
+let loadddd = document.getElementById("loadddd");
+
+document.body.style.overflow = "hidden ";
+
+setTimeout(function () {
+  loadddd.style.top = "-100vh";
+  document.body.style.overflow = "visible ";
+}, 3500);
+
+// start servises functions
 let _3dbox = document.querySelector("._3dbox");
 let servcomcont = document.getElementById("servcomcont");
 let servlogo = document.querySelector(".left .logo");
@@ -544,13 +556,6 @@ servlogo.addEventListener("mouseenter", function () {
   _3dbox.classList.remove("deg45_4");
   _3dbox.classList.remove("deg45_5");
   _3dbox.classList.remove("deg45_6");
-
-  // clearInterval(n2interval);
-  // clearInterval(n1interval);
-  // clearInterval(n3interval);
-  // clearInterval(n4interval);
-  // clearInterval(n5interval);
-  // clearInterval(n6interval);
 });
 
 servlogo.addEventListener("mouseleave", function () {
@@ -648,8 +653,6 @@ function animationservices() {
 
 animationservices();
 
-// let animationinfinte = setInterval(() => {
-
 let n1interval, n2interval, n3interval, n4interval, n5interval, n6interval;
 
 let n1out = setTimeout(() => {
@@ -686,6 +689,4 @@ let n6out = setTimeout(() => {
   }, 9000);
 }, 7500);
 
-// setInterval(() => {
-//   _3dbox.style.transform = " rotateX(45deg) rotatey(-45deg)";
-// }, 6000);
+// end  servises functions
