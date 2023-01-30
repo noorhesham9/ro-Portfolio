@@ -218,12 +218,12 @@ window.onscroll = function () {
 
 let loadddd = document.getElementById("loadddd");
 
-document.body.style.overflow = "hidden ";
+// document.body.style.overflow = "hidden ";
 
-setTimeout(function () {
-  loadddd.style.top = "-100vh";
-  document.body.style.overflow = "visible ";
-}, 3500);
+// setTimeout(function () {
+//   loadddd.style.top = "-100vh";
+//   document.body.style.overflow = "visible ";
+// }, 3500);
 
 // start servises functions
 let _3dbox = document.querySelector("._3dbox");
@@ -690,3 +690,40 @@ let n6out = setTimeout(() => {
 }, 7500);
 
 // end  servises functions
+
+const d = new Date();
+let year = d.getFullYear();
+document.getElementById("year").innerHTML = year;
+
+window.onresize = WindowSize;
+window.onload = WindowSize;
+let sky, center;
+
+function dot(i) {
+  const size = Math.round(Math.random() + 1);
+  const root = document.createElement("span");
+  root.style.top = center.y + "px";
+  root.style.left = center.x + "px";
+  root.classList.add("star", `size-${size}`, `axis-${i}`);
+  return root;
+}
+let one = document.querySelector("axis-0");
+let twp = document.querySelector("axis-1");
+let thrr = document.querySelector("axis-2");
+let forrr = document.querySelector("axis-3");
+// one.style.display = "none";
+// twp.style.display = "none";
+// thrr.style.display = "none";
+// forrr.style.display = "none";
+function clear() {
+  sky.innerHTML = "";
+}
+sky = document.querySelector("#sky");
+function WindowSize() {
+  center = {
+    x: sky.clientWidth / 2,
+    y: sky.clientHeight / 2,
+  };
+  clear();
+  for (let i = 0; i < 360; i++) sky.appendChild(dot(i));
+}

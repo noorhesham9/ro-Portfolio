@@ -1021,7 +1021,7 @@ $shadow: ();
   }
 }
 
-@media (max-width: 350px) {
+@media (max-width: 540px) {
   .content {
     .infor {
       flex-direction: column;
@@ -2082,5 +2082,608 @@ $shadow: ();
     transform: rotate(-360deg);
     opacity: 0.2;
     border-width: 2px;
+  }
+}
+
+// strat resume
+.resume {
+  .dowload {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    border-radius: 6px;
+    border: 1px solid #00ddff;
+    overflow: hidden;
+    width: fit-content;
+    margin: auto;
+    background-color: #999999;
+    a {
+      font-size: 21px;
+      font-family: acumin-pro;
+      padding: 8px 15px;
+      font-weight: 500;
+      transition: 0.4s;
+      color: #001124;
+      z-index: 3;
+    }
+    &:before {
+      content: "";
+      position: absolute;
+      width: 100%;
+      top: 0;
+      transition: 0.4s;
+      left: -100%;
+      height: 100%;
+      background-color: #1a1a1a;
+    }
+    &:hover {
+      a {
+        color: #00c3ff;
+      }
+      &:before {
+        left: 0;
+      }
+    }
+  }
+  .container {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    > div {
+      width: 50%;
+      .head {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-bottom: 15px;
+        .title {
+          font-size: 23px;
+          font-weight: 600;
+          letter-spacing: 0.6px;
+          font-family: acumin-pro;
+          text-transform: capitalize;
+        }
+        .icn {
+          font-size: 25px;
+          border: 1px solid #00ddff;
+          border-radius: 6px;
+          padding: 10px;
+          box-shadow: 3px 3px 19px 1px #000000b8;
+        }
+      }
+      .contentHH {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        gap: 10px;
+
+        .startandend {
+          width: 6px;
+          height: 500px;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          align-items: center;
+          position: relative;
+          background-color: rgb(17, 17, 17);
+          box-shadow: 3px 0px 9px 1.5px rgba(19, 19, 19, 0.7);
+
+          .start {
+            position: absolute;
+            top: 0;
+            left: 0;
+            margin-bottom: 15px;
+
+            span {
+              display: block;
+              position: absolute;
+              transform: rotate(45deg);
+
+              top: 5px;
+              left: -3px;
+              width: 12px;
+              height: 12px;
+              &:before {
+                content: "";
+                position: absolute;
+                top: 3.25px;
+                left: 2.4px;
+                width: 6px;
+                height: 6px;
+                background-color: #00ddff;
+              }
+              background-color: #242424;
+            }
+            .year {
+              width: 96px;
+              text-align: center;
+              letter-spacing: 0.6px;
+
+              font-size: 16px;
+              font-weight: 600;
+              position: absolute;
+              left: 16px;
+              top: -3px;
+
+              max-width: fit-content;
+              padding: 4px 8px;
+              border: 1px solid #00ddff;
+              box-shadow: 3px 3px 19px 1px #000000b8;
+              border-radius: 6px;
+            }
+          }
+          .end {
+            position: absolute;
+            bottom: 0;
+            margin-top: 15px;
+            span {
+              display: block;
+              position: absolute;
+              transform: rotate(45deg);
+              bottom: 5px;
+              left: -6px;
+              width: 12px;
+              height: 12px;
+              background-color: #242424;
+              &:before {
+                content: "";
+                position: absolute;
+                top: 3.25px;
+                left: 3.2px;
+                width: 6px;
+                height: 6px;
+                background-color: #00ddff;
+              }
+              background-color: #242424;
+            }
+            .year {
+              &.until {
+                width: 97px;
+                max-width: 100px;
+              }
+              width: 96px;
+              letter-spacing: 0.6px;
+              font-size: 16px;
+              text-align: center;
+              font-weight: 600;
+              position: absolute;
+              left: 16px;
+              bottom: -3px;
+
+              max-width: fit-content;
+              padding: 4px 8px;
+              border: 1px solid #00ddff;
+              box-shadow: 3px 3px 19px 1px #000000b8;
+              border-radius: 6px;
+            }
+          }
+        }
+        @media (min-width: 768px) and (max-width: 991px) {
+          .startandend {
+            height: 570px;
+          }
+        }
+        @media (min-width: 550px) and (max-width: 767px) {
+          .startandend {
+            height: 712px;
+          }
+        }
+        @media (min-width: 450px) and (max-width: 550px) {
+          .startandend {
+            height: 510px;
+          }
+        }
+        @media (min-width: 434px) and (max-width: 450px) {
+          .startandend {
+            height: 530px;
+          }
+        }
+        @media (min-width: 400px) and (max-width: 434px) {
+          .startandend {
+            height: 570px;
+          }
+        }
+        @media (min-width: 350px) and (max-width: 400px) {
+          .startandend {
+            height: 610px;
+          }
+        }
+        @media (min-width: 310px) and (max-width: 350px) {
+          .startandend {
+            height: 640px;
+          }
+        }
+        @media (min-width: 295px) and (max-width: 310px) {
+          .startandend {
+            height: 680px;
+          }
+        }
+        @media (min-width: 280px) and (max-width: 295px) {
+          .startandend {
+            height: 730px;
+          }
+        }
+        @media (min-width: 270px) and (max-width: 280px) {
+          .startandend {
+            height: 760px;
+          }
+        }
+        .contentC {
+          box-shadow: inset 1px 1px 7px 1px rgb(0 0 0 / 56%);
+          .sec {
+            position: relative;
+            margin-bottom: 12px;
+
+            .period {
+              letter-spacing: 0.4px;
+
+              margin-bottom: 8px;
+              position: relative;
+              margin-left: 18px;
+              padding-top: 4px;
+              font-size: 15px;
+              font-weight: 600;
+              span {
+                display: block;
+                position: absolute;
+                top: calc(50% + 2.2px);
+                transform: translateY(-50%) rotate(45deg);
+                left: -18px;
+                width: 12px;
+                height: 12px;
+                background-color: #242424;
+                &:before {
+                  content: "";
+                  position: absolute;
+                  top: 3.25px;
+                  left: 3.2px;
+                  width: 6px;
+                  height: 6px;
+                  background-color: #c5b1af;
+                }
+                background-color: #242424;
+              }
+            }
+            .details {
+              font-size: 15px;
+              padding: 3px 18px;
+
+              span {
+                &::before {
+                  content: "\f005";
+                  font-family: "Font Awesome 6 Free";
+                  font-weight: 900;
+                  position: absolute;
+                  top: 50%;
+                  left: -14px;
+                  transform: translatey(-50%);
+                  font-size: 9px;
+                  color: #c5b1af;
+                }
+                &::after {
+                  content: "\f005";
+                  font-family: "Font Awesome 6 Free";
+                  font-weight: 900;
+                  position: absolute;
+                  color: #c5b1af;
+
+                  top: 50%;
+                  right: -14px;
+                  transform: translatey(-50%);
+                  font-size: 9px;
+                }
+                position: absolute;
+                width: 90px;
+                max-width: 75%;
+                height: 2px;
+                background-color: #000000;
+                bottom: -10px;
+                left: 50%;
+                -webkit-transform: translateX(-50%);
+                transform: translateX(-50%);
+              }
+            }
+            &:nth-child(5) {
+              .details {
+                span {
+                  display: none;
+                }
+              }
+            }
+          }
+          width: fit-content;
+          border-radius: 6px;
+          border: 1.5px solid #00ddff;
+          padding: 12px;
+          height: calc(100% - 50px);
+        }
+      }
+    }
+  }
+
+  @media (max-width: 550px) {
+    .container {
+      flex-direction: column;
+      > div {
+        width: 100%;
+      }
+    }
+  }
+}
+
+footer {
+  #sky {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    position: absolute;
+    z-index: -1;
+  }
+  $pi: 3.14159265359;
+  $_precision: 10;
+
+  @function pow($base, $exp) {
+    $value: $base;
+    @if $exp > 1 {
+      @for $i from 2 through $exp {
+        $value: $value * $base;
+      }
+    }
+    @if $exp < 1 {
+      @for $i from 0 through -$exp {
+        $value: $value / $base;
+      }
+    }
+    @return $value;
+  }
+
+  @function fact($num) {
+    $fact: 1;
+    @if $num > 0 {
+      @for $i from 1 through $num {
+        $fact: $fact * $i;
+      }
+    }
+    @return $fact;
+  }
+
+  @function _to_unitless_rad($angle) {
+    @if unit($angle) == "deg" {
+      $angle: $angle / 180deg * $pi;
+    }
+    @if unit($angle) == "rad" {
+      $angle: $angle / 1rad;
+    }
+    @return $angle;
+  }
+
+  @function sin($angle) {
+    $a: _to_unitless_rad($angle);
+    $sin: $a;
+    @for $n from 1 through $_precision {
+      $sin: $sin + (pow(-1, $n) / fact(2 * $n + 1)) * pow($a, (2 * $n + 1));
+    }
+    @return $sin;
+  }
+
+  @function cos($angle) {
+    $a: _to_unitless_rad($angle);
+    $cos: 1;
+    @for $n from 1 through $_precision {
+      $cos: $cos + (pow(-1, $n) / fact(2 * $n)) * pow($a, 2 * $n);
+    }
+    @return $cos;
+  }
+
+  @function tan($angle) {
+    @return sin($angle) / cos($angle);
+  }
+
+  @function reminder($origin, $mod) {
+    $q: if(($origin / $mod) > 0, floor($origin / $mod), ceil($origin / $mod));
+    @return $origin - ($mod * $q);
+  }
+
+  // html,
+  // body {
+  //   width: 100%;
+  //   height: 100%;
+  //   margin: 0;
+  // }
+  .contain-s {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+  }
+  #sky {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    position: absolute;
+    z-index: 2;
+  }
+
+  .star {
+    opacity: 0;
+    position: absolute;
+    background-color: white;
+    box-shadow: 0px 0px 20px 0px white;
+    border-radius: 100%;
+    transform-origin: 0, 0;
+    animation-timing-function: linear, linear !important;
+    animation-iteration-count: infinite, infinite !important;
+    animation-delay: -30s, -30s !important;
+  }
+
+  .size-1 {
+    width: 2px;
+    height: 2px;
+  }
+
+  .size-2 {
+    width: 3px;
+    height: 3px;
+  }
+
+  @for $i from 1 to 361 {
+    $t: random(40000) + 5000;
+    $angle: $i - reminder($i, 4);
+
+    .axis-#{$i} {
+      animation: anim#{$angle} #{$t}ms, fade#{random(10)} #{$t}ms;
+    }
+  }
+  .axis-0,
+  .axis-1,
+  .axis-2,
+  .axis-3 {
+    display: none;
+  }
+  @for $i from 1 to 11 {
+    $start: random(20);
+    $end: $start + 10;
+    @keyframes fade#{$i} {
+      #{$start + "%"} {
+        opacity: 0;
+      }
+      #{$end + "%"} {
+        opacity: 1;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+  }
+
+  @for $i from 1 to 91 {
+    $a: $i * 4;
+    @keyframes anim#{$a} {
+      $angle: $pi * 2 * ($a / 360);
+      $y: 80 * sin($angle);
+      $x: 80 * cos($angle);
+      100% {
+        transform: translate(#{$x}vw, #{$y}vh);
+      }
+    }
+  }
+  overflow: hidden;
+  position: relative;
+  background-color: #1a1919;
+  .section-divider {
+    position: absolute;
+    z-index: 4;
+    background-color: #3d3d3d;
+    top: 0;
+    path {
+      fill: #1a1919;
+    }
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .top {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      margin-top: 35px;
+      width: 100%;
+      justify-content: space-around;
+      .logo {
+        img {
+          width: 120px;
+        }
+      }
+      .links {
+        display: flex;
+        gap: 8px;
+        a {
+          aspect-ratio: 1;
+          width: 41px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border-radius: 5px;
+          border: 1px solid #00ddff;
+          padding: 10px;
+          background-color: #999999;
+          color: #000;
+          font-weight: 600;
+          font-size: 19px;
+          transition: 0.4s;
+          overflow: hidden;
+          position: relative;
+          z-index: 5;
+          &:before {
+            content: "";
+            position: absolute;
+            width: 100%;
+            top: 0;
+            transition: 0.4s;
+            left: -100%;
+            height: 100%;
+            z-index: -1;
+            background-color: #1a1a1a;
+          }
+          &:hover {
+            color: #00ddff;
+            &:before {
+              left: 0;
+            }
+          }
+        }
+      }
+    }
+    .allright {
+      margin-bottom: 20px;
+      margin-top: 20px;
+      color: white;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      align-items: center;
+      .year {
+        margin-right: 5px;
+        margin-left: 5px;
+      }
+      a {
+        text-transform: capitalize;
+        font-weight: 600;
+        transition: 0.4s;
+        margin-left: 3px;
+
+        position: relative;
+        &::before {
+          content: "";
+          width: 0;
+          bottom: -5px;
+          left: 50%;
+          transform: translateX(-50%);
+          position: absolute;
+          height: 1px;
+          transition: 0.4s;
+          background-color: #00ddff;
+        }
+        &:hover {
+          color: #00ddff;
+          &::before {
+            width: 90%;
+          }
+        }
+      }
+      @media (max-width: 341px) {
+        a {
+          margin-top: 5px;
+        }
+      }
+    }
   }
 }
