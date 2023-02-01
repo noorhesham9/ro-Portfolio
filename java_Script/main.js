@@ -93,7 +93,7 @@ let botoi1 = document.querySelector(".bottom a:first-child i");
 let botoi2 = document.querySelector(".bottom a:nth-child(2) i");
 let botoi3 = document.querySelector(".bottom a:nth-child(3) i");
 
-closenavForMob.addEventListener("click", function () {
+function closeXX() {
   navForMob.classList.add("hide");
   setTimeout(function () {
     navForMob.style.top = "100vh";
@@ -128,7 +128,23 @@ closenavForMob.addEventListener("click", function () {
     botoi3.style.opacity = "0";
   }, 1720);
   navForMob.classList.remove("visible");
-});
+}
+let closenavForMobHome = document.getElementById("closenavForMobHome");
+let closenavForMobabout = document.getElementById("closenavForMobabout");
+let closenavForMobServices = document.getElementById("closenavForMobServices");
+let closenavForMobresume = document.getElementById("closenavForMobresume");
+let closenavForMobportfolio = document.getElementById(
+  "closenavForMobportfolio"
+);
+let closenavForMobcontant = document.getElementById("closenavForMobcontant");
+closenavForMob.addEventListener("click", closeXX);
+closenavForMobHome.addEventListener("click", closeXX);
+closenavForMobabout.addEventListener("click", closeXX);
+closenavForMobServices.addEventListener("click", closeXX);
+closenavForMobresume.addEventListener("click", closeXX);
+closenavForMobportfolio.addEventListener("click", closeXX);
+closenavForMobcontant.addEventListener("click", closeXX);
+
 let burger = document.getElementById("burger");
 
 burger.addEventListener("click", function () {
@@ -171,59 +187,30 @@ burger.addEventListener("click", function () {
 
 let header = document.getElementById("header");
 
-window.addEventListener("resize", WindowSize);
-window.addEventListener("load", WindowSize);
-function WindowSize() {
+function WindowSize2() {
   myWidth = window.innerWidth;
-  if (myWidth < 767) {
+  console.log(window.innerWidth);
+  if (window.innerWidth < 767) {
     header.style.backgroundColor = "rgba(36, 36, 36, 0.9)";
-
     header.style.height = "80px";
   } else {
     header.style.backgroundColor = "rgba(36, 36, 36, 0.6)";
-
     header.style.height = "100px";
   }
 }
 
-window.onscroll = function () {
+window.addEventListener("resize", WindowSize2());
+window.addEventListener("load", WindowSize2());
+window.addEventListener("scroll", function () {
   if (window.scrollY >= 140) {
     header.style.backgroundColor = "rgba(36, 36, 36, 0.9)";
     header.style.height = "80px";
-  } else if (window.scrollY <= 130 && myWidth > 767) {
+  } else if (window.scrollY <= 130) {
     header.style.backgroundColor = "rgba(36, 36, 36, 0.6)";
 
     header.style.height = "100px";
   }
-};
-
-// let didScroll = false;
-
-// window.onscroll = () => (didScroll = true);
-
-// setInterval(() => {
-//   if (didScroll) {
-//     didScroll = false;
-//     header.style.backgroundColor = "#00011f";
-//   } else {
-//     header.style.backgroundColor = "transparent";
-//   }
-// }, 200);
-
-// window.addEventListener("scroll", function () {
-
-// });
-
-// start loading page
-
-let loadddd = document.getElementById("loadddd");
-
-// document.body.style.overflow = "hidden ";
-
-// setTimeout(function () {
-//   loadddd.style.top = "-100vh";
-//   document.body.style.overflow = "visible ";
-// }, 3500);
+});
 
 // start servises functions
 let _3dbox = document.querySelector("._3dbox");
@@ -711,10 +698,6 @@ let one = document.querySelector("axis-0");
 let twp = document.querySelector("axis-1");
 let thrr = document.querySelector("axis-2");
 let forrr = document.querySelector("axis-3");
-// one.style.display = "none";
-// twp.style.display = "none";
-// thrr.style.display = "none";
-// forrr.style.display = "none";
 function clear() {
   sky.innerHTML = "";
 }
@@ -727,3 +710,113 @@ function WindowSize() {
   clear();
   for (let i = 0; i < 360; i++) sky.appendChild(dot(i));
 }
+
+let contactbtn = document.getElementById("contactbtn");
+let contactbox = document.getElementById("contactbox");
+let count = 0;
+contactbtn.addEventListener("click", function () {
+  contactbox.classList.add("open");
+  contactbtn.classList.add("active");
+  count++;
+  if (count % 2 == 0) {
+    contactbox.classList.remove("open");
+    contactbtn.classList.remove("active");
+  }
+});
+
+// start animation
+let overlayabout = document.getElementById("overlayabout");
+let MMYwidth;
+
+MMYwidth = window.innerWidth;
+
+window.addEventListener("resize", function () {
+  MMYwidth = window.innerWidth;
+});
+
+var landdingHeight = document.getElementById("lannnding").clientHeight;
+var aboutH = document.getElementById("about").clientHeight;
+var resumeH = document.getElementById("resume").clientHeight;
+var portfolioH = document.getElementById("portfolio").clientHeight;
+var contactH = document.getElementById("contact").clientHeight;
+var servHHH = document.getElementById("services").clientHeight;
+
+let aboutTText = document.getElementById("aboutTText");
+
+let LLLresume = document.getElementById("LLLresume");
+let RRRresume = document.getElementById("RRRresume");
+let CONTform = document.getElementById("CONTform");
+let linksForm = document.getElementById("linksForm");
+
+window.addEventListener("scroll", function () {
+  if (MMYwidth > 1200) {
+    console.log("bigg");
+    console.log(window.scrollY);
+    if (window.scrollY >= 440) {
+      overlayabout.style.opacity = "0";
+      aboutTText.style.left = "0";
+      console.log("666");
+    }
+    if (window.scrollY >= aboutH + servHHH + 370) {
+      LLLresume.style.left = "0";
+      RRRresume.style.left = "0";
+    }
+    if (window.scrollY >= aboutH + servHHH + resumeH + portfolioH + 340) {
+      CONTform.style.right = "0";
+      linksForm.style.left = "0";
+    }
+  }
+  if (MMYwidth > 991) {
+    console.log("bigg");
+    console.log(window.scrollY);
+    if (window.scrollY >= 440) {
+      overlayabout.style.opacity = "0";
+      aboutTText.style.left = "0";
+      console.log("666");
+    }
+    if (window.scrollY >= aboutH + servHHH + 370) {
+      LLLresume.style.left = "0";
+      RRRresume.style.left = "0";
+    }
+    if (window.scrollY >= aboutH + servHHH + resumeH + portfolioH + 340) {
+      CONTform.style.right = "0";
+      linksForm.style.left = "0";
+    }
+  }
+  // for about
+  if (MMYwidth < 991) {
+    if (window.scrollY >= 440) {
+      overlayabout.style.opacity = "0";
+    }
+    if (window.scrollY >= 870) {
+      aboutTText.style.left = "0";
+    }
+  }
+  // for resume
+
+  if (MMYwidth < 767) {
+    CONTform.style.right = "0";
+    linksForm.style.left = "0";
+    LLLresume.style.left = "0";
+    RRRresume.style.left = "0";
+  }
+
+  if (MMYwidth > 767) {
+    if (window.scrollY >= aboutH + servHHH + 370) {
+      LLLresume.style.left = "0";
+      RRRresume.style.left = "0";
+    }
+    if (window.scrollY >= aboutH + servHHH + resumeH + portfolioH + 340) {
+      CONTform.style.right = "0";
+      linksForm.style.left = "0";
+    }
+  }
+});
+
+let loadddd = document.getElementById("loadddd");
+document.body.style.overflow = "hidden ";
+
+setTimeout(function () {
+  loadddd.style.top = "-100vh";
+  document.body.style.overflow = "visible ";
+}, 3500);

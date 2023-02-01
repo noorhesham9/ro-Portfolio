@@ -248,14 +248,16 @@ header .navForMob .top .logo img {
   max-width: 100%;
   max-height: 100%;
   margin-left: 6px;
+  cursor: pointer;
 }
 header .navForMob .top .x {
   font-size: 25px;
-  font-weight: 300;
-  color: black;
+  font-weight: 900;
+  color: white;
   margin-right: 27px;
   width: 20px;
   height: 30px;
+  cursor: pointer;
 }
 header .navForMob .middle {
   height: calc(100vh - 150px);
@@ -286,7 +288,7 @@ header .navForMob .bottom {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: end;
-  margin-bottom: 5px;
+  margin-bottom: 50px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -815,16 +817,16 @@ section .mainhead h2 {
 }
 .meteor-1 {
   position: absolute;
-  top: 161px;
-  left: 80%;
+  top: 101px;
+  left: 93%;
   width: 300px;
   height: 1px;
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
   background-image: -webkit-gradient(linear, left top, right top, from(#fff), to(rgba(255, 255, 255, 0)));
   background-image: linear-gradient(to right, #fff, rgba(255, 255, 255, 0));
-  -webkit-animation: meteor 8.3s linear infinite;
-          animation: meteor 8.3s linear infinite;
+  -webkit-animation: meteor 7.3s linear infinite;
+          animation: meteor 7.3s linear infinite;
 }
 .meteor-1:before {
   content: "";
@@ -840,16 +842,16 @@ section .mainhead h2 {
 
 .meteor-2 {
   position: absolute;
-  top: 166px;
-  left: 19%;
+  top: 169px;
+  left: 63%;
   width: 300px;
   height: 1px;
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
   background-image: -webkit-gradient(linear, left top, right top, from(#fff), to(rgba(255, 255, 255, 0)));
   background-image: linear-gradient(to right, #fff, rgba(255, 255, 255, 0));
-  -webkit-animation: meteor 8.6s linear infinite;
-          animation: meteor 8.6s linear infinite;
+  -webkit-animation: meteor 6s linear infinite;
+          animation: meteor 6s linear infinite;
 }
 .meteor-2:before {
   content: "";
@@ -865,16 +867,16 @@ section .mainhead h2 {
 
 .meteor-3 {
   position: absolute;
-  top: 253px;
-  left: 72%;
+  top: 168px;
+  left: 76%;
   width: 300px;
   height: 1px;
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
   background-image: -webkit-gradient(linear, left top, right top, from(#fff), to(rgba(255, 255, 255, 0)));
   background-image: linear-gradient(to right, #fff, rgba(255, 255, 255, 0));
-  -webkit-animation: meteor 6s linear infinite;
-          animation: meteor 6s linear infinite;
+  -webkit-animation: meteor 4.1s linear infinite;
+          animation: meteor 4.1s linear infinite;
 }
 .meteor-3:before {
   content: "";
@@ -890,16 +892,16 @@ section .mainhead h2 {
 
 .meteor-4 {
   position: absolute;
-  top: 205px;
-  left: 62%;
+  top: 267px;
+  left: 51%;
   width: 300px;
   height: 1px;
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
   background-image: -webkit-gradient(linear, left top, right top, from(#fff), to(rgba(255, 255, 255, 0)));
   background-image: linear-gradient(to right, #fff, rgba(255, 255, 255, 0));
-  -webkit-animation: meteor 4s linear infinite;
-          animation: meteor 4s linear infinite;
+  -webkit-animation: meteor 5.2s linear infinite;
+          animation: meteor 5.2s linear infinite;
 }
 .meteor-4:before {
   content: "";
@@ -915,16 +917,16 @@ section .mainhead h2 {
 
 .meteor-5 {
   position: absolute;
-  top: 103px;
-  left: 74%;
+  top: 201px;
+  left: 89%;
   width: 300px;
   height: 1px;
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
   background-image: -webkit-gradient(linear, left top, right top, from(#fff), to(rgba(255, 255, 255, 0)));
   background-image: linear-gradient(to right, #fff, rgba(255, 255, 255, 0));
-  -webkit-animation: meteor 4.2s linear infinite;
-          animation: meteor 4.2s linear infinite;
+  -webkit-animation: meteor 3.6s linear infinite;
+          animation: meteor 3.6s linear infinite;
 }
 .meteor-5:before {
   content: "";
@@ -940,16 +942,16 @@ section .mainhead h2 {
 
 .meteor-6 {
   position: absolute;
-  top: 221px;
-  left: 97%;
+  top: 188px;
+  left: 77%;
   width: 300px;
   height: 1px;
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
   background-image: -webkit-gradient(linear, left top, right top, from(#fff), to(rgba(255, 255, 255, 0)));
   background-image: linear-gradient(to right, #fff, rgba(255, 255, 255, 0));
-  -webkit-animation: meteor 4.1s linear infinite;
-          animation: meteor 4.1s linear infinite;
+  -webkit-animation: meteor 5.5s linear infinite;
+          animation: meteor 5.5s linear infinite;
 }
 .meteor-6:before {
   content: "";
@@ -965,16 +967,16 @@ section .mainhead h2 {
 
 .meteor-7 {
   position: absolute;
-  top: 80px;
-  left: 58%;
+  top: 64px;
+  left: 88%;
   width: 300px;
   height: 1px;
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
   background-image: -webkit-gradient(linear, left top, right top, from(#fff), to(rgba(255, 255, 255, 0)));
   background-image: linear-gradient(to right, #fff, rgba(255, 255, 255, 0));
-  -webkit-animation: meteor 6s linear infinite;
-          animation: meteor 6s linear infinite;
+  -webkit-animation: meteor 7.3s linear infinite;
+          animation: meteor 7.3s linear infinite;
 }
 .meteor-7:before {
   content: "";
@@ -1029,16 +1031,31 @@ section .mainhead h2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding-bottom: 20px;
   -webkit-box-pack: left;
       -ms-flex-pack: left;
           justify-content: left;
   gap: 50px;
+  overflow: hidden;
 }
 .about .content .image {
   width: 400px;
   aspect-ratio: 0.7498262682;
   position: relative;
   max-width: 100%;
+}
+.about .content .image .overlayabout {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  border-radius: 6px;
+  z-index: 4;
+  background-color: #006b7b;
+  opacity: "1";
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 .about .content .image .gerd {
   opacity: 1;
@@ -1072,6 +1089,10 @@ section .mainhead h2 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  position: relative;
+  left: 100vw;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 .about .content .text .sentence {
   display: -webkit-box;
@@ -1266,6 +1287,7 @@ section .mainhead h2 {
   background-size: cover;
   background-attachment: fixed;
   position: relative;
+  display: block;
 }
 .services::before {
   position: absolute;
@@ -1932,7 +1954,7 @@ section .mainhead h2 {
     width: 500px !important;
   }
 }
-@media (max-width: 992px) {
+@media (max-width: 991px) {
   .services .servForMopile {
     display: block;
   }
@@ -2139,11 +2161,6 @@ section .mainhead h2 {
   border: solid transparent;
   border-bottom-color: #00ddff;
   z-index: 1001;
-  display: block;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  margin: -83px 0 0 -71px;
   border-radius: 50%;
   border: solid transparent;
   border-bottom-color: #00ddff;
@@ -2210,6 +2227,225 @@ section .mainhead h2 {
   z-index: 1001;
   -webkit-animation: spin180 2.8s linear infinite;
           animation: spin180 2.8s linear infinite;
+}
+@media (max-width: 400px) {
+  .loadingPage .loader {
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 125px;
+    height: 125px;
+    margin: -100px 0 0 -19px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top-color: #00ddff;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+    z-index: 1001;
+  }
+  .loadingPage .loader::after {
+    content: "";
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    right: 15px;
+    bottom: 15px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top-color: #ffffff;
+    -webkit-animation: spin 1.5s linear infinite;
+            animation: spin 1.5s linear infinite;
+  }
+  .loadingPage .loader:before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top-color: #00ddff;
+    -webkit-animation: spin 3s linear infinite;
+            animation: spin 3s linear infinite;
+  }
+  .loadingPage .loader2 {
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 120px;
+    height: 120px;
+    margin: -100px 0 0 -18px;
+    border-radius: 50%;
+    border: 3.5px solid transparent;
+    border-top-color: #00ddff;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2.4s linear infinite;
+    z-index: 1001;
+  }
+  .loadingPage .loader2::after {
+    content: "";
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    right: 15px;
+    bottom: 15px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top-color: #ffffff;
+    -webkit-animation: spin 1.5s linear infinite;
+            animation: spin 1.5s linear infinite;
+  }
+  .loadingPage .loader2:before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    border-radius: 50%;
+    border: 3.2px solid transparent;
+    border-top-color: #00ddff;
+    -webkit-animation: spin 3s linear infinite;
+            animation: spin 3s linear infinite;
+  }
+  .loadingPage .loader3 {
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 100px;
+    height: 100px;
+    margin: -90px 0 0 -4px;
+    border-radius: 50%;
+    border: 3.5px solid transparent;
+    border-top-color: #00ddff;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2.5s linear infinite;
+    z-index: 1001;
+  }
+  .loadingPage .loader3::after {
+    content: "";
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    right: 15px;
+    bottom: 15px;
+    border-radius: 50%;
+    border: 3.7px solid transparent;
+    border-top-color: #ffffff;
+    -webkit-animation: spin 1.5s linear infinite;
+            animation: spin 1.5s linear infinite;
+  }
+  .loadingPage .loader3:before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    border-radius: 50%;
+    border: 3.2px solid transparent;
+    border-top-color: #00ddff;
+    -webkit-animation: spin 3s linear infinite;
+            animation: spin 3s linear infinite;
+  }
+  .loadingPage .try {
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 160px;
+    height: 160px;
+    margin: -83px 0 0 -43px;
+    border-radius: 50%;
+    border: solid transparent;
+    border-bottom-color: #00ddff;
+    z-index: 1001;
+    -webkit-animation: spin180 2.3s linear infinite;
+            animation: spin180 2.3s linear infinite;
+  }
+  .loadingPage .try2 {
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 155px;
+    height: 155px;
+    margin: -83px 0 0 -41px;
+    border-radius: 50%;
+    border: solid transparent;
+    border-bottom-color: #00ddff;
+    z-index: 1001;
+    border-radius: 50%;
+    border: solid transparent;
+    border-bottom-color: #00ddff;
+    z-index: 1001;
+    -webkit-animation: spin180 1.8s linear infinite;
+            animation: spin180 1.8s linear infinite;
+  }
+  .loadingPage .try3 {
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 150px;
+    height: 150px;
+    margin: -83px 0 0 -42px;
+    border-radius: 50%;
+    border: solid transparent;
+    border-bottom-color: #00ddff;
+    z-index: 1001;
+    -webkit-animation: spin180 2.5s linear infinite;
+            animation: spin180 2.5s linear infinite;
+  }
+  .loadingPage .try4 {
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 165px;
+    height: 165px;
+    margin: -83px 0 0 -43px;
+    border-radius: 50%;
+    border: solid transparent;
+    border-bottom-color: #00ddff;
+    z-index: 1001;
+    -webkit-animation: spin180 3s linear infinite;
+            animation: spin180 3s linear infinite;
+  }
+  .loadingPage .try6 {
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 165px;
+    height: 165px;
+    margin: -83px 0 0 -45px;
+    border-radius: 50%;
+    border: solid transparent;
+    border-bottom-color: #00ddff;
+    z-index: 1001;
+    -webkit-animation: spin180 2.5s linear infinite;
+            animation: spin180 2.5s linear infinite;
+  }
+  .loadingPage .try5 {
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 145px;
+    height: 145px;
+    margin: -83px 0 0 -43px;
+    border-radius: 50%;
+    border: solid transparent;
+    border-bottom-color: #00ddff;
+    z-index: 1001;
+    -webkit-animation: spin180 2.8s linear infinite;
+            animation: spin180 2.8s linear infinite;
+  }
 }
 
 @-webkit-keyframes spin {
@@ -2343,10 +2579,24 @@ section .mainhead h2 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding-bottom: 20px;
   gap: 18px;
+  overflow: hidden;
 }
 .resume .container > div {
   width: 50%;
+}
+.resume .container > div#RRRresume {
+  position: relative;
+  left: 100%;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.resume .container > div#LLLresume {
+  position: relative;
+  left: -100%;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 .resume .container > div .head {
   display: -webkit-box;
@@ -2660,7 +2910,7 @@ footer #sky {
   height: 100%;
   background-color: transparent;
   position: absolute;
-  z-index: -1;
+  z-index: 0;
 }
 footer .contain-s {
   width: 100%;
@@ -2674,7 +2924,7 @@ footer #sky {
   height: 100%;
   background-color: transparent;
   position: absolute;
-  z-index: 2;
+  z-index: 0;
 }
 footer .star {
   opacity: 0;
@@ -2701,1444 +2951,1444 @@ footer .size-2 {
   height: 3px;
 }
 footer .axis-1 {
-  -webkit-animation: anim0 24386ms, fade1 24386ms;
-          animation: anim0 24386ms, fade1 24386ms;
+  -webkit-animation: anim0 9856ms, fade4 9856ms;
+          animation: anim0 9856ms, fade4 9856ms;
 }
 footer .axis-2 {
-  -webkit-animation: anim0 11891ms, fade8 11891ms;
-          animation: anim0 11891ms, fade8 11891ms;
+  -webkit-animation: anim0 33441ms, fade1 33441ms;
+          animation: anim0 33441ms, fade1 33441ms;
 }
 footer .axis-3 {
-  -webkit-animation: anim0 7224ms, fade4 7224ms;
-          animation: anim0 7224ms, fade4 7224ms;
+  -webkit-animation: anim0 25165ms, fade5 25165ms;
+          animation: anim0 25165ms, fade5 25165ms;
 }
 footer .axis-4 {
-  -webkit-animation: anim4 35145ms, fade2 35145ms;
-          animation: anim4 35145ms, fade2 35145ms;
+  -webkit-animation: anim4 37446ms, fade7 37446ms;
+          animation: anim4 37446ms, fade7 37446ms;
 }
 footer .axis-5 {
-  -webkit-animation: anim4 5100ms, fade3 5100ms;
-          animation: anim4 5100ms, fade3 5100ms;
+  -webkit-animation: anim4 10344ms, fade8 10344ms;
+          animation: anim4 10344ms, fade8 10344ms;
 }
 footer .axis-6 {
-  -webkit-animation: anim4 7098ms, fade10 7098ms;
-          animation: anim4 7098ms, fade10 7098ms;
+  -webkit-animation: anim4 36245ms, fade9 36245ms;
+          animation: anim4 36245ms, fade9 36245ms;
 }
 footer .axis-7 {
-  -webkit-animation: anim4 37811ms, fade6 37811ms;
-          animation: anim4 37811ms, fade6 37811ms;
+  -webkit-animation: anim4 17166ms, fade2 17166ms;
+          animation: anim4 17166ms, fade2 17166ms;
 }
 footer .axis-8 {
-  -webkit-animation: anim8 20135ms, fade6 20135ms;
-          animation: anim8 20135ms, fade6 20135ms;
+  -webkit-animation: anim8 34715ms, fade5 34715ms;
+          animation: anim8 34715ms, fade5 34715ms;
 }
 footer .axis-9 {
-  -webkit-animation: anim8 36380ms, fade5 36380ms;
-          animation: anim8 36380ms, fade5 36380ms;
+  -webkit-animation: anim8 39327ms, fade8 39327ms;
+          animation: anim8 39327ms, fade8 39327ms;
 }
 footer .axis-10 {
-  -webkit-animation: anim8 5875ms, fade2 5875ms;
-          animation: anim8 5875ms, fade2 5875ms;
+  -webkit-animation: anim8 17981ms, fade4 17981ms;
+          animation: anim8 17981ms, fade4 17981ms;
 }
 footer .axis-11 {
-  -webkit-animation: anim8 33776ms, fade10 33776ms;
-          animation: anim8 33776ms, fade10 33776ms;
+  -webkit-animation: anim8 34966ms, fade9 34966ms;
+          animation: anim8 34966ms, fade9 34966ms;
 }
 footer .axis-12 {
-  -webkit-animation: anim12 19700ms, fade2 19700ms;
-          animation: anim12 19700ms, fade2 19700ms;
+  -webkit-animation: anim12 42090ms, fade9 42090ms;
+          animation: anim12 42090ms, fade9 42090ms;
 }
 footer .axis-13 {
-  -webkit-animation: anim12 24301ms, fade7 24301ms;
-          animation: anim12 24301ms, fade7 24301ms;
+  -webkit-animation: anim12 26569ms, fade1 26569ms;
+          animation: anim12 26569ms, fade1 26569ms;
 }
 footer .axis-14 {
-  -webkit-animation: anim12 18952ms, fade6 18952ms;
-          animation: anim12 18952ms, fade6 18952ms;
+  -webkit-animation: anim12 31904ms, fade4 31904ms;
+          animation: anim12 31904ms, fade4 31904ms;
 }
 footer .axis-15 {
-  -webkit-animation: anim12 23957ms, fade3 23957ms;
-          animation: anim12 23957ms, fade3 23957ms;
+  -webkit-animation: anim12 42427ms, fade1 42427ms;
+          animation: anim12 42427ms, fade1 42427ms;
 }
 footer .axis-16 {
-  -webkit-animation: anim16 20213ms, fade2 20213ms;
-          animation: anim16 20213ms, fade2 20213ms;
+  -webkit-animation: anim16 18010ms, fade10 18010ms;
+          animation: anim16 18010ms, fade10 18010ms;
 }
 footer .axis-17 {
-  -webkit-animation: anim16 10129ms, fade5 10129ms;
-          animation: anim16 10129ms, fade5 10129ms;
+  -webkit-animation: anim16 22142ms, fade7 22142ms;
+          animation: anim16 22142ms, fade7 22142ms;
 }
 footer .axis-18 {
-  -webkit-animation: anim16 44023ms, fade7 44023ms;
-          animation: anim16 44023ms, fade7 44023ms;
+  -webkit-animation: anim16 31125ms, fade2 31125ms;
+          animation: anim16 31125ms, fade2 31125ms;
 }
 footer .axis-19 {
-  -webkit-animation: anim16 38198ms, fade8 38198ms;
-          animation: anim16 38198ms, fade8 38198ms;
+  -webkit-animation: anim16 41625ms, fade4 41625ms;
+          animation: anim16 41625ms, fade4 41625ms;
 }
 footer .axis-20 {
-  -webkit-animation: anim20 12036ms, fade5 12036ms;
-          animation: anim20 12036ms, fade5 12036ms;
+  -webkit-animation: anim20 22264ms, fade6 22264ms;
+          animation: anim20 22264ms, fade6 22264ms;
 }
 footer .axis-21 {
-  -webkit-animation: anim20 29647ms, fade7 29647ms;
-          animation: anim20 29647ms, fade7 29647ms;
+  -webkit-animation: anim20 5612ms, fade1 5612ms;
+          animation: anim20 5612ms, fade1 5612ms;
 }
 footer .axis-22 {
-  -webkit-animation: anim20 43814ms, fade6 43814ms;
-          animation: anim20 43814ms, fade6 43814ms;
+  -webkit-animation: anim20 44641ms, fade2 44641ms;
+          animation: anim20 44641ms, fade2 44641ms;
 }
 footer .axis-23 {
-  -webkit-animation: anim20 36737ms, fade5 36737ms;
-          animation: anim20 36737ms, fade5 36737ms;
+  -webkit-animation: anim20 13841ms, fade6 13841ms;
+          animation: anim20 13841ms, fade6 13841ms;
 }
 footer .axis-24 {
-  -webkit-animation: anim24 5440ms, fade9 5440ms;
-          animation: anim24 5440ms, fade9 5440ms;
+  -webkit-animation: anim24 42116ms, fade5 42116ms;
+          animation: anim24 42116ms, fade5 42116ms;
 }
 footer .axis-25 {
-  -webkit-animation: anim24 38852ms, fade6 38852ms;
-          animation: anim24 38852ms, fade6 38852ms;
+  -webkit-animation: anim24 40287ms, fade3 40287ms;
+          animation: anim24 40287ms, fade3 40287ms;
 }
 footer .axis-26 {
-  -webkit-animation: anim24 20915ms, fade2 20915ms;
-          animation: anim24 20915ms, fade2 20915ms;
+  -webkit-animation: anim24 20126ms, fade2 20126ms;
+          animation: anim24 20126ms, fade2 20126ms;
 }
 footer .axis-27 {
-  -webkit-animation: anim24 31615ms, fade5 31615ms;
-          animation: anim24 31615ms, fade5 31615ms;
+  -webkit-animation: anim24 10932ms, fade1 10932ms;
+          animation: anim24 10932ms, fade1 10932ms;
 }
 footer .axis-28 {
-  -webkit-animation: anim28 10994ms, fade7 10994ms;
-          animation: anim28 10994ms, fade7 10994ms;
+  -webkit-animation: anim28 27857ms, fade5 27857ms;
+          animation: anim28 27857ms, fade5 27857ms;
 }
 footer .axis-29 {
-  -webkit-animation: anim28 37346ms, fade7 37346ms;
-          animation: anim28 37346ms, fade7 37346ms;
+  -webkit-animation: anim28 14146ms, fade2 14146ms;
+          animation: anim28 14146ms, fade2 14146ms;
 }
 footer .axis-30 {
-  -webkit-animation: anim28 21626ms, fade10 21626ms;
-          animation: anim28 21626ms, fade10 21626ms;
+  -webkit-animation: anim28 12728ms, fade10 12728ms;
+          animation: anim28 12728ms, fade10 12728ms;
 }
 footer .axis-31 {
-  -webkit-animation: anim28 10086ms, fade6 10086ms;
-          animation: anim28 10086ms, fade6 10086ms;
+  -webkit-animation: anim28 7908ms, fade1 7908ms;
+          animation: anim28 7908ms, fade1 7908ms;
 }
 footer .axis-32 {
-  -webkit-animation: anim32 36297ms, fade3 36297ms;
-          animation: anim32 36297ms, fade3 36297ms;
+  -webkit-animation: anim32 22758ms, fade6 22758ms;
+          animation: anim32 22758ms, fade6 22758ms;
 }
 footer .axis-33 {
-  -webkit-animation: anim32 12541ms, fade3 12541ms;
-          animation: anim32 12541ms, fade3 12541ms;
+  -webkit-animation: anim32 40439ms, fade2 40439ms;
+          animation: anim32 40439ms, fade2 40439ms;
 }
 footer .axis-34 {
-  -webkit-animation: anim32 18686ms, fade1 18686ms;
-          animation: anim32 18686ms, fade1 18686ms;
+  -webkit-animation: anim32 26411ms, fade8 26411ms;
+          animation: anim32 26411ms, fade8 26411ms;
 }
 footer .axis-35 {
-  -webkit-animation: anim32 28894ms, fade1 28894ms;
-          animation: anim32 28894ms, fade1 28894ms;
+  -webkit-animation: anim32 19453ms, fade2 19453ms;
+          animation: anim32 19453ms, fade2 19453ms;
 }
 footer .axis-36 {
-  -webkit-animation: anim36 20088ms, fade8 20088ms;
-          animation: anim36 20088ms, fade8 20088ms;
+  -webkit-animation: anim36 13305ms, fade10 13305ms;
+          animation: anim36 13305ms, fade10 13305ms;
 }
 footer .axis-37 {
-  -webkit-animation: anim36 42314ms, fade4 42314ms;
-          animation: anim36 42314ms, fade4 42314ms;
+  -webkit-animation: anim36 31578ms, fade9 31578ms;
+          animation: anim36 31578ms, fade9 31578ms;
 }
 footer .axis-38 {
-  -webkit-animation: anim36 38785ms, fade4 38785ms;
-          animation: anim36 38785ms, fade4 38785ms;
+  -webkit-animation: anim36 28991ms, fade2 28991ms;
+          animation: anim36 28991ms, fade2 28991ms;
 }
 footer .axis-39 {
-  -webkit-animation: anim36 25870ms, fade2 25870ms;
-          animation: anim36 25870ms, fade2 25870ms;
+  -webkit-animation: anim36 27956ms, fade3 27956ms;
+          animation: anim36 27956ms, fade3 27956ms;
 }
 footer .axis-40 {
-  -webkit-animation: anim40 40794ms, fade8 40794ms;
-          animation: anim40 40794ms, fade8 40794ms;
+  -webkit-animation: anim40 15142ms, fade2 15142ms;
+          animation: anim40 15142ms, fade2 15142ms;
 }
 footer .axis-41 {
-  -webkit-animation: anim40 29581ms, fade7 29581ms;
-          animation: anim40 29581ms, fade7 29581ms;
+  -webkit-animation: anim40 18544ms, fade6 18544ms;
+          animation: anim40 18544ms, fade6 18544ms;
 }
 footer .axis-42 {
-  -webkit-animation: anim40 12714ms, fade7 12714ms;
-          animation: anim40 12714ms, fade7 12714ms;
+  -webkit-animation: anim40 30035ms, fade10 30035ms;
+          animation: anim40 30035ms, fade10 30035ms;
 }
 footer .axis-43 {
-  -webkit-animation: anim40 10356ms, fade8 10356ms;
-          animation: anim40 10356ms, fade8 10356ms;
+  -webkit-animation: anim40 44558ms, fade8 44558ms;
+          animation: anim40 44558ms, fade8 44558ms;
 }
 footer .axis-44 {
-  -webkit-animation: anim44 34465ms, fade9 34465ms;
-          animation: anim44 34465ms, fade9 34465ms;
+  -webkit-animation: anim44 6540ms, fade2 6540ms;
+          animation: anim44 6540ms, fade2 6540ms;
 }
 footer .axis-45 {
-  -webkit-animation: anim44 21536ms, fade8 21536ms;
-          animation: anim44 21536ms, fade8 21536ms;
+  -webkit-animation: anim44 22116ms, fade7 22116ms;
+          animation: anim44 22116ms, fade7 22116ms;
 }
 footer .axis-46 {
-  -webkit-animation: anim44 28657ms, fade7 28657ms;
-          animation: anim44 28657ms, fade7 28657ms;
+  -webkit-animation: anim44 17230ms, fade5 17230ms;
+          animation: anim44 17230ms, fade5 17230ms;
 }
 footer .axis-47 {
-  -webkit-animation: anim44 41362ms, fade9 41362ms;
-          animation: anim44 41362ms, fade9 41362ms;
+  -webkit-animation: anim44 32561ms, fade3 32561ms;
+          animation: anim44 32561ms, fade3 32561ms;
 }
 footer .axis-48 {
-  -webkit-animation: anim48 17136ms, fade5 17136ms;
-          animation: anim48 17136ms, fade5 17136ms;
+  -webkit-animation: anim48 19343ms, fade8 19343ms;
+          animation: anim48 19343ms, fade8 19343ms;
 }
 footer .axis-49 {
-  -webkit-animation: anim48 26433ms, fade5 26433ms;
-          animation: anim48 26433ms, fade5 26433ms;
+  -webkit-animation: anim48 20752ms, fade9 20752ms;
+          animation: anim48 20752ms, fade9 20752ms;
 }
 footer .axis-50 {
-  -webkit-animation: anim48 7071ms, fade5 7071ms;
-          animation: anim48 7071ms, fade5 7071ms;
+  -webkit-animation: anim48 31832ms, fade1 31832ms;
+          animation: anim48 31832ms, fade1 31832ms;
 }
 footer .axis-51 {
-  -webkit-animation: anim48 5899ms, fade6 5899ms;
-          animation: anim48 5899ms, fade6 5899ms;
+  -webkit-animation: anim48 34108ms, fade7 34108ms;
+          animation: anim48 34108ms, fade7 34108ms;
 }
 footer .axis-52 {
-  -webkit-animation: anim52 44933ms, fade7 44933ms;
-          animation: anim52 44933ms, fade7 44933ms;
+  -webkit-animation: anim52 36077ms, fade3 36077ms;
+          animation: anim52 36077ms, fade3 36077ms;
 }
 footer .axis-53 {
-  -webkit-animation: anim52 37425ms, fade4 37425ms;
-          animation: anim52 37425ms, fade4 37425ms;
+  -webkit-animation: anim52 25459ms, fade10 25459ms;
+          animation: anim52 25459ms, fade10 25459ms;
 }
 footer .axis-54 {
-  -webkit-animation: anim52 33897ms, fade6 33897ms;
-          animation: anim52 33897ms, fade6 33897ms;
+  -webkit-animation: anim52 34978ms, fade1 34978ms;
+          animation: anim52 34978ms, fade1 34978ms;
 }
 footer .axis-55 {
-  -webkit-animation: anim52 30935ms, fade10 30935ms;
-          animation: anim52 30935ms, fade10 30935ms;
+  -webkit-animation: anim52 32072ms, fade8 32072ms;
+          animation: anim52 32072ms, fade8 32072ms;
 }
 footer .axis-56 {
-  -webkit-animation: anim56 36300ms, fade1 36300ms;
-          animation: anim56 36300ms, fade1 36300ms;
+  -webkit-animation: anim56 13386ms, fade6 13386ms;
+          animation: anim56 13386ms, fade6 13386ms;
 }
 footer .axis-57 {
-  -webkit-animation: anim56 33113ms, fade1 33113ms;
-          animation: anim56 33113ms, fade1 33113ms;
+  -webkit-animation: anim56 40464ms, fade6 40464ms;
+          animation: anim56 40464ms, fade6 40464ms;
 }
 footer .axis-58 {
-  -webkit-animation: anim56 18489ms, fade3 18489ms;
-          animation: anim56 18489ms, fade3 18489ms;
+  -webkit-animation: anim56 34345ms, fade9 34345ms;
+          animation: anim56 34345ms, fade9 34345ms;
 }
 footer .axis-59 {
-  -webkit-animation: anim56 22594ms, fade10 22594ms;
-          animation: anim56 22594ms, fade10 22594ms;
+  -webkit-animation: anim56 42675ms, fade5 42675ms;
+          animation: anim56 42675ms, fade5 42675ms;
 }
 footer .axis-60 {
-  -webkit-animation: anim60 25861ms, fade5 25861ms;
-          animation: anim60 25861ms, fade5 25861ms;
+  -webkit-animation: anim60 24723ms, fade7 24723ms;
+          animation: anim60 24723ms, fade7 24723ms;
 }
 footer .axis-61 {
-  -webkit-animation: anim60 16815ms, fade3 16815ms;
-          animation: anim60 16815ms, fade3 16815ms;
+  -webkit-animation: anim60 13876ms, fade7 13876ms;
+          animation: anim60 13876ms, fade7 13876ms;
 }
 footer .axis-62 {
-  -webkit-animation: anim60 39746ms, fade4 39746ms;
-          animation: anim60 39746ms, fade4 39746ms;
+  -webkit-animation: anim60 39842ms, fade7 39842ms;
+          animation: anim60 39842ms, fade7 39842ms;
 }
 footer .axis-63 {
-  -webkit-animation: anim60 12745ms, fade6 12745ms;
-          animation: anim60 12745ms, fade6 12745ms;
+  -webkit-animation: anim60 18497ms, fade3 18497ms;
+          animation: anim60 18497ms, fade3 18497ms;
 }
 footer .axis-64 {
-  -webkit-animation: anim64 19531ms, fade1 19531ms;
-          animation: anim64 19531ms, fade1 19531ms;
+  -webkit-animation: anim64 25722ms, fade9 25722ms;
+          animation: anim64 25722ms, fade9 25722ms;
 }
 footer .axis-65 {
-  -webkit-animation: anim64 10701ms, fade4 10701ms;
-          animation: anim64 10701ms, fade4 10701ms;
+  -webkit-animation: anim64 29048ms, fade6 29048ms;
+          animation: anim64 29048ms, fade6 29048ms;
 }
 footer .axis-66 {
-  -webkit-animation: anim64 20402ms, fade8 20402ms;
-          animation: anim64 20402ms, fade8 20402ms;
+  -webkit-animation: anim64 13920ms, fade10 13920ms;
+          animation: anim64 13920ms, fade10 13920ms;
 }
 footer .axis-67 {
-  -webkit-animation: anim64 5719ms, fade5 5719ms;
-          animation: anim64 5719ms, fade5 5719ms;
+  -webkit-animation: anim64 32599ms, fade6 32599ms;
+          animation: anim64 32599ms, fade6 32599ms;
 }
 footer .axis-68 {
-  -webkit-animation: anim68 20420ms, fade2 20420ms;
-          animation: anim68 20420ms, fade2 20420ms;
+  -webkit-animation: anim68 37954ms, fade9 37954ms;
+          animation: anim68 37954ms, fade9 37954ms;
 }
 footer .axis-69 {
-  -webkit-animation: anim68 31282ms, fade4 31282ms;
-          animation: anim68 31282ms, fade4 31282ms;
+  -webkit-animation: anim68 16320ms, fade3 16320ms;
+          animation: anim68 16320ms, fade3 16320ms;
 }
 footer .axis-70 {
-  -webkit-animation: anim68 23317ms, fade2 23317ms;
-          animation: anim68 23317ms, fade2 23317ms;
+  -webkit-animation: anim68 13427ms, fade7 13427ms;
+          animation: anim68 13427ms, fade7 13427ms;
 }
 footer .axis-71 {
-  -webkit-animation: anim68 5256ms, fade5 5256ms;
-          animation: anim68 5256ms, fade5 5256ms;
+  -webkit-animation: anim68 29192ms, fade1 29192ms;
+          animation: anim68 29192ms, fade1 29192ms;
 }
 footer .axis-72 {
-  -webkit-animation: anim72 36923ms, fade7 36923ms;
-          animation: anim72 36923ms, fade7 36923ms;
+  -webkit-animation: anim72 8439ms, fade2 8439ms;
+          animation: anim72 8439ms, fade2 8439ms;
 }
 footer .axis-73 {
-  -webkit-animation: anim72 40113ms, fade4 40113ms;
-          animation: anim72 40113ms, fade4 40113ms;
+  -webkit-animation: anim72 18713ms, fade3 18713ms;
+          animation: anim72 18713ms, fade3 18713ms;
 }
 footer .axis-74 {
-  -webkit-animation: anim72 17289ms, fade9 17289ms;
-          animation: anim72 17289ms, fade9 17289ms;
+  -webkit-animation: anim72 17145ms, fade8 17145ms;
+          animation: anim72 17145ms, fade8 17145ms;
 }
 footer .axis-75 {
-  -webkit-animation: anim72 39466ms, fade1 39466ms;
-          animation: anim72 39466ms, fade1 39466ms;
+  -webkit-animation: anim72 43043ms, fade7 43043ms;
+          animation: anim72 43043ms, fade7 43043ms;
 }
 footer .axis-76 {
-  -webkit-animation: anim76 35094ms, fade10 35094ms;
-          animation: anim76 35094ms, fade10 35094ms;
+  -webkit-animation: anim76 8945ms, fade6 8945ms;
+          animation: anim76 8945ms, fade6 8945ms;
 }
 footer .axis-77 {
-  -webkit-animation: anim76 31296ms, fade9 31296ms;
-          animation: anim76 31296ms, fade9 31296ms;
+  -webkit-animation: anim76 31422ms, fade8 31422ms;
+          animation: anim76 31422ms, fade8 31422ms;
 }
 footer .axis-78 {
-  -webkit-animation: anim76 19378ms, fade1 19378ms;
-          animation: anim76 19378ms, fade1 19378ms;
+  -webkit-animation: anim76 22917ms, fade6 22917ms;
+          animation: anim76 22917ms, fade6 22917ms;
 }
 footer .axis-79 {
-  -webkit-animation: anim76 17027ms, fade1 17027ms;
-          animation: anim76 17027ms, fade1 17027ms;
+  -webkit-animation: anim76 28901ms, fade7 28901ms;
+          animation: anim76 28901ms, fade7 28901ms;
 }
 footer .axis-80 {
-  -webkit-animation: anim80 23585ms, fade3 23585ms;
-          animation: anim80 23585ms, fade3 23585ms;
+  -webkit-animation: anim80 18275ms, fade1 18275ms;
+          animation: anim80 18275ms, fade1 18275ms;
 }
 footer .axis-81 {
-  -webkit-animation: anim80 15817ms, fade2 15817ms;
-          animation: anim80 15817ms, fade2 15817ms;
+  -webkit-animation: anim80 33146ms, fade7 33146ms;
+          animation: anim80 33146ms, fade7 33146ms;
 }
 footer .axis-82 {
-  -webkit-animation: anim80 23555ms, fade4 23555ms;
-          animation: anim80 23555ms, fade4 23555ms;
+  -webkit-animation: anim80 19121ms, fade1 19121ms;
+          animation: anim80 19121ms, fade1 19121ms;
 }
 footer .axis-83 {
-  -webkit-animation: anim80 7326ms, fade9 7326ms;
-          animation: anim80 7326ms, fade9 7326ms;
+  -webkit-animation: anim80 30577ms, fade1 30577ms;
+          animation: anim80 30577ms, fade1 30577ms;
 }
 footer .axis-84 {
-  -webkit-animation: anim84 9844ms, fade5 9844ms;
-          animation: anim84 9844ms, fade5 9844ms;
+  -webkit-animation: anim84 36507ms, fade3 36507ms;
+          animation: anim84 36507ms, fade3 36507ms;
 }
 footer .axis-85 {
-  -webkit-animation: anim84 28518ms, fade10 28518ms;
-          animation: anim84 28518ms, fade10 28518ms;
+  -webkit-animation: anim84 26413ms, fade2 26413ms;
+          animation: anim84 26413ms, fade2 26413ms;
 }
 footer .axis-86 {
-  -webkit-animation: anim84 12760ms, fade3 12760ms;
-          animation: anim84 12760ms, fade3 12760ms;
+  -webkit-animation: anim84 22332ms, fade6 22332ms;
+          animation: anim84 22332ms, fade6 22332ms;
 }
 footer .axis-87 {
-  -webkit-animation: anim84 21995ms, fade8 21995ms;
-          animation: anim84 21995ms, fade8 21995ms;
+  -webkit-animation: anim84 11606ms, fade9 11606ms;
+          animation: anim84 11606ms, fade9 11606ms;
 }
 footer .axis-88 {
-  -webkit-animation: anim88 17034ms, fade5 17034ms;
-          animation: anim88 17034ms, fade5 17034ms;
+  -webkit-animation: anim88 7614ms, fade4 7614ms;
+          animation: anim88 7614ms, fade4 7614ms;
 }
 footer .axis-89 {
-  -webkit-animation: anim88 42100ms, fade4 42100ms;
-          animation: anim88 42100ms, fade4 42100ms;
+  -webkit-animation: anim88 11810ms, fade3 11810ms;
+          animation: anim88 11810ms, fade3 11810ms;
 }
 footer .axis-90 {
-  -webkit-animation: anim88 26211ms, fade9 26211ms;
-          animation: anim88 26211ms, fade9 26211ms;
+  -webkit-animation: anim88 39548ms, fade4 39548ms;
+          animation: anim88 39548ms, fade4 39548ms;
 }
 footer .axis-91 {
-  -webkit-animation: anim88 13019ms, fade8 13019ms;
-          animation: anim88 13019ms, fade8 13019ms;
+  -webkit-animation: anim88 38653ms, fade8 38653ms;
+          animation: anim88 38653ms, fade8 38653ms;
 }
 footer .axis-92 {
-  -webkit-animation: anim92 38113ms, fade8 38113ms;
-          animation: anim92 38113ms, fade8 38113ms;
+  -webkit-animation: anim92 6898ms, fade9 6898ms;
+          animation: anim92 6898ms, fade9 6898ms;
 }
 footer .axis-93 {
-  -webkit-animation: anim92 42481ms, fade5 42481ms;
-          animation: anim92 42481ms, fade5 42481ms;
+  -webkit-animation: anim92 23584ms, fade4 23584ms;
+          animation: anim92 23584ms, fade4 23584ms;
 }
 footer .axis-94 {
-  -webkit-animation: anim92 25542ms, fade8 25542ms;
-          animation: anim92 25542ms, fade8 25542ms;
+  -webkit-animation: anim92 25760ms, fade2 25760ms;
+          animation: anim92 25760ms, fade2 25760ms;
 }
 footer .axis-95 {
-  -webkit-animation: anim92 34717ms, fade2 34717ms;
-          animation: anim92 34717ms, fade2 34717ms;
+  -webkit-animation: anim92 8803ms, fade10 8803ms;
+          animation: anim92 8803ms, fade10 8803ms;
 }
 footer .axis-96 {
-  -webkit-animation: anim96 9061ms, fade3 9061ms;
-          animation: anim96 9061ms, fade3 9061ms;
+  -webkit-animation: anim96 33656ms, fade9 33656ms;
+          animation: anim96 33656ms, fade9 33656ms;
 }
 footer .axis-97 {
-  -webkit-animation: anim96 11340ms, fade10 11340ms;
-          animation: anim96 11340ms, fade10 11340ms;
+  -webkit-animation: anim96 38507ms, fade9 38507ms;
+          animation: anim96 38507ms, fade9 38507ms;
 }
 footer .axis-98 {
-  -webkit-animation: anim96 10810ms, fade6 10810ms;
-          animation: anim96 10810ms, fade6 10810ms;
+  -webkit-animation: anim96 22133ms, fade6 22133ms;
+          animation: anim96 22133ms, fade6 22133ms;
 }
 footer .axis-99 {
-  -webkit-animation: anim96 34893ms, fade6 34893ms;
-          animation: anim96 34893ms, fade6 34893ms;
+  -webkit-animation: anim96 32908ms, fade2 32908ms;
+          animation: anim96 32908ms, fade2 32908ms;
 }
 footer .axis-100 {
-  -webkit-animation: anim100 15930ms, fade5 15930ms;
-          animation: anim100 15930ms, fade5 15930ms;
+  -webkit-animation: anim100 20301ms, fade6 20301ms;
+          animation: anim100 20301ms, fade6 20301ms;
 }
 footer .axis-101 {
-  -webkit-animation: anim100 19015ms, fade6 19015ms;
-          animation: anim100 19015ms, fade6 19015ms;
+  -webkit-animation: anim100 6258ms, fade1 6258ms;
+          animation: anim100 6258ms, fade1 6258ms;
 }
 footer .axis-102 {
-  -webkit-animation: anim100 18393ms, fade6 18393ms;
-          animation: anim100 18393ms, fade6 18393ms;
+  -webkit-animation: anim100 31510ms, fade1 31510ms;
+          animation: anim100 31510ms, fade1 31510ms;
 }
 footer .axis-103 {
-  -webkit-animation: anim100 33199ms, fade10 33199ms;
-          animation: anim100 33199ms, fade10 33199ms;
+  -webkit-animation: anim100 28745ms, fade9 28745ms;
+          animation: anim100 28745ms, fade9 28745ms;
 }
 footer .axis-104 {
-  -webkit-animation: anim104 25002ms, fade1 25002ms;
-          animation: anim104 25002ms, fade1 25002ms;
+  -webkit-animation: anim104 43903ms, fade1 43903ms;
+          animation: anim104 43903ms, fade1 43903ms;
 }
 footer .axis-105 {
-  -webkit-animation: anim104 29085ms, fade6 29085ms;
-          animation: anim104 29085ms, fade6 29085ms;
+  -webkit-animation: anim104 36780ms, fade10 36780ms;
+          animation: anim104 36780ms, fade10 36780ms;
 }
 footer .axis-106 {
-  -webkit-animation: anim104 7421ms, fade2 7421ms;
-          animation: anim104 7421ms, fade2 7421ms;
+  -webkit-animation: anim104 24222ms, fade3 24222ms;
+          animation: anim104 24222ms, fade3 24222ms;
 }
 footer .axis-107 {
-  -webkit-animation: anim104 11201ms, fade1 11201ms;
-          animation: anim104 11201ms, fade1 11201ms;
+  -webkit-animation: anim104 13301ms, fade8 13301ms;
+          animation: anim104 13301ms, fade8 13301ms;
 }
 footer .axis-108 {
-  -webkit-animation: anim108 36584ms, fade1 36584ms;
-          animation: anim108 36584ms, fade1 36584ms;
+  -webkit-animation: anim108 44546ms, fade1 44546ms;
+          animation: anim108 44546ms, fade1 44546ms;
 }
 footer .axis-109 {
-  -webkit-animation: anim108 34651ms, fade9 34651ms;
-          animation: anim108 34651ms, fade9 34651ms;
+  -webkit-animation: anim108 25460ms, fade4 25460ms;
+          animation: anim108 25460ms, fade4 25460ms;
 }
 footer .axis-110 {
-  -webkit-animation: anim108 13286ms, fade4 13286ms;
-          animation: anim108 13286ms, fade4 13286ms;
+  -webkit-animation: anim108 39175ms, fade1 39175ms;
+          animation: anim108 39175ms, fade1 39175ms;
 }
 footer .axis-111 {
-  -webkit-animation: anim108 44603ms, fade7 44603ms;
-          animation: anim108 44603ms, fade7 44603ms;
+  -webkit-animation: anim108 20502ms, fade5 20502ms;
+          animation: anim108 20502ms, fade5 20502ms;
 }
 footer .axis-112 {
-  -webkit-animation: anim112 27771ms, fade9 27771ms;
-          animation: anim112 27771ms, fade9 27771ms;
+  -webkit-animation: anim112 6517ms, fade6 6517ms;
+          animation: anim112 6517ms, fade6 6517ms;
 }
 footer .axis-113 {
-  -webkit-animation: anim112 34106ms, fade5 34106ms;
-          animation: anim112 34106ms, fade5 34106ms;
+  -webkit-animation: anim112 44035ms, fade7 44035ms;
+          animation: anim112 44035ms, fade7 44035ms;
 }
 footer .axis-114 {
-  -webkit-animation: anim112 10348ms, fade9 10348ms;
-          animation: anim112 10348ms, fade9 10348ms;
+  -webkit-animation: anim112 12932ms, fade7 12932ms;
+          animation: anim112 12932ms, fade7 12932ms;
 }
 footer .axis-115 {
-  -webkit-animation: anim112 22130ms, fade7 22130ms;
-          animation: anim112 22130ms, fade7 22130ms;
+  -webkit-animation: anim112 26129ms, fade4 26129ms;
+          animation: anim112 26129ms, fade4 26129ms;
 }
 footer .axis-116 {
-  -webkit-animation: anim116 13364ms, fade3 13364ms;
-          animation: anim116 13364ms, fade3 13364ms;
+  -webkit-animation: anim116 25029ms, fade7 25029ms;
+          animation: anim116 25029ms, fade7 25029ms;
 }
 footer .axis-117 {
-  -webkit-animation: anim116 7235ms, fade1 7235ms;
-          animation: anim116 7235ms, fade1 7235ms;
+  -webkit-animation: anim116 18903ms, fade10 18903ms;
+          animation: anim116 18903ms, fade10 18903ms;
 }
 footer .axis-118 {
-  -webkit-animation: anim116 8865ms, fade5 8865ms;
-          animation: anim116 8865ms, fade5 8865ms;
+  -webkit-animation: anim116 16070ms, fade9 16070ms;
+          animation: anim116 16070ms, fade9 16070ms;
 }
 footer .axis-119 {
-  -webkit-animation: anim116 43864ms, fade6 43864ms;
-          animation: anim116 43864ms, fade6 43864ms;
+  -webkit-animation: anim116 7296ms, fade10 7296ms;
+          animation: anim116 7296ms, fade10 7296ms;
 }
 footer .axis-120 {
-  -webkit-animation: anim120 39699ms, fade9 39699ms;
-          animation: anim120 39699ms, fade9 39699ms;
+  -webkit-animation: anim120 38137ms, fade9 38137ms;
+          animation: anim120 38137ms, fade9 38137ms;
 }
 footer .axis-121 {
-  -webkit-animation: anim120 7299ms, fade9 7299ms;
-          animation: anim120 7299ms, fade9 7299ms;
+  -webkit-animation: anim120 18052ms, fade3 18052ms;
+          animation: anim120 18052ms, fade3 18052ms;
 }
 footer .axis-122 {
-  -webkit-animation: anim120 14014ms, fade2 14014ms;
-          animation: anim120 14014ms, fade2 14014ms;
+  -webkit-animation: anim120 35068ms, fade7 35068ms;
+          animation: anim120 35068ms, fade7 35068ms;
 }
 footer .axis-123 {
-  -webkit-animation: anim120 22529ms, fade8 22529ms;
-          animation: anim120 22529ms, fade8 22529ms;
+  -webkit-animation: anim120 41603ms, fade10 41603ms;
+          animation: anim120 41603ms, fade10 41603ms;
 }
 footer .axis-124 {
-  -webkit-animation: anim124 41219ms, fade3 41219ms;
-          animation: anim124 41219ms, fade3 41219ms;
+  -webkit-animation: anim124 8037ms, fade3 8037ms;
+          animation: anim124 8037ms, fade3 8037ms;
 }
 footer .axis-125 {
-  -webkit-animation: anim124 34824ms, fade7 34824ms;
-          animation: anim124 34824ms, fade7 34824ms;
+  -webkit-animation: anim124 9273ms, fade1 9273ms;
+          animation: anim124 9273ms, fade1 9273ms;
 }
 footer .axis-126 {
-  -webkit-animation: anim124 20080ms, fade6 20080ms;
-          animation: anim124 20080ms, fade6 20080ms;
+  -webkit-animation: anim124 44216ms, fade9 44216ms;
+          animation: anim124 44216ms, fade9 44216ms;
 }
 footer .axis-127 {
-  -webkit-animation: anim124 12904ms, fade4 12904ms;
-          animation: anim124 12904ms, fade4 12904ms;
+  -webkit-animation: anim124 30192ms, fade2 30192ms;
+          animation: anim124 30192ms, fade2 30192ms;
 }
 footer .axis-128 {
-  -webkit-animation: anim128 41200ms, fade3 41200ms;
-          animation: anim128 41200ms, fade3 41200ms;
+  -webkit-animation: anim128 17433ms, fade1 17433ms;
+          animation: anim128 17433ms, fade1 17433ms;
 }
 footer .axis-129 {
-  -webkit-animation: anim128 8639ms, fade5 8639ms;
-          animation: anim128 8639ms, fade5 8639ms;
+  -webkit-animation: anim128 19374ms, fade3 19374ms;
+          animation: anim128 19374ms, fade3 19374ms;
 }
 footer .axis-130 {
-  -webkit-animation: anim128 44785ms, fade9 44785ms;
-          animation: anim128 44785ms, fade9 44785ms;
+  -webkit-animation: anim128 16976ms, fade4 16976ms;
+          animation: anim128 16976ms, fade4 16976ms;
 }
 footer .axis-131 {
-  -webkit-animation: anim128 41176ms, fade6 41176ms;
-          animation: anim128 41176ms, fade6 41176ms;
+  -webkit-animation: anim128 33370ms, fade3 33370ms;
+          animation: anim128 33370ms, fade3 33370ms;
 }
 footer .axis-132 {
-  -webkit-animation: anim132 7216ms, fade7 7216ms;
-          animation: anim132 7216ms, fade7 7216ms;
+  -webkit-animation: anim132 9947ms, fade6 9947ms;
+          animation: anim132 9947ms, fade6 9947ms;
 }
 footer .axis-133 {
-  -webkit-animation: anim132 37793ms, fade10 37793ms;
-          animation: anim132 37793ms, fade10 37793ms;
+  -webkit-animation: anim132 22116ms, fade6 22116ms;
+          animation: anim132 22116ms, fade6 22116ms;
 }
 footer .axis-134 {
-  -webkit-animation: anim132 24425ms, fade7 24425ms;
-          animation: anim132 24425ms, fade7 24425ms;
+  -webkit-animation: anim132 30288ms, fade1 30288ms;
+          animation: anim132 30288ms, fade1 30288ms;
 }
 footer .axis-135 {
-  -webkit-animation: anim132 42050ms, fade1 42050ms;
-          animation: anim132 42050ms, fade1 42050ms;
+  -webkit-animation: anim132 29883ms, fade9 29883ms;
+          animation: anim132 29883ms, fade9 29883ms;
 }
 footer .axis-136 {
-  -webkit-animation: anim136 17387ms, fade2 17387ms;
-          animation: anim136 17387ms, fade2 17387ms;
+  -webkit-animation: anim136 37401ms, fade10 37401ms;
+          animation: anim136 37401ms, fade10 37401ms;
 }
 footer .axis-137 {
-  -webkit-animation: anim136 25760ms, fade1 25760ms;
-          animation: anim136 25760ms, fade1 25760ms;
+  -webkit-animation: anim136 11011ms, fade6 11011ms;
+          animation: anim136 11011ms, fade6 11011ms;
 }
 footer .axis-138 {
-  -webkit-animation: anim136 38274ms, fade9 38274ms;
-          animation: anim136 38274ms, fade9 38274ms;
+  -webkit-animation: anim136 6047ms, fade10 6047ms;
+          animation: anim136 6047ms, fade10 6047ms;
 }
 footer .axis-139 {
-  -webkit-animation: anim136 21914ms, fade2 21914ms;
-          animation: anim136 21914ms, fade2 21914ms;
+  -webkit-animation: anim136 43933ms, fade3 43933ms;
+          animation: anim136 43933ms, fade3 43933ms;
 }
 footer .axis-140 {
-  -webkit-animation: anim140 27693ms, fade5 27693ms;
-          animation: anim140 27693ms, fade5 27693ms;
+  -webkit-animation: anim140 39633ms, fade4 39633ms;
+          animation: anim140 39633ms, fade4 39633ms;
 }
 footer .axis-141 {
-  -webkit-animation: anim140 20661ms, fade5 20661ms;
-          animation: anim140 20661ms, fade5 20661ms;
+  -webkit-animation: anim140 12463ms, fade1 12463ms;
+          animation: anim140 12463ms, fade1 12463ms;
 }
 footer .axis-142 {
-  -webkit-animation: anim140 20627ms, fade2 20627ms;
-          animation: anim140 20627ms, fade2 20627ms;
+  -webkit-animation: anim140 22707ms, fade8 22707ms;
+          animation: anim140 22707ms, fade8 22707ms;
 }
 footer .axis-143 {
-  -webkit-animation: anim140 15708ms, fade7 15708ms;
-          animation: anim140 15708ms, fade7 15708ms;
+  -webkit-animation: anim140 20325ms, fade4 20325ms;
+          animation: anim140 20325ms, fade4 20325ms;
 }
 footer .axis-144 {
-  -webkit-animation: anim144 26682ms, fade3 26682ms;
-          animation: anim144 26682ms, fade3 26682ms;
+  -webkit-animation: anim144 18854ms, fade4 18854ms;
+          animation: anim144 18854ms, fade4 18854ms;
 }
 footer .axis-145 {
-  -webkit-animation: anim144 37314ms, fade6 37314ms;
-          animation: anim144 37314ms, fade6 37314ms;
+  -webkit-animation: anim144 13340ms, fade5 13340ms;
+          animation: anim144 13340ms, fade5 13340ms;
 }
 footer .axis-146 {
-  -webkit-animation: anim144 39734ms, fade5 39734ms;
-          animation: anim144 39734ms, fade5 39734ms;
+  -webkit-animation: anim144 31155ms, fade8 31155ms;
+          animation: anim144 31155ms, fade8 31155ms;
 }
 footer .axis-147 {
-  -webkit-animation: anim144 21382ms, fade5 21382ms;
-          animation: anim144 21382ms, fade5 21382ms;
+  -webkit-animation: anim144 30788ms, fade2 30788ms;
+          animation: anim144 30788ms, fade2 30788ms;
 }
 footer .axis-148 {
-  -webkit-animation: anim148 28716ms, fade2 28716ms;
-          animation: anim148 28716ms, fade2 28716ms;
+  -webkit-animation: anim148 28950ms, fade1 28950ms;
+          animation: anim148 28950ms, fade1 28950ms;
 }
 footer .axis-149 {
-  -webkit-animation: anim148 39208ms, fade4 39208ms;
-          animation: anim148 39208ms, fade4 39208ms;
+  -webkit-animation: anim148 24994ms, fade8 24994ms;
+          animation: anim148 24994ms, fade8 24994ms;
 }
 footer .axis-150 {
-  -webkit-animation: anim148 16351ms, fade6 16351ms;
-          animation: anim148 16351ms, fade6 16351ms;
+  -webkit-animation: anim148 20814ms, fade3 20814ms;
+          animation: anim148 20814ms, fade3 20814ms;
 }
 footer .axis-151 {
-  -webkit-animation: anim148 25053ms, fade5 25053ms;
-          animation: anim148 25053ms, fade5 25053ms;
+  -webkit-animation: anim148 39183ms, fade1 39183ms;
+          animation: anim148 39183ms, fade1 39183ms;
 }
 footer .axis-152 {
-  -webkit-animation: anim152 26938ms, fade5 26938ms;
-          animation: anim152 26938ms, fade5 26938ms;
+  -webkit-animation: anim152 44873ms, fade7 44873ms;
+          animation: anim152 44873ms, fade7 44873ms;
 }
 footer .axis-153 {
-  -webkit-animation: anim152 23745ms, fade4 23745ms;
-          animation: anim152 23745ms, fade4 23745ms;
+  -webkit-animation: anim152 43306ms, fade9 43306ms;
+          animation: anim152 43306ms, fade9 43306ms;
 }
 footer .axis-154 {
-  -webkit-animation: anim152 41696ms, fade6 41696ms;
-          animation: anim152 41696ms, fade6 41696ms;
+  -webkit-animation: anim152 7827ms, fade2 7827ms;
+          animation: anim152 7827ms, fade2 7827ms;
 }
 footer .axis-155 {
-  -webkit-animation: anim152 25128ms, fade10 25128ms;
-          animation: anim152 25128ms, fade10 25128ms;
+  -webkit-animation: anim152 16078ms, fade2 16078ms;
+          animation: anim152 16078ms, fade2 16078ms;
 }
 footer .axis-156 {
-  -webkit-animation: anim156 8756ms, fade1 8756ms;
-          animation: anim156 8756ms, fade1 8756ms;
+  -webkit-animation: anim156 11304ms, fade9 11304ms;
+          animation: anim156 11304ms, fade9 11304ms;
 }
 footer .axis-157 {
-  -webkit-animation: anim156 33789ms, fade9 33789ms;
-          animation: anim156 33789ms, fade9 33789ms;
+  -webkit-animation: anim156 23771ms, fade10 23771ms;
+          animation: anim156 23771ms, fade10 23771ms;
 }
 footer .axis-158 {
-  -webkit-animation: anim156 18166ms, fade10 18166ms;
-          animation: anim156 18166ms, fade10 18166ms;
+  -webkit-animation: anim156 18449ms, fade10 18449ms;
+          animation: anim156 18449ms, fade10 18449ms;
 }
 footer .axis-159 {
-  -webkit-animation: anim156 42840ms, fade10 42840ms;
-          animation: anim156 42840ms, fade10 42840ms;
+  -webkit-animation: anim156 5135ms, fade7 5135ms;
+          animation: anim156 5135ms, fade7 5135ms;
 }
 footer .axis-160 {
-  -webkit-animation: anim160 30491ms, fade4 30491ms;
-          animation: anim160 30491ms, fade4 30491ms;
+  -webkit-animation: anim160 38267ms, fade6 38267ms;
+          animation: anim160 38267ms, fade6 38267ms;
 }
 footer .axis-161 {
-  -webkit-animation: anim160 26000ms, fade4 26000ms;
-          animation: anim160 26000ms, fade4 26000ms;
+  -webkit-animation: anim160 21453ms, fade3 21453ms;
+          animation: anim160 21453ms, fade3 21453ms;
 }
 footer .axis-162 {
-  -webkit-animation: anim160 32696ms, fade10 32696ms;
-          animation: anim160 32696ms, fade10 32696ms;
+  -webkit-animation: anim160 6053ms, fade3 6053ms;
+          animation: anim160 6053ms, fade3 6053ms;
 }
 footer .axis-163 {
-  -webkit-animation: anim160 27207ms, fade3 27207ms;
-          animation: anim160 27207ms, fade3 27207ms;
+  -webkit-animation: anim160 34052ms, fade9 34052ms;
+          animation: anim160 34052ms, fade9 34052ms;
 }
 footer .axis-164 {
-  -webkit-animation: anim164 23981ms, fade2 23981ms;
-          animation: anim164 23981ms, fade2 23981ms;
+  -webkit-animation: anim164 39474ms, fade3 39474ms;
+          animation: anim164 39474ms, fade3 39474ms;
 }
 footer .axis-165 {
-  -webkit-animation: anim164 19191ms, fade2 19191ms;
-          animation: anim164 19191ms, fade2 19191ms;
+  -webkit-animation: anim164 5411ms, fade1 5411ms;
+          animation: anim164 5411ms, fade1 5411ms;
 }
 footer .axis-166 {
-  -webkit-animation: anim164 9389ms, fade1 9389ms;
-          animation: anim164 9389ms, fade1 9389ms;
+  -webkit-animation: anim164 11373ms, fade8 11373ms;
+          animation: anim164 11373ms, fade8 11373ms;
 }
 footer .axis-167 {
-  -webkit-animation: anim164 7287ms, fade9 7287ms;
-          animation: anim164 7287ms, fade9 7287ms;
+  -webkit-animation: anim164 31609ms, fade6 31609ms;
+          animation: anim164 31609ms, fade6 31609ms;
 }
 footer .axis-168 {
-  -webkit-animation: anim168 40798ms, fade4 40798ms;
-          animation: anim168 40798ms, fade4 40798ms;
+  -webkit-animation: anim168 10633ms, fade9 10633ms;
+          animation: anim168 10633ms, fade9 10633ms;
 }
 footer .axis-169 {
-  -webkit-animation: anim168 28587ms, fade9 28587ms;
-          animation: anim168 28587ms, fade9 28587ms;
+  -webkit-animation: anim168 10101ms, fade2 10101ms;
+          animation: anim168 10101ms, fade2 10101ms;
 }
 footer .axis-170 {
-  -webkit-animation: anim168 18273ms, fade8 18273ms;
-          animation: anim168 18273ms, fade8 18273ms;
+  -webkit-animation: anim168 42956ms, fade2 42956ms;
+          animation: anim168 42956ms, fade2 42956ms;
 }
 footer .axis-171 {
-  -webkit-animation: anim168 14227ms, fade4 14227ms;
-          animation: anim168 14227ms, fade4 14227ms;
+  -webkit-animation: anim168 42882ms, fade8 42882ms;
+          animation: anim168 42882ms, fade8 42882ms;
 }
 footer .axis-172 {
-  -webkit-animation: anim172 43981ms, fade5 43981ms;
-          animation: anim172 43981ms, fade5 43981ms;
+  -webkit-animation: anim172 5608ms, fade3 5608ms;
+          animation: anim172 5608ms, fade3 5608ms;
 }
 footer .axis-173 {
-  -webkit-animation: anim172 24209ms, fade2 24209ms;
-          animation: anim172 24209ms, fade2 24209ms;
+  -webkit-animation: anim172 9178ms, fade6 9178ms;
+          animation: anim172 9178ms, fade6 9178ms;
 }
 footer .axis-174 {
-  -webkit-animation: anim172 35468ms, fade7 35468ms;
-          animation: anim172 35468ms, fade7 35468ms;
+  -webkit-animation: anim172 23550ms, fade3 23550ms;
+          animation: anim172 23550ms, fade3 23550ms;
 }
 footer .axis-175 {
-  -webkit-animation: anim172 15829ms, fade8 15829ms;
-          animation: anim172 15829ms, fade8 15829ms;
+  -webkit-animation: anim172 14632ms, fade1 14632ms;
+          animation: anim172 14632ms, fade1 14632ms;
 }
 footer .axis-176 {
-  -webkit-animation: anim176 5625ms, fade8 5625ms;
-          animation: anim176 5625ms, fade8 5625ms;
+  -webkit-animation: anim176 20998ms, fade8 20998ms;
+          animation: anim176 20998ms, fade8 20998ms;
 }
 footer .axis-177 {
-  -webkit-animation: anim176 38588ms, fade9 38588ms;
-          animation: anim176 38588ms, fade9 38588ms;
+  -webkit-animation: anim176 23601ms, fade2 23601ms;
+          animation: anim176 23601ms, fade2 23601ms;
 }
 footer .axis-178 {
-  -webkit-animation: anim176 8702ms, fade2 8702ms;
-          animation: anim176 8702ms, fade2 8702ms;
+  -webkit-animation: anim176 38263ms, fade1 38263ms;
+          animation: anim176 38263ms, fade1 38263ms;
 }
 footer .axis-179 {
-  -webkit-animation: anim176 38496ms, fade9 38496ms;
-          animation: anim176 38496ms, fade9 38496ms;
+  -webkit-animation: anim176 35090ms, fade4 35090ms;
+          animation: anim176 35090ms, fade4 35090ms;
 }
 footer .axis-180 {
-  -webkit-animation: anim180 32909ms, fade7 32909ms;
-          animation: anim180 32909ms, fade7 32909ms;
+  -webkit-animation: anim180 41873ms, fade3 41873ms;
+          animation: anim180 41873ms, fade3 41873ms;
 }
 footer .axis-181 {
-  -webkit-animation: anim180 43632ms, fade9 43632ms;
-          animation: anim180 43632ms, fade9 43632ms;
+  -webkit-animation: anim180 14927ms, fade3 14927ms;
+          animation: anim180 14927ms, fade3 14927ms;
 }
 footer .axis-182 {
-  -webkit-animation: anim180 21748ms, fade9 21748ms;
-          animation: anim180 21748ms, fade9 21748ms;
+  -webkit-animation: anim180 15568ms, fade2 15568ms;
+          animation: anim180 15568ms, fade2 15568ms;
 }
 footer .axis-183 {
-  -webkit-animation: anim180 13866ms, fade9 13866ms;
-          animation: anim180 13866ms, fade9 13866ms;
+  -webkit-animation: anim180 37327ms, fade10 37327ms;
+          animation: anim180 37327ms, fade10 37327ms;
 }
 footer .axis-184 {
-  -webkit-animation: anim184 39752ms, fade4 39752ms;
-          animation: anim184 39752ms, fade4 39752ms;
+  -webkit-animation: anim184 20088ms, fade5 20088ms;
+          animation: anim184 20088ms, fade5 20088ms;
 }
 footer .axis-185 {
-  -webkit-animation: anim184 15712ms, fade6 15712ms;
-          animation: anim184 15712ms, fade6 15712ms;
+  -webkit-animation: anim184 5969ms, fade5 5969ms;
+          animation: anim184 5969ms, fade5 5969ms;
 }
 footer .axis-186 {
-  -webkit-animation: anim184 43078ms, fade4 43078ms;
-          animation: anim184 43078ms, fade4 43078ms;
+  -webkit-animation: anim184 13376ms, fade8 13376ms;
+          animation: anim184 13376ms, fade8 13376ms;
 }
 footer .axis-187 {
-  -webkit-animation: anim184 38906ms, fade3 38906ms;
-          animation: anim184 38906ms, fade3 38906ms;
+  -webkit-animation: anim184 18825ms, fade6 18825ms;
+          animation: anim184 18825ms, fade6 18825ms;
 }
 footer .axis-188 {
-  -webkit-animation: anim188 35247ms, fade4 35247ms;
-          animation: anim188 35247ms, fade4 35247ms;
+  -webkit-animation: anim188 43044ms, fade2 43044ms;
+          animation: anim188 43044ms, fade2 43044ms;
 }
 footer .axis-189 {
-  -webkit-animation: anim188 12787ms, fade5 12787ms;
-          animation: anim188 12787ms, fade5 12787ms;
+  -webkit-animation: anim188 8431ms, fade10 8431ms;
+          animation: anim188 8431ms, fade10 8431ms;
 }
 footer .axis-190 {
-  -webkit-animation: anim188 7635ms, fade6 7635ms;
-          animation: anim188 7635ms, fade6 7635ms;
+  -webkit-animation: anim188 24655ms, fade2 24655ms;
+          animation: anim188 24655ms, fade2 24655ms;
 }
 footer .axis-191 {
-  -webkit-animation: anim188 21578ms, fade10 21578ms;
-          animation: anim188 21578ms, fade10 21578ms;
+  -webkit-animation: anim188 25742ms, fade5 25742ms;
+          animation: anim188 25742ms, fade5 25742ms;
 }
 footer .axis-192 {
-  -webkit-animation: anim192 18247ms, fade7 18247ms;
-          animation: anim192 18247ms, fade7 18247ms;
+  -webkit-animation: anim192 8212ms, fade10 8212ms;
+          animation: anim192 8212ms, fade10 8212ms;
 }
 footer .axis-193 {
-  -webkit-animation: anim192 21623ms, fade5 21623ms;
-          animation: anim192 21623ms, fade5 21623ms;
+  -webkit-animation: anim192 12977ms, fade4 12977ms;
+          animation: anim192 12977ms, fade4 12977ms;
 }
 footer .axis-194 {
-  -webkit-animation: anim192 10885ms, fade8 10885ms;
-          animation: anim192 10885ms, fade8 10885ms;
+  -webkit-animation: anim192 24438ms, fade1 24438ms;
+          animation: anim192 24438ms, fade1 24438ms;
 }
 footer .axis-195 {
-  -webkit-animation: anim192 39469ms, fade10 39469ms;
-          animation: anim192 39469ms, fade10 39469ms;
+  -webkit-animation: anim192 28135ms, fade2 28135ms;
+          animation: anim192 28135ms, fade2 28135ms;
 }
 footer .axis-196 {
-  -webkit-animation: anim196 37086ms, fade10 37086ms;
-          animation: anim196 37086ms, fade10 37086ms;
+  -webkit-animation: anim196 32622ms, fade1 32622ms;
+          animation: anim196 32622ms, fade1 32622ms;
 }
 footer .axis-197 {
-  -webkit-animation: anim196 32383ms, fade7 32383ms;
-          animation: anim196 32383ms, fade7 32383ms;
+  -webkit-animation: anim196 27319ms, fade3 27319ms;
+          animation: anim196 27319ms, fade3 27319ms;
 }
 footer .axis-198 {
-  -webkit-animation: anim196 29788ms, fade1 29788ms;
-          animation: anim196 29788ms, fade1 29788ms;
+  -webkit-animation: anim196 44972ms, fade9 44972ms;
+          animation: anim196 44972ms, fade9 44972ms;
 }
 footer .axis-199 {
-  -webkit-animation: anim196 30493ms, fade2 30493ms;
-          animation: anim196 30493ms, fade2 30493ms;
+  -webkit-animation: anim196 35429ms, fade5 35429ms;
+          animation: anim196 35429ms, fade5 35429ms;
 }
 footer .axis-200 {
-  -webkit-animation: anim200 41443ms, fade5 41443ms;
-          animation: anim200 41443ms, fade5 41443ms;
+  -webkit-animation: anim200 38539ms, fade8 38539ms;
+          animation: anim200 38539ms, fade8 38539ms;
 }
 footer .axis-201 {
-  -webkit-animation: anim200 23299ms, fade8 23299ms;
-          animation: anim200 23299ms, fade8 23299ms;
+  -webkit-animation: anim200 28043ms, fade3 28043ms;
+          animation: anim200 28043ms, fade3 28043ms;
 }
 footer .axis-202 {
-  -webkit-animation: anim200 43857ms, fade10 43857ms;
-          animation: anim200 43857ms, fade10 43857ms;
+  -webkit-animation: anim200 10542ms, fade1 10542ms;
+          animation: anim200 10542ms, fade1 10542ms;
 }
 footer .axis-203 {
-  -webkit-animation: anim200 38946ms, fade10 38946ms;
-          animation: anim200 38946ms, fade10 38946ms;
+  -webkit-animation: anim200 8397ms, fade3 8397ms;
+          animation: anim200 8397ms, fade3 8397ms;
 }
 footer .axis-204 {
-  -webkit-animation: anim204 26579ms, fade6 26579ms;
-          animation: anim204 26579ms, fade6 26579ms;
+  -webkit-animation: anim204 31689ms, fade4 31689ms;
+          animation: anim204 31689ms, fade4 31689ms;
 }
 footer .axis-205 {
-  -webkit-animation: anim204 39936ms, fade3 39936ms;
-          animation: anim204 39936ms, fade3 39936ms;
+  -webkit-animation: anim204 11365ms, fade9 11365ms;
+          animation: anim204 11365ms, fade9 11365ms;
 }
 footer .axis-206 {
-  -webkit-animation: anim204 16907ms, fade6 16907ms;
-          animation: anim204 16907ms, fade6 16907ms;
+  -webkit-animation: anim204 27554ms, fade2 27554ms;
+          animation: anim204 27554ms, fade2 27554ms;
 }
 footer .axis-207 {
-  -webkit-animation: anim204 44786ms, fade1 44786ms;
-          animation: anim204 44786ms, fade1 44786ms;
+  -webkit-animation: anim204 17872ms, fade10 17872ms;
+          animation: anim204 17872ms, fade10 17872ms;
 }
 footer .axis-208 {
-  -webkit-animation: anim208 30014ms, fade4 30014ms;
-          animation: anim208 30014ms, fade4 30014ms;
+  -webkit-animation: anim208 6654ms, fade5 6654ms;
+          animation: anim208 6654ms, fade5 6654ms;
 }
 footer .axis-209 {
-  -webkit-animation: anim208 6520ms, fade4 6520ms;
-          animation: anim208 6520ms, fade4 6520ms;
+  -webkit-animation: anim208 20327ms, fade8 20327ms;
+          animation: anim208 20327ms, fade8 20327ms;
 }
 footer .axis-210 {
-  -webkit-animation: anim208 24007ms, fade8 24007ms;
-          animation: anim208 24007ms, fade8 24007ms;
+  -webkit-animation: anim208 11488ms, fade6 11488ms;
+          animation: anim208 11488ms, fade6 11488ms;
 }
 footer .axis-211 {
-  -webkit-animation: anim208 38639ms, fade10 38639ms;
-          animation: anim208 38639ms, fade10 38639ms;
+  -webkit-animation: anim208 18293ms, fade5 18293ms;
+          animation: anim208 18293ms, fade5 18293ms;
 }
 footer .axis-212 {
-  -webkit-animation: anim212 12851ms, fade10 12851ms;
-          animation: anim212 12851ms, fade10 12851ms;
+  -webkit-animation: anim212 36392ms, fade6 36392ms;
+          animation: anim212 36392ms, fade6 36392ms;
 }
 footer .axis-213 {
-  -webkit-animation: anim212 6643ms, fade8 6643ms;
-          animation: anim212 6643ms, fade8 6643ms;
+  -webkit-animation: anim212 28044ms, fade1 28044ms;
+          animation: anim212 28044ms, fade1 28044ms;
 }
 footer .axis-214 {
-  -webkit-animation: anim212 10659ms, fade3 10659ms;
-          animation: anim212 10659ms, fade3 10659ms;
+  -webkit-animation: anim212 40839ms, fade5 40839ms;
+          animation: anim212 40839ms, fade5 40839ms;
 }
 footer .axis-215 {
-  -webkit-animation: anim212 34425ms, fade8 34425ms;
-          animation: anim212 34425ms, fade8 34425ms;
+  -webkit-animation: anim212 10096ms, fade9 10096ms;
+          animation: anim212 10096ms, fade9 10096ms;
 }
 footer .axis-216 {
-  -webkit-animation: anim216 15734ms, fade9 15734ms;
-          animation: anim216 15734ms, fade9 15734ms;
+  -webkit-animation: anim216 39487ms, fade6 39487ms;
+          animation: anim216 39487ms, fade6 39487ms;
 }
 footer .axis-217 {
-  -webkit-animation: anim216 19316ms, fade6 19316ms;
-          animation: anim216 19316ms, fade6 19316ms;
+  -webkit-animation: anim216 16198ms, fade10 16198ms;
+          animation: anim216 16198ms, fade10 16198ms;
 }
 footer .axis-218 {
-  -webkit-animation: anim216 6129ms, fade4 6129ms;
-          animation: anim216 6129ms, fade4 6129ms;
+  -webkit-animation: anim216 35809ms, fade10 35809ms;
+          animation: anim216 35809ms, fade10 35809ms;
 }
 footer .axis-219 {
-  -webkit-animation: anim216 5315ms, fade8 5315ms;
-          animation: anim216 5315ms, fade8 5315ms;
+  -webkit-animation: anim216 30221ms, fade6 30221ms;
+          animation: anim216 30221ms, fade6 30221ms;
 }
 footer .axis-220 {
-  -webkit-animation: anim220 26779ms, fade10 26779ms;
-          animation: anim220 26779ms, fade10 26779ms;
+  -webkit-animation: anim220 20587ms, fade9 20587ms;
+          animation: anim220 20587ms, fade9 20587ms;
 }
 footer .axis-221 {
-  -webkit-animation: anim220 28065ms, fade2 28065ms;
-          animation: anim220 28065ms, fade2 28065ms;
+  -webkit-animation: anim220 9783ms, fade6 9783ms;
+          animation: anim220 9783ms, fade6 9783ms;
 }
 footer .axis-222 {
-  -webkit-animation: anim220 35136ms, fade3 35136ms;
-          animation: anim220 35136ms, fade3 35136ms;
+  -webkit-animation: anim220 27744ms, fade7 27744ms;
+          animation: anim220 27744ms, fade7 27744ms;
 }
 footer .axis-223 {
-  -webkit-animation: anim220 23566ms, fade10 23566ms;
-          animation: anim220 23566ms, fade10 23566ms;
+  -webkit-animation: anim220 30223ms, fade9 30223ms;
+          animation: anim220 30223ms, fade9 30223ms;
 }
 footer .axis-224 {
-  -webkit-animation: anim224 20801ms, fade2 20801ms;
-          animation: anim224 20801ms, fade2 20801ms;
+  -webkit-animation: anim224 18401ms, fade4 18401ms;
+          animation: anim224 18401ms, fade4 18401ms;
 }
 footer .axis-225 {
-  -webkit-animation: anim224 25288ms, fade7 25288ms;
-          animation: anim224 25288ms, fade7 25288ms;
+  -webkit-animation: anim224 12818ms, fade1 12818ms;
+          animation: anim224 12818ms, fade1 12818ms;
 }
 footer .axis-226 {
-  -webkit-animation: anim224 27947ms, fade8 27947ms;
-          animation: anim224 27947ms, fade8 27947ms;
+  -webkit-animation: anim224 37982ms, fade6 37982ms;
+          animation: anim224 37982ms, fade6 37982ms;
 }
 footer .axis-227 {
-  -webkit-animation: anim224 39164ms, fade4 39164ms;
-          animation: anim224 39164ms, fade4 39164ms;
+  -webkit-animation: anim224 44689ms, fade2 44689ms;
+          animation: anim224 44689ms, fade2 44689ms;
 }
 footer .axis-228 {
-  -webkit-animation: anim228 41880ms, fade6 41880ms;
-          animation: anim228 41880ms, fade6 41880ms;
+  -webkit-animation: anim228 40366ms, fade3 40366ms;
+          animation: anim228 40366ms, fade3 40366ms;
 }
 footer .axis-229 {
-  -webkit-animation: anim228 13197ms, fade2 13197ms;
-          animation: anim228 13197ms, fade2 13197ms;
+  -webkit-animation: anim228 17470ms, fade4 17470ms;
+          animation: anim228 17470ms, fade4 17470ms;
 }
 footer .axis-230 {
-  -webkit-animation: anim228 13302ms, fade10 13302ms;
-          animation: anim228 13302ms, fade10 13302ms;
+  -webkit-animation: anim228 19552ms, fade7 19552ms;
+          animation: anim228 19552ms, fade7 19552ms;
 }
 footer .axis-231 {
-  -webkit-animation: anim228 14377ms, fade4 14377ms;
-          animation: anim228 14377ms, fade4 14377ms;
+  -webkit-animation: anim228 33244ms, fade8 33244ms;
+          animation: anim228 33244ms, fade8 33244ms;
 }
 footer .axis-232 {
-  -webkit-animation: anim232 28086ms, fade9 28086ms;
-          animation: anim232 28086ms, fade9 28086ms;
+  -webkit-animation: anim232 14123ms, fade10 14123ms;
+          animation: anim232 14123ms, fade10 14123ms;
 }
 footer .axis-233 {
-  -webkit-animation: anim232 31900ms, fade3 31900ms;
-          animation: anim232 31900ms, fade3 31900ms;
+  -webkit-animation: anim232 11898ms, fade2 11898ms;
+          animation: anim232 11898ms, fade2 11898ms;
 }
 footer .axis-234 {
-  -webkit-animation: anim232 29063ms, fade6 29063ms;
-          animation: anim232 29063ms, fade6 29063ms;
+  -webkit-animation: anim232 40758ms, fade2 40758ms;
+          animation: anim232 40758ms, fade2 40758ms;
 }
 footer .axis-235 {
-  -webkit-animation: anim232 44972ms, fade4 44972ms;
-          animation: anim232 44972ms, fade4 44972ms;
+  -webkit-animation: anim232 28193ms, fade3 28193ms;
+          animation: anim232 28193ms, fade3 28193ms;
 }
 footer .axis-236 {
-  -webkit-animation: anim236 23942ms, fade7 23942ms;
-          animation: anim236 23942ms, fade7 23942ms;
+  -webkit-animation: anim236 12546ms, fade7 12546ms;
+          animation: anim236 12546ms, fade7 12546ms;
 }
 footer .axis-237 {
-  -webkit-animation: anim236 16774ms, fade1 16774ms;
-          animation: anim236 16774ms, fade1 16774ms;
+  -webkit-animation: anim236 21893ms, fade3 21893ms;
+          animation: anim236 21893ms, fade3 21893ms;
 }
 footer .axis-238 {
-  -webkit-animation: anim236 22088ms, fade1 22088ms;
-          animation: anim236 22088ms, fade1 22088ms;
+  -webkit-animation: anim236 24943ms, fade4 24943ms;
+          animation: anim236 24943ms, fade4 24943ms;
 }
 footer .axis-239 {
-  -webkit-animation: anim236 34198ms, fade1 34198ms;
-          animation: anim236 34198ms, fade1 34198ms;
+  -webkit-animation: anim236 14718ms, fade1 14718ms;
+          animation: anim236 14718ms, fade1 14718ms;
 }
 footer .axis-240 {
-  -webkit-animation: anim240 13810ms, fade2 13810ms;
-          animation: anim240 13810ms, fade2 13810ms;
+  -webkit-animation: anim240 28107ms, fade5 28107ms;
+          animation: anim240 28107ms, fade5 28107ms;
 }
 footer .axis-241 {
-  -webkit-animation: anim240 44630ms, fade3 44630ms;
-          animation: anim240 44630ms, fade3 44630ms;
+  -webkit-animation: anim240 27729ms, fade10 27729ms;
+          animation: anim240 27729ms, fade10 27729ms;
 }
 footer .axis-242 {
-  -webkit-animation: anim240 6516ms, fade8 6516ms;
-          animation: anim240 6516ms, fade8 6516ms;
+  -webkit-animation: anim240 8601ms, fade6 8601ms;
+          animation: anim240 8601ms, fade6 8601ms;
 }
 footer .axis-243 {
-  -webkit-animation: anim240 34865ms, fade6 34865ms;
-          animation: anim240 34865ms, fade6 34865ms;
+  -webkit-animation: anim240 37617ms, fade5 37617ms;
+          animation: anim240 37617ms, fade5 37617ms;
 }
 footer .axis-244 {
-  -webkit-animation: anim244 7152ms, fade2 7152ms;
-          animation: anim244 7152ms, fade2 7152ms;
+  -webkit-animation: anim244 10167ms, fade1 10167ms;
+          animation: anim244 10167ms, fade1 10167ms;
 }
 footer .axis-245 {
-  -webkit-animation: anim244 24016ms, fade9 24016ms;
-          animation: anim244 24016ms, fade9 24016ms;
+  -webkit-animation: anim244 15844ms, fade5 15844ms;
+          animation: anim244 15844ms, fade5 15844ms;
 }
 footer .axis-246 {
-  -webkit-animation: anim244 30558ms, fade5 30558ms;
-          animation: anim244 30558ms, fade5 30558ms;
+  -webkit-animation: anim244 20643ms, fade3 20643ms;
+          animation: anim244 20643ms, fade3 20643ms;
 }
 footer .axis-247 {
-  -webkit-animation: anim244 24721ms, fade6 24721ms;
-          animation: anim244 24721ms, fade6 24721ms;
+  -webkit-animation: anim244 36075ms, fade9 36075ms;
+          animation: anim244 36075ms, fade9 36075ms;
 }
 footer .axis-248 {
-  -webkit-animation: anim248 28179ms, fade10 28179ms;
-          animation: anim248 28179ms, fade10 28179ms;
+  -webkit-animation: anim248 12612ms, fade10 12612ms;
+          animation: anim248 12612ms, fade10 12612ms;
 }
 footer .axis-249 {
-  -webkit-animation: anim248 34505ms, fade2 34505ms;
-          animation: anim248 34505ms, fade2 34505ms;
+  -webkit-animation: anim248 15727ms, fade5 15727ms;
+          animation: anim248 15727ms, fade5 15727ms;
 }
 footer .axis-250 {
-  -webkit-animation: anim248 40996ms, fade10 40996ms;
-          animation: anim248 40996ms, fade10 40996ms;
+  -webkit-animation: anim248 6691ms, fade6 6691ms;
+          animation: anim248 6691ms, fade6 6691ms;
 }
 footer .axis-251 {
-  -webkit-animation: anim248 24715ms, fade3 24715ms;
-          animation: anim248 24715ms, fade3 24715ms;
+  -webkit-animation: anim248 35800ms, fade8 35800ms;
+          animation: anim248 35800ms, fade8 35800ms;
 }
 footer .axis-252 {
-  -webkit-animation: anim252 27177ms, fade5 27177ms;
-          animation: anim252 27177ms, fade5 27177ms;
+  -webkit-animation: anim252 39460ms, fade5 39460ms;
+          animation: anim252 39460ms, fade5 39460ms;
 }
 footer .axis-253 {
-  -webkit-animation: anim252 14831ms, fade8 14831ms;
-          animation: anim252 14831ms, fade8 14831ms;
+  -webkit-animation: anim252 19183ms, fade3 19183ms;
+          animation: anim252 19183ms, fade3 19183ms;
 }
 footer .axis-254 {
-  -webkit-animation: anim252 22647ms, fade2 22647ms;
-          animation: anim252 22647ms, fade2 22647ms;
+  -webkit-animation: anim252 28934ms, fade10 28934ms;
+          animation: anim252 28934ms, fade10 28934ms;
 }
 footer .axis-255 {
-  -webkit-animation: anim252 8337ms, fade4 8337ms;
-          animation: anim252 8337ms, fade4 8337ms;
+  -webkit-animation: anim252 20642ms, fade1 20642ms;
+          animation: anim252 20642ms, fade1 20642ms;
 }
 footer .axis-256 {
-  -webkit-animation: anim256 10997ms, fade6 10997ms;
-          animation: anim256 10997ms, fade6 10997ms;
+  -webkit-animation: anim256 21896ms, fade3 21896ms;
+          animation: anim256 21896ms, fade3 21896ms;
 }
 footer .axis-257 {
-  -webkit-animation: anim256 41344ms, fade9 41344ms;
-          animation: anim256 41344ms, fade9 41344ms;
+  -webkit-animation: anim256 17356ms, fade3 17356ms;
+          animation: anim256 17356ms, fade3 17356ms;
 }
 footer .axis-258 {
-  -webkit-animation: anim256 36604ms, fade6 36604ms;
-          animation: anim256 36604ms, fade6 36604ms;
+  -webkit-animation: anim256 33910ms, fade8 33910ms;
+          animation: anim256 33910ms, fade8 33910ms;
 }
 footer .axis-259 {
-  -webkit-animation: anim256 27565ms, fade9 27565ms;
-          animation: anim256 27565ms, fade9 27565ms;
+  -webkit-animation: anim256 12705ms, fade4 12705ms;
+          animation: anim256 12705ms, fade4 12705ms;
 }
 footer .axis-260 {
-  -webkit-animation: anim260 8916ms, fade6 8916ms;
-          animation: anim260 8916ms, fade6 8916ms;
+  -webkit-animation: anim260 15066ms, fade6 15066ms;
+          animation: anim260 15066ms, fade6 15066ms;
 }
 footer .axis-261 {
-  -webkit-animation: anim260 23506ms, fade4 23506ms;
-          animation: anim260 23506ms, fade4 23506ms;
+  -webkit-animation: anim260 5331ms, fade6 5331ms;
+          animation: anim260 5331ms, fade6 5331ms;
 }
 footer .axis-262 {
-  -webkit-animation: anim260 41684ms, fade9 41684ms;
-          animation: anim260 41684ms, fade9 41684ms;
+  -webkit-animation: anim260 7748ms, fade6 7748ms;
+          animation: anim260 7748ms, fade6 7748ms;
 }
 footer .axis-263 {
-  -webkit-animation: anim260 11405ms, fade8 11405ms;
-          animation: anim260 11405ms, fade8 11405ms;
+  -webkit-animation: anim260 31443ms, fade4 31443ms;
+          animation: anim260 31443ms, fade4 31443ms;
 }
 footer .axis-264 {
-  -webkit-animation: anim264 31721ms, fade10 31721ms;
-          animation: anim264 31721ms, fade10 31721ms;
+  -webkit-animation: anim264 33771ms, fade1 33771ms;
+          animation: anim264 33771ms, fade1 33771ms;
 }
 footer .axis-265 {
-  -webkit-animation: anim264 20443ms, fade1 20443ms;
-          animation: anim264 20443ms, fade1 20443ms;
+  -webkit-animation: anim264 27475ms, fade5 27475ms;
+          animation: anim264 27475ms, fade5 27475ms;
 }
 footer .axis-266 {
-  -webkit-animation: anim264 43044ms, fade7 43044ms;
-          animation: anim264 43044ms, fade7 43044ms;
+  -webkit-animation: anim264 23722ms, fade4 23722ms;
+          animation: anim264 23722ms, fade4 23722ms;
 }
 footer .axis-267 {
-  -webkit-animation: anim264 31425ms, fade1 31425ms;
-          animation: anim264 31425ms, fade1 31425ms;
+  -webkit-animation: anim264 7475ms, fade10 7475ms;
+          animation: anim264 7475ms, fade10 7475ms;
 }
 footer .axis-268 {
-  -webkit-animation: anim268 34061ms, fade7 34061ms;
-          animation: anim268 34061ms, fade7 34061ms;
+  -webkit-animation: anim268 30301ms, fade4 30301ms;
+          animation: anim268 30301ms, fade4 30301ms;
 }
 footer .axis-269 {
-  -webkit-animation: anim268 14372ms, fade4 14372ms;
-          animation: anim268 14372ms, fade4 14372ms;
+  -webkit-animation: anim268 19970ms, fade2 19970ms;
+          animation: anim268 19970ms, fade2 19970ms;
 }
 footer .axis-270 {
-  -webkit-animation: anim268 12227ms, fade10 12227ms;
-          animation: anim268 12227ms, fade10 12227ms;
+  -webkit-animation: anim268 35736ms, fade7 35736ms;
+          animation: anim268 35736ms, fade7 35736ms;
 }
 footer .axis-271 {
-  -webkit-animation: anim268 9320ms, fade1 9320ms;
-          animation: anim268 9320ms, fade1 9320ms;
+  -webkit-animation: anim268 36668ms, fade5 36668ms;
+          animation: anim268 36668ms, fade5 36668ms;
 }
 footer .axis-272 {
-  -webkit-animation: anim272 11165ms, fade2 11165ms;
-          animation: anim272 11165ms, fade2 11165ms;
+  -webkit-animation: anim272 42197ms, fade4 42197ms;
+          animation: anim272 42197ms, fade4 42197ms;
 }
 footer .axis-273 {
-  -webkit-animation: anim272 18174ms, fade10 18174ms;
-          animation: anim272 18174ms, fade10 18174ms;
+  -webkit-animation: anim272 15020ms, fade5 15020ms;
+          animation: anim272 15020ms, fade5 15020ms;
 }
 footer .axis-274 {
-  -webkit-animation: anim272 18658ms, fade9 18658ms;
-          animation: anim272 18658ms, fade9 18658ms;
+  -webkit-animation: anim272 28543ms, fade1 28543ms;
+          animation: anim272 28543ms, fade1 28543ms;
 }
 footer .axis-275 {
-  -webkit-animation: anim272 5700ms, fade7 5700ms;
-          animation: anim272 5700ms, fade7 5700ms;
+  -webkit-animation: anim272 37721ms, fade1 37721ms;
+          animation: anim272 37721ms, fade1 37721ms;
 }
 footer .axis-276 {
-  -webkit-animation: anim276 42192ms, fade5 42192ms;
-          animation: anim276 42192ms, fade5 42192ms;
+  -webkit-animation: anim276 13124ms, fade4 13124ms;
+          animation: anim276 13124ms, fade4 13124ms;
 }
 footer .axis-277 {
-  -webkit-animation: anim276 17551ms, fade1 17551ms;
-          animation: anim276 17551ms, fade1 17551ms;
+  -webkit-animation: anim276 21662ms, fade9 21662ms;
+          animation: anim276 21662ms, fade9 21662ms;
 }
 footer .axis-278 {
-  -webkit-animation: anim276 31362ms, fade5 31362ms;
-          animation: anim276 31362ms, fade5 31362ms;
+  -webkit-animation: anim276 8468ms, fade5 8468ms;
+          animation: anim276 8468ms, fade5 8468ms;
 }
 footer .axis-279 {
-  -webkit-animation: anim276 7892ms, fade2 7892ms;
-          animation: anim276 7892ms, fade2 7892ms;
+  -webkit-animation: anim276 29401ms, fade4 29401ms;
+          animation: anim276 29401ms, fade4 29401ms;
 }
 footer .axis-280 {
-  -webkit-animation: anim280 18134ms, fade10 18134ms;
-          animation: anim280 18134ms, fade10 18134ms;
+  -webkit-animation: anim280 42722ms, fade10 42722ms;
+          animation: anim280 42722ms, fade10 42722ms;
 }
 footer .axis-281 {
-  -webkit-animation: anim280 37256ms, fade8 37256ms;
-          animation: anim280 37256ms, fade8 37256ms;
+  -webkit-animation: anim280 36607ms, fade7 36607ms;
+          animation: anim280 36607ms, fade7 36607ms;
 }
 footer .axis-282 {
-  -webkit-animation: anim280 37716ms, fade3 37716ms;
-          animation: anim280 37716ms, fade3 37716ms;
+  -webkit-animation: anim280 34279ms, fade5 34279ms;
+          animation: anim280 34279ms, fade5 34279ms;
 }
 footer .axis-283 {
-  -webkit-animation: anim280 33837ms, fade5 33837ms;
-          animation: anim280 33837ms, fade5 33837ms;
+  -webkit-animation: anim280 26591ms, fade5 26591ms;
+          animation: anim280 26591ms, fade5 26591ms;
 }
 footer .axis-284 {
-  -webkit-animation: anim284 23204ms, fade2 23204ms;
-          animation: anim284 23204ms, fade2 23204ms;
+  -webkit-animation: anim284 23300ms, fade1 23300ms;
+          animation: anim284 23300ms, fade1 23300ms;
 }
 footer .axis-285 {
-  -webkit-animation: anim284 24199ms, fade6 24199ms;
-          animation: anim284 24199ms, fade6 24199ms;
+  -webkit-animation: anim284 21573ms, fade9 21573ms;
+          animation: anim284 21573ms, fade9 21573ms;
 }
 footer .axis-286 {
-  -webkit-animation: anim284 10379ms, fade7 10379ms;
-          animation: anim284 10379ms, fade7 10379ms;
+  -webkit-animation: anim284 17252ms, fade3 17252ms;
+          animation: anim284 17252ms, fade3 17252ms;
 }
 footer .axis-287 {
-  -webkit-animation: anim284 42505ms, fade1 42505ms;
-          animation: anim284 42505ms, fade1 42505ms;
+  -webkit-animation: anim284 27645ms, fade8 27645ms;
+          animation: anim284 27645ms, fade8 27645ms;
 }
 footer .axis-288 {
-  -webkit-animation: anim288 7614ms, fade1 7614ms;
-          animation: anim288 7614ms, fade1 7614ms;
+  -webkit-animation: anim288 16526ms, fade5 16526ms;
+          animation: anim288 16526ms, fade5 16526ms;
 }
 footer .axis-289 {
-  -webkit-animation: anim288 42930ms, fade3 42930ms;
-          animation: anim288 42930ms, fade3 42930ms;
+  -webkit-animation: anim288 33713ms, fade10 33713ms;
+          animation: anim288 33713ms, fade10 33713ms;
 }
 footer .axis-290 {
-  -webkit-animation: anim288 19185ms, fade5 19185ms;
-          animation: anim288 19185ms, fade5 19185ms;
+  -webkit-animation: anim288 6836ms, fade6 6836ms;
+          animation: anim288 6836ms, fade6 6836ms;
 }
 footer .axis-291 {
-  -webkit-animation: anim288 23609ms, fade8 23609ms;
-          animation: anim288 23609ms, fade8 23609ms;
+  -webkit-animation: anim288 44636ms, fade2 44636ms;
+          animation: anim288 44636ms, fade2 44636ms;
 }
 footer .axis-292 {
-  -webkit-animation: anim292 30802ms, fade5 30802ms;
-          animation: anim292 30802ms, fade5 30802ms;
+  -webkit-animation: anim292 12549ms, fade2 12549ms;
+          animation: anim292 12549ms, fade2 12549ms;
 }
 footer .axis-293 {
-  -webkit-animation: anim292 7960ms, fade1 7960ms;
-          animation: anim292 7960ms, fade1 7960ms;
+  -webkit-animation: anim292 32310ms, fade5 32310ms;
+          animation: anim292 32310ms, fade5 32310ms;
 }
 footer .axis-294 {
-  -webkit-animation: anim292 32527ms, fade10 32527ms;
-          animation: anim292 32527ms, fade10 32527ms;
+  -webkit-animation: anim292 41993ms, fade9 41993ms;
+          animation: anim292 41993ms, fade9 41993ms;
 }
 footer .axis-295 {
-  -webkit-animation: anim292 42994ms, fade7 42994ms;
-          animation: anim292 42994ms, fade7 42994ms;
+  -webkit-animation: anim292 38979ms, fade2 38979ms;
+          animation: anim292 38979ms, fade2 38979ms;
 }
 footer .axis-296 {
-  -webkit-animation: anim296 33103ms, fade7 33103ms;
-          animation: anim296 33103ms, fade7 33103ms;
+  -webkit-animation: anim296 5036ms, fade1 5036ms;
+          animation: anim296 5036ms, fade1 5036ms;
 }
 footer .axis-297 {
-  -webkit-animation: anim296 19841ms, fade8 19841ms;
-          animation: anim296 19841ms, fade8 19841ms;
+  -webkit-animation: anim296 13594ms, fade3 13594ms;
+          animation: anim296 13594ms, fade3 13594ms;
 }
 footer .axis-298 {
-  -webkit-animation: anim296 16434ms, fade9 16434ms;
-          animation: anim296 16434ms, fade9 16434ms;
+  -webkit-animation: anim296 31721ms, fade7 31721ms;
+          animation: anim296 31721ms, fade7 31721ms;
 }
 footer .axis-299 {
-  -webkit-animation: anim296 41707ms, fade1 41707ms;
-          animation: anim296 41707ms, fade1 41707ms;
+  -webkit-animation: anim296 21617ms, fade5 21617ms;
+          animation: anim296 21617ms, fade5 21617ms;
 }
 footer .axis-300 {
-  -webkit-animation: anim300 28562ms, fade4 28562ms;
-          animation: anim300 28562ms, fade4 28562ms;
+  -webkit-animation: anim300 23936ms, fade3 23936ms;
+          animation: anim300 23936ms, fade3 23936ms;
 }
 footer .axis-301 {
-  -webkit-animation: anim300 40260ms, fade6 40260ms;
-          animation: anim300 40260ms, fade6 40260ms;
+  -webkit-animation: anim300 32273ms, fade8 32273ms;
+          animation: anim300 32273ms, fade8 32273ms;
 }
 footer .axis-302 {
-  -webkit-animation: anim300 30379ms, fade1 30379ms;
-          animation: anim300 30379ms, fade1 30379ms;
+  -webkit-animation: anim300 38380ms, fade9 38380ms;
+          animation: anim300 38380ms, fade9 38380ms;
 }
 footer .axis-303 {
-  -webkit-animation: anim300 34630ms, fade5 34630ms;
-          animation: anim300 34630ms, fade5 34630ms;
+  -webkit-animation: anim300 29525ms, fade2 29525ms;
+          animation: anim300 29525ms, fade2 29525ms;
 }
 footer .axis-304 {
-  -webkit-animation: anim304 8272ms, fade7 8272ms;
-          animation: anim304 8272ms, fade7 8272ms;
+  -webkit-animation: anim304 43477ms, fade4 43477ms;
+          animation: anim304 43477ms, fade4 43477ms;
 }
 footer .axis-305 {
-  -webkit-animation: anim304 25489ms, fade9 25489ms;
-          animation: anim304 25489ms, fade9 25489ms;
+  -webkit-animation: anim304 21792ms, fade9 21792ms;
+          animation: anim304 21792ms, fade9 21792ms;
 }
 footer .axis-306 {
-  -webkit-animation: anim304 35407ms, fade9 35407ms;
-          animation: anim304 35407ms, fade9 35407ms;
+  -webkit-animation: anim304 39256ms, fade10 39256ms;
+          animation: anim304 39256ms, fade10 39256ms;
 }
 footer .axis-307 {
-  -webkit-animation: anim304 23305ms, fade6 23305ms;
-          animation: anim304 23305ms, fade6 23305ms;
+  -webkit-animation: anim304 42800ms, fade10 42800ms;
+          animation: anim304 42800ms, fade10 42800ms;
 }
 footer .axis-308 {
-  -webkit-animation: anim308 14506ms, fade9 14506ms;
-          animation: anim308 14506ms, fade9 14506ms;
+  -webkit-animation: anim308 40642ms, fade1 40642ms;
+          animation: anim308 40642ms, fade1 40642ms;
 }
 footer .axis-309 {
-  -webkit-animation: anim308 15855ms, fade6 15855ms;
-          animation: anim308 15855ms, fade6 15855ms;
+  -webkit-animation: anim308 7906ms, fade5 7906ms;
+          animation: anim308 7906ms, fade5 7906ms;
 }
 footer .axis-310 {
-  -webkit-animation: anim308 14475ms, fade3 14475ms;
-          animation: anim308 14475ms, fade3 14475ms;
+  -webkit-animation: anim308 36954ms, fade3 36954ms;
+          animation: anim308 36954ms, fade3 36954ms;
 }
 footer .axis-311 {
-  -webkit-animation: anim308 7346ms, fade4 7346ms;
-          animation: anim308 7346ms, fade4 7346ms;
+  -webkit-animation: anim308 20894ms, fade3 20894ms;
+          animation: anim308 20894ms, fade3 20894ms;
 }
 footer .axis-312 {
-  -webkit-animation: anim312 30081ms, fade2 30081ms;
-          animation: anim312 30081ms, fade2 30081ms;
+  -webkit-animation: anim312 15963ms, fade10 15963ms;
+          animation: anim312 15963ms, fade10 15963ms;
 }
 footer .axis-313 {
-  -webkit-animation: anim312 14400ms, fade4 14400ms;
-          animation: anim312 14400ms, fade4 14400ms;
+  -webkit-animation: anim312 38973ms, fade1 38973ms;
+          animation: anim312 38973ms, fade1 38973ms;
 }
 footer .axis-314 {
-  -webkit-animation: anim312 22123ms, fade8 22123ms;
-          animation: anim312 22123ms, fade8 22123ms;
+  -webkit-animation: anim312 23078ms, fade4 23078ms;
+          animation: anim312 23078ms, fade4 23078ms;
 }
 footer .axis-315 {
-  -webkit-animation: anim312 34050ms, fade10 34050ms;
-          animation: anim312 34050ms, fade10 34050ms;
+  -webkit-animation: anim312 17127ms, fade6 17127ms;
+          animation: anim312 17127ms, fade6 17127ms;
 }
 footer .axis-316 {
-  -webkit-animation: anim316 7341ms, fade9 7341ms;
-          animation: anim316 7341ms, fade9 7341ms;
+  -webkit-animation: anim316 11825ms, fade4 11825ms;
+          animation: anim316 11825ms, fade4 11825ms;
 }
 footer .axis-317 {
-  -webkit-animation: anim316 11643ms, fade1 11643ms;
-          animation: anim316 11643ms, fade1 11643ms;
+  -webkit-animation: anim316 37000ms, fade5 37000ms;
+          animation: anim316 37000ms, fade5 37000ms;
 }
 footer .axis-318 {
-  -webkit-animation: anim316 31074ms, fade6 31074ms;
-          animation: anim316 31074ms, fade6 31074ms;
+  -webkit-animation: anim316 11961ms, fade4 11961ms;
+          animation: anim316 11961ms, fade4 11961ms;
 }
 footer .axis-319 {
-  -webkit-animation: anim316 29944ms, fade3 29944ms;
-          animation: anim316 29944ms, fade3 29944ms;
+  -webkit-animation: anim316 15881ms, fade3 15881ms;
+          animation: anim316 15881ms, fade3 15881ms;
 }
 footer .axis-320 {
-  -webkit-animation: anim320 16182ms, fade9 16182ms;
-          animation: anim320 16182ms, fade9 16182ms;
+  -webkit-animation: anim320 10902ms, fade7 10902ms;
+          animation: anim320 10902ms, fade7 10902ms;
 }
 footer .axis-321 {
-  -webkit-animation: anim320 20123ms, fade5 20123ms;
-          animation: anim320 20123ms, fade5 20123ms;
+  -webkit-animation: anim320 13305ms, fade1 13305ms;
+          animation: anim320 13305ms, fade1 13305ms;
 }
 footer .axis-322 {
-  -webkit-animation: anim320 20556ms, fade4 20556ms;
-          animation: anim320 20556ms, fade4 20556ms;
+  -webkit-animation: anim320 5530ms, fade1 5530ms;
+          animation: anim320 5530ms, fade1 5530ms;
 }
 footer .axis-323 {
-  -webkit-animation: anim320 37708ms, fade2 37708ms;
-          animation: anim320 37708ms, fade2 37708ms;
+  -webkit-animation: anim320 11352ms, fade2 11352ms;
+          animation: anim320 11352ms, fade2 11352ms;
 }
 footer .axis-324 {
-  -webkit-animation: anim324 23692ms, fade10 23692ms;
-          animation: anim324 23692ms, fade10 23692ms;
+  -webkit-animation: anim324 17439ms, fade4 17439ms;
+          animation: anim324 17439ms, fade4 17439ms;
 }
 footer .axis-325 {
-  -webkit-animation: anim324 16840ms, fade4 16840ms;
-          animation: anim324 16840ms, fade4 16840ms;
+  -webkit-animation: anim324 43390ms, fade8 43390ms;
+          animation: anim324 43390ms, fade8 43390ms;
 }
 footer .axis-326 {
-  -webkit-animation: anim324 13717ms, fade7 13717ms;
-          animation: anim324 13717ms, fade7 13717ms;
+  -webkit-animation: anim324 27080ms, fade7 27080ms;
+          animation: anim324 27080ms, fade7 27080ms;
 }
 footer .axis-327 {
-  -webkit-animation: anim324 5353ms, fade2 5353ms;
-          animation: anim324 5353ms, fade2 5353ms;
+  -webkit-animation: anim324 9867ms, fade2 9867ms;
+          animation: anim324 9867ms, fade2 9867ms;
 }
 footer .axis-328 {
-  -webkit-animation: anim328 10665ms, fade5 10665ms;
-          animation: anim328 10665ms, fade5 10665ms;
+  -webkit-animation: anim328 43283ms, fade8 43283ms;
+          animation: anim328 43283ms, fade8 43283ms;
 }
 footer .axis-329 {
-  -webkit-animation: anim328 31190ms, fade7 31190ms;
-          animation: anim328 31190ms, fade7 31190ms;
+  -webkit-animation: anim328 43871ms, fade6 43871ms;
+          animation: anim328 43871ms, fade6 43871ms;
 }
 footer .axis-330 {
-  -webkit-animation: anim328 9439ms, fade6 9439ms;
-          animation: anim328 9439ms, fade6 9439ms;
+  -webkit-animation: anim328 19817ms, fade8 19817ms;
+          animation: anim328 19817ms, fade8 19817ms;
 }
 footer .axis-331 {
-  -webkit-animation: anim328 14090ms, fade10 14090ms;
-          animation: anim328 14090ms, fade10 14090ms;
+  -webkit-animation: anim328 14135ms, fade9 14135ms;
+          animation: anim328 14135ms, fade9 14135ms;
 }
 footer .axis-332 {
-  -webkit-animation: anim332 23406ms, fade3 23406ms;
-          animation: anim332 23406ms, fade3 23406ms;
+  -webkit-animation: anim332 5905ms, fade2 5905ms;
+          animation: anim332 5905ms, fade2 5905ms;
 }
 footer .axis-333 {
-  -webkit-animation: anim332 26017ms, fade9 26017ms;
-          animation: anim332 26017ms, fade9 26017ms;
+  -webkit-animation: anim332 39666ms, fade1 39666ms;
+          animation: anim332 39666ms, fade1 39666ms;
 }
 footer .axis-334 {
-  -webkit-animation: anim332 21408ms, fade10 21408ms;
-          animation: anim332 21408ms, fade10 21408ms;
+  -webkit-animation: anim332 11332ms, fade2 11332ms;
+          animation: anim332 11332ms, fade2 11332ms;
 }
 footer .axis-335 {
-  -webkit-animation: anim332 13937ms, fade1 13937ms;
-          animation: anim332 13937ms, fade1 13937ms;
+  -webkit-animation: anim332 40567ms, fade3 40567ms;
+          animation: anim332 40567ms, fade3 40567ms;
 }
 footer .axis-336 {
-  -webkit-animation: anim336 15568ms, fade7 15568ms;
-          animation: anim336 15568ms, fade7 15568ms;
+  -webkit-animation: anim336 44527ms, fade4 44527ms;
+          animation: anim336 44527ms, fade4 44527ms;
 }
 footer .axis-337 {
-  -webkit-animation: anim336 31754ms, fade6 31754ms;
-          animation: anim336 31754ms, fade6 31754ms;
+  -webkit-animation: anim336 15419ms, fade5 15419ms;
+          animation: anim336 15419ms, fade5 15419ms;
 }
 footer .axis-338 {
-  -webkit-animation: anim336 23916ms, fade4 23916ms;
-          animation: anim336 23916ms, fade4 23916ms;
+  -webkit-animation: anim336 14848ms, fade4 14848ms;
+          animation: anim336 14848ms, fade4 14848ms;
 }
 footer .axis-339 {
-  -webkit-animation: anim336 38203ms, fade9 38203ms;
-          animation: anim336 38203ms, fade9 38203ms;
+  -webkit-animation: anim336 44028ms, fade4 44028ms;
+          animation: anim336 44028ms, fade4 44028ms;
 }
 footer .axis-340 {
-  -webkit-animation: anim340 27515ms, fade2 27515ms;
-          animation: anim340 27515ms, fade2 27515ms;
+  -webkit-animation: anim340 9847ms, fade7 9847ms;
+          animation: anim340 9847ms, fade7 9847ms;
 }
 footer .axis-341 {
-  -webkit-animation: anim340 41348ms, fade6 41348ms;
-          animation: anim340 41348ms, fade6 41348ms;
+  -webkit-animation: anim340 32636ms, fade9 32636ms;
+          animation: anim340 32636ms, fade9 32636ms;
 }
 footer .axis-342 {
-  -webkit-animation: anim340 41711ms, fade4 41711ms;
-          animation: anim340 41711ms, fade4 41711ms;
+  -webkit-animation: anim340 32338ms, fade4 32338ms;
+          animation: anim340 32338ms, fade4 32338ms;
 }
 footer .axis-343 {
-  -webkit-animation: anim340 31675ms, fade3 31675ms;
-          animation: anim340 31675ms, fade3 31675ms;
+  -webkit-animation: anim340 24452ms, fade8 24452ms;
+          animation: anim340 24452ms, fade8 24452ms;
 }
 footer .axis-344 {
-  -webkit-animation: anim344 32099ms, fade7 32099ms;
-          animation: anim344 32099ms, fade7 32099ms;
+  -webkit-animation: anim344 33098ms, fade4 33098ms;
+          animation: anim344 33098ms, fade4 33098ms;
 }
 footer .axis-345 {
-  -webkit-animation: anim344 39631ms, fade6 39631ms;
-          animation: anim344 39631ms, fade6 39631ms;
+  -webkit-animation: anim344 33272ms, fade8 33272ms;
+          animation: anim344 33272ms, fade8 33272ms;
 }
 footer .axis-346 {
-  -webkit-animation: anim344 42645ms, fade4 42645ms;
-          animation: anim344 42645ms, fade4 42645ms;
+  -webkit-animation: anim344 29998ms, fade1 29998ms;
+          animation: anim344 29998ms, fade1 29998ms;
 }
 footer .axis-347 {
-  -webkit-animation: anim344 40467ms, fade3 40467ms;
-          animation: anim344 40467ms, fade3 40467ms;
+  -webkit-animation: anim344 7363ms, fade2 7363ms;
+          animation: anim344 7363ms, fade2 7363ms;
 }
 footer .axis-348 {
-  -webkit-animation: anim348 5802ms, fade10 5802ms;
-          animation: anim348 5802ms, fade10 5802ms;
+  -webkit-animation: anim348 20707ms, fade7 20707ms;
+          animation: anim348 20707ms, fade7 20707ms;
 }
 footer .axis-349 {
-  -webkit-animation: anim348 21440ms, fade5 21440ms;
-          animation: anim348 21440ms, fade5 21440ms;
+  -webkit-animation: anim348 23767ms, fade10 23767ms;
+          animation: anim348 23767ms, fade10 23767ms;
 }
 footer .axis-350 {
-  -webkit-animation: anim348 5171ms, fade7 5171ms;
-          animation: anim348 5171ms, fade7 5171ms;
+  -webkit-animation: anim348 15043ms, fade3 15043ms;
+          animation: anim348 15043ms, fade3 15043ms;
 }
 footer .axis-351 {
-  -webkit-animation: anim348 16641ms, fade9 16641ms;
-          animation: anim348 16641ms, fade9 16641ms;
+  -webkit-animation: anim348 33992ms, fade4 33992ms;
+          animation: anim348 33992ms, fade4 33992ms;
 }
 footer .axis-352 {
-  -webkit-animation: anim352 21031ms, fade4 21031ms;
-          animation: anim352 21031ms, fade4 21031ms;
+  -webkit-animation: anim352 29410ms, fade7 29410ms;
+          animation: anim352 29410ms, fade7 29410ms;
 }
 footer .axis-353 {
-  -webkit-animation: anim352 38387ms, fade2 38387ms;
-          animation: anim352 38387ms, fade2 38387ms;
+  -webkit-animation: anim352 41458ms, fade5 41458ms;
+          animation: anim352 41458ms, fade5 41458ms;
 }
 footer .axis-354 {
-  -webkit-animation: anim352 38894ms, fade5 38894ms;
-          animation: anim352 38894ms, fade5 38894ms;
+  -webkit-animation: anim352 40386ms, fade8 40386ms;
+          animation: anim352 40386ms, fade8 40386ms;
 }
 footer .axis-355 {
-  -webkit-animation: anim352 19549ms, fade10 19549ms;
-          animation: anim352 19549ms, fade10 19549ms;
+  -webkit-animation: anim352 8368ms, fade8 8368ms;
+          animation: anim352 8368ms, fade8 8368ms;
 }
 footer .axis-356 {
-  -webkit-animation: anim356 28233ms, fade5 28233ms;
-          animation: anim356 28233ms, fade5 28233ms;
+  -webkit-animation: anim356 19994ms, fade8 19994ms;
+          animation: anim356 19994ms, fade8 19994ms;
 }
 footer .axis-357 {
-  -webkit-animation: anim356 43815ms, fade3 43815ms;
-          animation: anim356 43815ms, fade3 43815ms;
+  -webkit-animation: anim356 30167ms, fade3 30167ms;
+          animation: anim356 30167ms, fade3 30167ms;
 }
 footer .axis-358 {
-  -webkit-animation: anim356 7995ms, fade3 7995ms;
-          animation: anim356 7995ms, fade3 7995ms;
+  -webkit-animation: anim356 16214ms, fade3 16214ms;
+          animation: anim356 16214ms, fade3 16214ms;
 }
 footer .axis-359 {
-  -webkit-animation: anim356 17853ms, fade2 17853ms;
-          animation: anim356 17853ms, fade2 17853ms;
+  -webkit-animation: anim356 9555ms, fade10 9555ms;
+          animation: anim356 9555ms, fade10 9555ms;
 }
 footer .axis-360 {
-  -webkit-animation: anim360 16297ms, fade8 16297ms;
-          animation: anim360 16297ms, fade8 16297ms;
+  -webkit-animation: anim360 12285ms, fade6 12285ms;
+          animation: anim360 12285ms, fade6 12285ms;
 }
 footer .axis-0,
 footer .axis-1,
@@ -4147,10 +4397,10 @@ footer .axis-3 {
   display: none;
 }
 @-webkit-keyframes fade1 {
-  18% {
+  10% {
     opacity: 0;
   }
-  28% {
+  20% {
     opacity: 1;
   }
   100% {
@@ -4158,10 +4408,10 @@ footer .axis-3 {
   }
 }
 @keyframes fade1 {
-  18% {
+  10% {
     opacity: 0;
   }
-  28% {
+  20% {
     opacity: 1;
   }
   100% {
@@ -4169,10 +4419,10 @@ footer .axis-3 {
   }
 }
 @-webkit-keyframes fade2 {
-  16% {
+  6% {
     opacity: 0;
   }
-  26% {
+  16% {
     opacity: 1;
   }
   100% {
@@ -4180,10 +4430,10 @@ footer .axis-3 {
   }
 }
 @keyframes fade2 {
-  16% {
+  6% {
     opacity: 0;
   }
-  26% {
+  16% {
     opacity: 1;
   }
   100% {
@@ -4191,10 +4441,10 @@ footer .axis-3 {
   }
 }
 @-webkit-keyframes fade3 {
-  4% {
+  11% {
     opacity: 0;
   }
-  14% {
+  21% {
     opacity: 1;
   }
   100% {
@@ -4202,10 +4452,10 @@ footer .axis-3 {
   }
 }
 @keyframes fade3 {
-  4% {
+  11% {
     opacity: 0;
   }
-  14% {
+  21% {
     opacity: 1;
   }
   100% {
@@ -4235,10 +4485,10 @@ footer .axis-3 {
   }
 }
 @-webkit-keyframes fade5 {
-  6% {
+  20% {
     opacity: 0;
   }
-  16% {
+  30% {
     opacity: 1;
   }
   100% {
@@ -4246,10 +4496,10 @@ footer .axis-3 {
   }
 }
 @keyframes fade5 {
-  6% {
+  20% {
     opacity: 0;
   }
-  16% {
+  30% {
     opacity: 1;
   }
   100% {
@@ -4257,10 +4507,10 @@ footer .axis-3 {
   }
 }
 @-webkit-keyframes fade6 {
-  9% {
+  8% {
     opacity: 0;
   }
-  19% {
+  18% {
     opacity: 1;
   }
   100% {
@@ -4268,10 +4518,10 @@ footer .axis-3 {
   }
 }
 @keyframes fade6 {
-  9% {
+  8% {
     opacity: 0;
   }
-  19% {
+  18% {
     opacity: 1;
   }
   100% {
@@ -4279,10 +4529,10 @@ footer .axis-3 {
   }
 }
 @-webkit-keyframes fade7 {
-  14% {
+  4% {
     opacity: 0;
   }
-  24% {
+  14% {
     opacity: 1;
   }
   100% {
@@ -4290,10 +4540,10 @@ footer .axis-3 {
   }
 }
 @keyframes fade7 {
-  14% {
+  4% {
     opacity: 0;
   }
-  24% {
+  14% {
     opacity: 1;
   }
   100% {
@@ -4301,10 +4551,10 @@ footer .axis-3 {
   }
 }
 @-webkit-keyframes fade8 {
-  9% {
+  5% {
     opacity: 0;
   }
-  19% {
+  15% {
     opacity: 1;
   }
   100% {
@@ -4312,10 +4562,10 @@ footer .axis-3 {
   }
 }
 @keyframes fade8 {
-  9% {
+  5% {
     opacity: 0;
   }
-  19% {
+  15% {
     opacity: 1;
   }
   100% {
@@ -4323,10 +4573,10 @@ footer .axis-3 {
   }
 }
 @-webkit-keyframes fade9 {
-  20% {
+  4% {
     opacity: 0;
   }
-  30% {
+  14% {
     opacity: 1;
   }
   100% {
@@ -4334,6 +4584,17 @@ footer .axis-3 {
   }
 }
 @keyframes fade9 {
+  4% {
+    opacity: 0;
+  }
+  14% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fade10 {
   20% {
     opacity: 0;
   }
@@ -4344,22 +4605,11 @@ footer .axis-3 {
     opacity: 1;
   }
 }
-@-webkit-keyframes fade10 {
-  7% {
-    opacity: 0;
-  }
-  17% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 1;
-  }
-}
 @keyframes fade10 {
-  7% {
+  20% {
     opacity: 0;
   }
-  17% {
+  30% {
     opacity: 1;
   }
   100% {
@@ -5505,8 +5755,7 @@ footer .container .top .links a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border-radius: 5px;
-  border: 1px solid #00ddff;
+  border-radius: 50%;
   padding: 10px;
   background-color: #999999;
   color: #000;
@@ -5522,7 +5771,8 @@ footer .container .top .links a:before {
   content: "";
   position: absolute;
   width: 100%;
-  top: 0;
+  height: 100%;
+  top: 0%;
   -webkit-transition: 0.4s;
   transition: 0.4s;
   left: -100%;
@@ -5543,6 +5793,7 @@ footer .container .allright {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  font-size: 16px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -5587,4 +5838,975 @@ footer .container .allright a:hover::before {
   footer .container .allright a {
     margin-top: 5px;
   }
+}
+
+.portfolio {
+  background-image: url(../image/Outer-Space-Wallpaper-030.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  /* @import url(https://fonts.googleapis.com/css?family=Arapey:400italic); */
+}
+.portfolio:before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.47);
+}
+.portfolio .container {
+  position: relative;
+  z-index: 500;
+}
+
+.grid {
+  margin: 0 auto;
+  max-width: 700px;
+  gap: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.grid .grid--item {
+  width: calc(33.33% - 20px);
+  background-color: #232222;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  overflow: hidden;
+  -webkit-clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+          clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+}
+.grid .grid--item .img {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  height: 100%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background-position: center center;
+  background-size: cover;
+  overflow: hidden;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+  clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+}
+.grid .grid--item .img:before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  content: "";
+  opacity: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.grid .grid--item .img:before {
+  background: rgba(0, 221, 255, 0.1843137255);
+}
+
+.grid--item:before {
+  display: block;
+  padding-top: 112.5%;
+  content: "";
+}
+
+.grid--item:nth-child(1) {
+  margin-left: 20px;
+  position: relative;
+}
+
+.grid--item:nth-child(2) {
+  margin-right: 20px;
+  position: relative;
+}
+
+.grid--item:nth-child(3),
+.grid--item:nth-child(4),
+.grid--item:nth-child(5),
+.grid--item:nth-child(6),
+.grid--item:nth-child(7) {
+  position: relative;
+  top: -40px;
+}
+
+.grid--item:nth-child(6),
+.grid--item:nth-child(7) {
+  top: -80px;
+}
+
+@media (min-width: 767px) {
+  .grid--item:nth-child(3),
+.grid--item:nth-child(4),
+.grid--item:nth-child(5),
+.grid--item:nth-child(6),
+.grid--item:nth-child(7) {
+    position: relative;
+    top: -60px;
+  }
+  .grid--item:nth-child(6),
+.grid--item:nth-child(7) {
+    top: -120px;
+  }
+}
+@media (min-width: 450px) and (max-width: 500px) {
+  .grid--item:nth-child(3),
+.grid--item:nth-child(4),
+.grid--item:nth-child(5) {
+    position: relative;
+    top: -40px;
+  }
+  .grid--item:nth-child(6),
+.grid--item:nth-child(7) {
+    top: -79px;
+  }
+}
+@media (min-width: 400px) and (max-width: 450px) {
+  .grid--item:nth-child(3),
+.grid--item:nth-child(4),
+.grid--item:nth-child(5) {
+    position: relative;
+    top: -35px;
+  }
+  .grid--item:nth-child(6),
+.grid--item:nth-child(7) {
+    top: -68px;
+  }
+}
+@media (min-width: 350px) and (max-width: 400px) {
+  .grid--item:nth-child(3),
+.grid--item:nth-child(4),
+.grid--item:nth-child(5) {
+    position: relative;
+    top: -33px;
+  }
+  .grid--item:nth-child(6),
+.grid--item:nth-child(7) {
+    top: -64px;
+  }
+}
+@media (min-width: 300px) and (max-width: 350px) {
+  .grid--item:nth-child(3),
+.grid--item:nth-child(4),
+.grid--item:nth-child(5) {
+    position: relative;
+    top: -30px;
+  }
+  .grid--item:nth-child(6),
+.grid--item:nth-child(7) {
+    top: -60px;
+  }
+}
+@media (min-width: 270px) and (max-width: 300px) {
+  .grid--item:nth-child(3),
+.grid--item:nth-child(4),
+.grid--item:nth-child(5) {
+    position: relative;
+    top: -27px;
+  }
+  .grid--item:nth-child(6),
+.grid--item:nth-child(7) {
+    top: -57px;
+  }
+}
+.grid--item:hover .img:before {
+  opacity: 1;
+}
+
+.grid--item:hover .img {
+  width: 110%;
+  height: 110%;
+}
+
+.contacts {
+  overflow: hidden;
+}
+.contacts .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+.contacts .container #CONTform {
+  position: relative;
+  right: -50vw;
+}
+.contacts .container .form {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  transition: 0.5s;
+}
+.contacts .container .form .form-group {
+  height: 40px;
+  border-radius: 6px;
+  overflow: hidden;
+  -webkit-box-shadow: -3px -3px 13px 0px rgba(0, 221, 255, 0.83), 4px 4px 10px 1px black;
+          box-shadow: -3px -3px 13px 0px rgba(0, 221, 255, 0.83), 4px 4px 10px 1px black;
+}
+.contacts .container .form .form-group:nth-child(1) {
+  width: calc(50% - 10px);
+}
+.contacts .container .form .form-group:nth-child(2) {
+  width: calc(50% - 10px);
+}
+.contacts .container .form .form-group:nth-child(3) {
+  width: 100%;
+}
+.contacts .container .form .form-group:nth-child(4) {
+  width: 100%;
+  height: 80px;
+}
+.contacts .container .form .form-group input {
+  width: 100%;
+  height: 100%;
+  padding: 10px 14px;
+  font-size: 13px;
+  outline: none;
+  border: none;
+}
+.contacts .container .form .form-group textarea {
+  width: 105%;
+  height: 105%;
+  padding: 14px 14px;
+  font-size: 13px;
+  outline: none;
+  border: none;
+}
+.contacts .container .form button {
+  padding: 9px 15px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: #999999;
+  border: 1px solid #00ddff;
+  color: black;
+  outline: none;
+  position: relative;
+  overflow: hidden;
+  font-weight: 600;
+  letter-spacing: 0.6px;
+  border-radius: 6px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  margin-top: 10px;
+  -webkit-box-shadow: 0px 0px 13px 2px rgba(0, 221, 255, 0.83);
+          box-shadow: 0px 0px 13px 2px rgba(0, 221, 255, 0.83);
+  z-index: 2;
+}
+.contacts .container .form button:before {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  width: 100%;
+  top: 0;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  left: -100%;
+  height: 100%;
+  background-color: #1a1a1a;
+}
+.contacts .container .form button:hover {
+  color: #00ddff;
+}
+.contacts .container .form button:hover:before {
+  left: 0%;
+}
+.contacts .container .linkks {
+  position: relative;
+  margin-right: 70px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  left: -50vw;
+  width: 620px;
+}
+.contacts .container .linkks .profile {
+  width: 330px;
+  height: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  border-radius: 5px;
+  background-color: #000;
+  -webkit-box-shadow: 0 0 2rem #babbbc;
+          box-shadow: 0 0 2rem #babbbc;
+  -webkit-animation: show-profile 0.5s forwards ease-in-out;
+          animation: show-profile 0.5s forwards ease-in-out;
+}
+@-webkit-keyframes show-profile {
+  0% {
+    width: 0;
+  }
+}
+@keyframes show-profile {
+  0% {
+    width: 0;
+  }
+}
+.contacts .container .linkks .profile .photo,
+.contacts .container .linkks .profile .content {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.contacts .container .linkks .profile .photo {
+  width: 100px;
+  position: relative;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 2px solid #00ddff;
+  background-color: #000000;
+  margin-left: -50px;
+  -webkit-box-shadow: 0 0 0.5rem #00ddff;
+          box-shadow: 0 0 0.5rem #00ddff;
+  overflow: hidden;
+}
+.contacts .container .linkks .profile .photo:before {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  content: "";
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.contacts .container .linkks .profile .photo img {
+  width: 100%;
+}
+.contacts .container .linkks .profile .content {
+  padding: 10px;
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+.contacts .container .linkks .profile .content::before {
+  content: "";
+  position: absolute;
+  width: 230px;
+  height: 150px;
+  border-left: 1px solid #00ddff;
+  -webkit-box-shadow: 1px 1px 16px #00ddff;
+          box-shadow: 1px 1px 16px #00ddff;
+  background-color: #000000;
+  left: 0;
+  top: -20px;
+  z-index: -1;
+  -webkit-transform: rotate(-8deg);
+          transform: rotate(-8deg);
+}
+.contacts .container .linkks .profile .content .text {
+  margin-top: 20px;
+  margin-left: 65px;
+  color: #fff;
+}
+.contacts .container .linkks .profile .content .text h3,
+.contacts .container .linkks .profile .content .text h6 {
+  font-weight: normal;
+  margin: 5px 0;
+  letter-spacing: 0.7px;
+  white-space: nowrap;
+}
+.contacts .container .linkks .profile .content .text h3 {
+  font-size: 17px;
+}
+.contacts .container .linkks .profile .content .text h6 {
+  font-size: 11px;
+}
+.contacts .container .linkks .profile .content .btn {
+  background-color: rgb(0, 0, 0);
+  border: 1px solid #00ddff;
+  -webkit-box-shadow: 0px 0px 11px 1px #00ddff;
+          box-shadow: 0px 0px 11px 1px #00ddff;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  right: 25px;
+  top: 25px;
+  border-radius: 50%;
+  z-index: 1;
+  cursor: pointer;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+  -webkit-animation: pop-btn 0.3s both ease-in-out 0.5s;
+          animation: pop-btn 0.3s both ease-in-out 0.5s;
+}
+@-webkit-keyframes pop-btn {
+  0% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  80% {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+@keyframes pop-btn {
+  0% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  80% {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+.contacts .container .linkks .profile .content .btn:hover {
+  -webkit-box-shadow: 0 0 0 5px hsla(188deg, 100%, 50%, 0.475);
+          box-shadow: 0 0 0 5px hsla(188deg, 100%, 50%, 0.475);
+}
+.contacts .container .linkks .profile .content .btn span {
+  width: 60%;
+  height: 2px;
+  position: absolute;
+  background-color: #00ddff;
+  top: 50%;
+  left: 20%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  -webkit-animation: to-hamburger 0.3s forwards ease-in-out;
+          animation: to-hamburger 0.3s forwards ease-in-out;
+}
+.contacts .container .linkks .profile .content .btn span::before,
+.contacts .container .linkks .profile .content .btn span::after {
+  content: "";
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  background-color: #00ddff;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  right: 0;
+}
+.contacts .container .linkks .profile .content .btn span::before {
+  margin-top: -7px;
+}
+.contacts .container .linkks .profile .content .btn span::after {
+  margin-top: 7px;
+}
+.contacts .container .linkks .profile .content .btn.active span {
+  -webkit-animation: to-arrow 0.3s forwards ease-in-out;
+          animation: to-arrow 0.3s forwards ease-in-out;
+}
+.contacts .container .linkks .profile .content .btn.active span::before,
+.contacts .container .linkks .profile .content .btn.active span::after {
+  width: 60%;
+  right: -1px;
+}
+.contacts .container .linkks .profile .content .btn.active span::before {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+.contacts .container .linkks .profile .content .btn.active span::after {
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+@-webkit-keyframes to-hamburger {
+  from {
+    -webkit-transform: translateY(-50%) rotate(-180deg);
+            transform: translateY(-50%) rotate(-180deg);
+  }
+}
+@keyframes to-hamburger {
+  from {
+    -webkit-transform: translateY(-50%) rotate(-180deg);
+            transform: translateY(-50%) rotate(-180deg);
+  }
+}
+@-webkit-keyframes to-arrow {
+  from {
+    -webkit-transform: translateY(-50%) rotate(0deg);
+            transform: translateY(-50%) rotate(0deg);
+  }
+  to {
+    -webkit-transform: translateY(-50%) rotate(180deg);
+            transform: translateY(-50%) rotate(180deg);
+  }
+}
+@keyframes to-arrow {
+  from {
+    -webkit-transform: translateY(-50%) rotate(0deg);
+            transform: translateY(-50%) rotate(0deg);
+  }
+  to {
+    -webkit-transform: translateY(-50%) rotate(180deg);
+            transform: translateY(-50%) rotate(180deg);
+  }
+}
+.contacts .container .linkks .profile .box {
+  width: 150px;
+  height: 150px;
+  opacity: 0;
+  border-radius: 50%;
+  background-color: rgba(0, 221, 255, 0.3803921569);
+  position: absolute;
+  top: 50%;
+  right: -40%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+.contacts .container .linkks .profile .box a {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #000;
+  font-size: 26px;
+  text-align: center;
+  line-height: 50px;
+  position: absolute;
+  left: 18px;
+  top: 50px;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+.contacts .container .linkks .profile .box a i {
+  color: #00ddff;
+}
+.contacts .container .linkks .profile .box a:hover {
+  -webkit-box-shadow: 0 0 0 5px rgba(0, 221, 255, 0.7568627451);
+          box-shadow: 0 0 0 5px rgba(0, 221, 255, 0.7568627451);
+}
+.contacts .container .linkks .profile .box.open {
+  opacity: 1;
+}
+.contacts .container .linkks .profile .box.open a {
+  left: 60px;
+}
+.contacts .container .linkks .profile .box.open a:nth-of-type(1) {
+  -webkit-transform: rotate(-90deg) translateX(120px) rotate(90deg);
+          transform: rotate(-90deg) translateX(120px) rotate(90deg);
+  -webkit-transition-delay: 0s;
+          transition-delay: 0s;
+}
+.contacts .container .linkks .profile .box.open a:nth-of-type(2) {
+  -webkit-transform: rotate(-45deg) translateX(120px) rotate(45deg);
+          transform: rotate(-45deg) translateX(120px) rotate(45deg);
+  -webkit-transition: 0.3s, -webkit-transform 0.3s 0.1s;
+  transition: 0.3s, -webkit-transform 0.3s 0.1s;
+  transition: transform 0.3s 0.1s, 0.3s;
+  transition: transform 0.3s 0.1s, 0.3s, -webkit-transform 0.3s 0.1s;
+}
+.contacts .container .linkks .profile .box.open a:nth-of-type(3) {
+  -webkit-transform: rotate(0deg) translateX(120px) rotate(0deg);
+          transform: rotate(0deg) translateX(120px) rotate(0deg);
+  -webkit-transition: 0.3s, -webkit-transform 0.3s 0.2s;
+  transition: 0.3s, -webkit-transform 0.3s 0.2s;
+  transition: transform 0.3s 0.2s, 0.3s;
+  transition: transform 0.3s 0.2s, 0.3s, -webkit-transform 0.3s 0.2s;
+}
+.contacts .container .linkks .profile .box.open a:nth-of-type(4) {
+  -webkit-transform: rotate(45deg) translateX(120px) rotate(-45deg);
+          transform: rotate(45deg) translateX(120px) rotate(-45deg);
+  -webkit-transition: 0.3s, -webkit-transform 0.3s 0.3s;
+  transition: 0.3s, -webkit-transform 0.3s 0.3s;
+  transition: transform 0.3s 0.3s, 0.3s;
+  transition: transform 0.3s 0.3s, 0.3s, -webkit-transform 0.3s 0.3s;
+}
+.contacts .container .linkks .profile .box.open a:nth-of-type(5) {
+  -webkit-transform: rotate(90deg) translateX(120px) rotate(-90deg);
+          transform: rotate(90deg) translateX(120px) rotate(-90deg);
+  -webkit-transition: 0.3s, -webkit-transform 0.3s 0.4s;
+  transition: 0.3s, -webkit-transform 0.3s 0.4s;
+  transition: transform 0.3s 0.4s, 0.3s;
+  transition: transform 0.3s 0.4s, 0.3s, -webkit-transform 0.3s 0.4s;
+}
+@media (max-width: 1200px) {
+  .contacts .container .linkks {
+    margin-right: 125px;
+    width: 657px;
+  }
+  .contacts .container .form .form-group:nth-child(4) {
+    width: 100%;
+    height: 100px;
+  }
+}
+@media (max-width: 991px) {
+  .contacts .container .linkks {
+    margin: 0;
+    width: 657px;
+    height: 320px;
+  }
+}
+@media (max-width: 534px) {
+  .contacts .container .form .form-group:nth-child(1) {
+    width: 100%;
+  }
+  .contacts .container .form .form-group:nth-child(2) {
+    width: 100%;
+  }
+}
+@media (max-width: 676px) {
+  .contacts .container .linkks {
+    display: none;
+  }
+}
+.contacts .container .linksformop {
+  display: none;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.contacts .container .linksformop .box {
+  gap: 10px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.contacts .container .linksformop .box a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #1a1a1a;
+  text-align: center;
+  line-height: 50px;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+.contacts .container .linksformop .box a i {
+  font-size: 16px;
+  color: #00ddff;
+}
+.contacts .container .linksformop .box a:hover {
+  -webkit-box-shadow: 0 0 0 5px rgba(0, 221, 255, 0.7568627451);
+          box-shadow: 0 0 0 5px rgba(0, 221, 255, 0.7568627451);
+}
+@media (max-width: 676px) {
+  .contacts .container .linksformop {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 991px) {
+  .contacts .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 1.8vmin;
+}
+
+#CONT-GEN {
+  width: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  font-family: open sans;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.resize-cont-gen {
+  width: 46rem;
+  height: 46rem;
+}
+
+:root {
+  --wbox: 10rem;
+  --hbox: 10rem;
+  --duracion: 16s;
+  --gmargen: 2rem;
+}
+
+.cont-cajas3d {
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "-b-uno -b-uno -b-dos -b-tres" "-b-cuatro -b-cinco -b-cinco -b-seis" "-b-siete -b-cinco -b-cinco -b-ocho" "-b-nueve -b-nueve -b-diez -b-once";
+  grid-gap: 2rem;
+}
+
+.box-caja3d {
+  height: var(--hbox);
+  -webkit-transform: rotateX(0deg) rotateY(0deg);
+          transform: rotateX(0deg) rotateY(0deg);
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+  -webkit-animation: rotacion var(--duracion) infinite ease;
+          animation: rotacion var(--duracion) infinite ease;
+}
+
+.box-caja3d:hover {
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+
+.cond-caja3d {
+  width: var(--wbox);
+  height: var(--hbox);
+  position: absolute;
+  background-color: grey;
+  color: white;
+  text-align: center;
+  line-height: var(--hbox);
+  cursor: pointer;
+}
+
+.cond-caja3d:hover {
+  background-color: lightgrey;
+}
+
+.-caja-1 {
+  -webkit-transform: translateZ(calc(var(--hbox) / 2));
+  transform: translateZ(calc(var(--hbox) / 2));
+}
+
+.-caja-2 {
+  -webkit-transform: rotateX(-90deg) translateZ(calc(var(--hbox) / 2));
+  transform: rotateX(-90deg) translateZ(calc(var(--hbox) / 2));
+  background-color: #6f6f6f;
+}
+
+.-caja-3 {
+  -webkit-transform: rotateX(180deg) translateZ(calc(var(--hbox) / 2));
+  transform: rotateX(180deg) translateZ(calc(var(--hbox) / 2));
+}
+
+.-caja-4 {
+  -webkit-transform: rotateX(90deg) translateZ(calc(var(--hbox) / 2));
+  transform: rotateX(90deg) translateZ(calc(var(--hbox) / 2));
+  background-color: #6f6f6f;
+}
+
+@-webkit-keyframes rotacion {
+  10.001%, 15%, 35.001%, 40%, 60.001%, 65%, 85.001%, 90% {
+    pointer-events: none;
+  }
+  0%, 10% {
+    -webkit-transform: rotateX(0);
+    transform: rotateX(0);
+    pointer-events: initial;
+  }
+  15.001%, 25%, 35% {
+    -webkit-transform: rotateX(90deg);
+    transform: rotateX(90deg);
+    pointer-events: initial;
+  }
+  40.001%, 50%, 60% {
+    -webkit-transform: rotateX(180deg);
+    transform: rotateX(180deg);
+    pointer-events: initial;
+  }
+  65.001%, 75%, 85% {
+    -webkit-transform: rotateX(270deg);
+    transform: rotateX(270deg);
+    pointer-events: initial;
+  }
+  90.001%, 100% {
+    -webkit-transform: rotateX(360deg);
+    transform: rotateX(360deg);
+    pointer-events: initial;
+  }
+}
+
+@keyframes rotacion {
+  10.001%, 15%, 35.001%, 40%, 60.001%, 65%, 85.001%, 90% {
+    pointer-events: none;
+  }
+  0%, 10% {
+    -webkit-transform: rotateX(0);
+    transform: rotateX(0);
+    pointer-events: initial;
+  }
+  15.001%, 25%, 35% {
+    -webkit-transform: rotateX(90deg);
+    transform: rotateX(90deg);
+    pointer-events: initial;
+  }
+  40.001%, 50%, 60% {
+    -webkit-transform: rotateX(180deg);
+    transform: rotateX(180deg);
+    pointer-events: initial;
+  }
+  65.001%, 75%, 85% {
+    -webkit-transform: rotateX(270deg);
+    transform: rotateX(270deg);
+    pointer-events: initial;
+  }
+  90.001%, 100% {
+    -webkit-transform: rotateX(360deg);
+    transform: rotateX(360deg);
+    pointer-events: initial;
+  }
+}
+.-box1 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-area: -b-uno;
+}
+
+.-box2 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 5;
+  grid-area: -b-dos;
+}
+
+.-box3 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 7;
+  grid-area: -b-tres;
+}
+
+.-box4 {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: -b-cuatro;
+}
+
+.-box5 {
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 3;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 3;
+  grid-area: -b-cinco;
+}
+
+.-box6 {
+  -ms-grid-row: 3;
+  -ms-grid-column: 7;
+  grid-area: -b-seis;
+}
+
+.-box7 {
+  -ms-grid-row: 5;
+  -ms-grid-column: 1;
+  grid-area: -b-siete;
+}
+
+.-box8 {
+  -ms-grid-row: 5;
+  -ms-grid-column: 7;
+  grid-area: -b-ocho;
+}
+
+.-box9 {
+  -ms-grid-row: 7;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-area: -b-nueve;
+}
+
+.-box10 {
+  -ms-grid-row: 7;
+  -ms-grid-column: 5;
+  grid-area: -b-diez;
+}
+
+.-box11 {
+  -ms-grid-row: 7;
+  -ms-grid-column: 7;
+  grid-area: -b-once;
+}
+
+.-box1 .cond-caja3d,
+.-box9 .cond-caja3d {
+  width: calc(var(--wbox) * 2 + var(--gmargen));
+}
+
+.-box5 .cond-caja3d {
+  width: calc(var(--wbox) * 2 + var(--gmargen));
+  height: calc(var(--hbox) * 2 + var(--gmargen));
+  line-height: 22rem;
+}
+
+.-box5 .box-caja3d {
+  height: calc(var(--hbox) * 2 + var(--gmargen));
+}
+
+.-box5 .-caja-1 {
+  -webkit-transform: translateZ(calc((var(--hbox) * 2 + var(--gmargen)) / 2));
+  transform: translateZ(calc((var(--hbox) * 2 + var(--gmargen)) / 2));
+}
+
+.-box5 .-caja-2 {
+  -webkit-transform: rotateX(-90deg) translateZ(calc((var(--hbox) * 2 + var(--gmargen)) / 2));
+  transform: rotateX(-90deg) translateZ(calc((var(--hbox) * 2 + var(--gmargen)) / 2));
+}
+
+.-box5 .-caja-3 {
+  -webkit-transform: rotateX(180deg) translateZ(calc((var(--hbox) * 2 + var(--gmargen)) / 2));
+  transform: rotateX(180deg) translateZ(calc((var(--hbox) * 2 + var(--gmargen)) / 2));
+}
+
+.-box5 .-caja-4 {
+  -webkit-transform: rotateX(90deg) translateZ(calc((var(--hbox) * 2 + var(--gmargen)) / 2));
+  transform: rotateX(90deg) translateZ(calc((var(--hbox) * 2 + var(--gmargen)) / 2));
 }

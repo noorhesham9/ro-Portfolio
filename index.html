@@ -39,7 +39,7 @@
 
   <body style="height: 3000px">
     <header id="header">
-      <!-- <div class="loadGRip">
+      <div class="loadGRip">
         <div id="loadddd" class="loadingPage">
           <div class="cont">
             <img src="image/fotor_2023-1-19_17_34_42.png" alt="" />
@@ -55,7 +55,7 @@
             <div class="try6"></div>
           </div>
         </div>
-      </div> -->
+      </div>
       <div id="headcontain" class="container headcontain">
         <a class="image" href="#">
           <img src="image/fotor_2023-1-19_17_34_42.png" alt="" />
@@ -65,10 +65,10 @@
           <ul>
             <a href="#"> <li>Home</li></a>
             <a href="#about"> <li>About</li></a>
-            <a href="#"> <li>Services</li></a>
-            <a href="#"> <li>Resume</li></a>
-            <a href="#"> <li>Portfolio</li></a>
-            <a href="#"> <li>Contact</li></a>
+            <a href="#services"> <li>Services</li></a>
+            <a href="#resume"> <li>Resume</li></a>
+            <a href="#portfolio"> <li>Portfolio</li></a>
+            <a href="#contact"> <li>Contact</li></a>
           </ul>
         </div>
         <div id="burger" class="burger">
@@ -84,27 +84,41 @@
           </a>
 
           <div id="closenavForMob" class="x closenavForMob">
-            <a href="#"> <i class="fa-solid fa-x"></i></a>
+            <i class="fa-solid fa-x"></i>
           </div>
         </div>
         <div class="middle">
           <ul>
-            <a href="#"> <li>Home</li></a>
-            <a href="#"> <li>About</li></a>
-            <a href="#"> <li>Services</li></a>
-            <a class="bblastch" href="#"> <li>Resume</li></a>
-            <a class="blastch" href="#"> <li>Portfolio</li></a>
-            <a class="lastch" href="#"> <li>Contact</li></a>
+            <a id="closenavForMobHome" href="#"> <li>Home</li></a>
+            <a id="closenavForMobabout" href="#about"> <li>About</li></a>
+            <a id="closenavForMobServices" href="#services">
+              <li>Services</li></a
+            >
+            <a id="closenavForMobresume" class="bblastch" href="#resume">
+              <li>Resume</li></a
+            >
+            <a id="closenavForMobportfolio" class="blastch" href="#portfolio">
+              <li>Portfolio</li></a
+            >
+            <a id="closenavForMobcontant" class="lastch" href="#contact">
+              <li>Contact</li></a
+            >
           </ul>
         </div>
         <div class="bottom">
-          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-          <a href="#"> <i class="fa-brands fa-linkedin-in"></i></a>
-          <a href="#"> <i class="fa-brands fa-behance"></i></a>
+          <a href="https://web.facebook.com/profile.php?id=100011579193746"
+            ><i class="fa-brands fa-facebook-f"></i
+          ></a>
+          <a href="https://www.linkedin.com/in/radwa-ehab-209555218">
+            <i class="fa-brands fa-linkedin-in"></i
+          ></a>
+          <a href="https://www.behance.net/rodyro">
+            <i class="fa-brands fa-behance"></i
+          ></a>
         </div>
       </div>
     </header>
-    <section class="landing light">
+    <section id="lannnding" class="landing light">
       <div class="container content">
         <div class="text">
           <span> Hi I'm </span>
@@ -113,7 +127,7 @@
             >I'm a
             <p class="graphic">Graphic Designer</p>
           </span>
-          <a href="#"> <p>hire me</p> </a>
+          <a href="#contact"> <p>hire me</p> </a>
         </div>
         <div class="image">
           <div class="meteor-1"></div>
@@ -136,9 +150,10 @@
       <div class="container content">
         <div class="image">
           <div class="gerd"></div>
+          <div id="overlayabout" class="overlayabout"></div>
           <img src="image/about cutted.png" alt="" />
         </div>
-        <div class="text">
+        <div id="aboutTText" class="text">
           <div class="sentence">
             <span>I'm Radwa</span>
             <span>I'm graphic designer and Instructor</span>
@@ -198,7 +213,8 @@
         </div>
       </div>
     </section>
-    <section class="services graaay">
+
+    <section id="services" class="services graaay">
       <div class="mainhead">
         <h2>services</h2>
       </div>
@@ -288,12 +304,12 @@
       </div>
     </section>
 
-    <section class="resume graaay">
+    <section id="resume" class="resume graaay">
       <div class="mainhead">
         <h2>resume</h2>
       </div>
       <div class="container">
-        <div class="education">
+        <div id="LLLresume" class="education">
           <div class="head">
             <div class="title">education</div>
             <div class="icn"><i class="fa-solid fa-graduation-cap"></i></div>
@@ -352,7 +368,7 @@
             </div>
           </div>
         </div>
-        <div class="experience">
+        <div id="RRRresume" class="experience">
           <div class="head">
             <div class="title">Experience</div>
             <div class="icn"><i class="fa-solid fa-paintbrush"></i></div>
@@ -422,14 +438,417 @@
       </div>
     </section>
 
+    <section id="portfolio" class="portfolio gray">
+      <div class="mainhead">
+        <h2>portfolio</h2>
+      </div>
+
+      <div class="container">
+        <!--    <div class="boxes">
+        <div class="box">
+          <img src="image/fotor_2023-1-23_19_26_3.png" alt="" />
+          <div class="overlay">title</div>
+        </div>
+        <div class="box">
+          <img src="image/fotor_2023-1-23_19_26_3.png" alt="" />
+          <div class="overlay">title</div>
+        </div>
+        <div class="box">
+          <img src="image/fotor_2023-1-23_19_26_3.png" alt="" />
+          <div class="overlay">title</div>
+        </div>
+        <div class="box">
+          <img src="image/fotor_2023-1-23_19_26_3.png" alt="" />
+          <div class="overlay">title</div>
+        </div>
+        <div class="box">
+          <img src="image/fotor_2023-1-23_19_26_3.png" alt="" />
+          <div class="overlay">title</div>
+        </div>
+        <div class="box">
+          <img src="image/fotor_2023-1-23_19_26_3.png" alt="" />
+          <div class="overlay">title</div>
+        </div>
+        <div class="box">
+          <img src="image/fotor_2023-1-23_19_26_3.png" alt="" />
+          <div class="overlay">title</div>
+        </div>
+        <div class="box">
+          <img src="image/fotor_2023-1-23_19_26_3.png" alt="" />
+          <div class="overlay">title</div>
+        </div>
+        <div class="box">
+          <img src="image/fotor_2023-1-23_19_26_3.png" alt="" />
+          <div class="overlay">title</div>
+        </div>
+        </div> -->
+
+        <div class="grid">
+          <div class="grid--item">
+            <div
+              class="img"
+              style="background-image: url(image/port1.jpg)"></div>
+            <!-- <div class="container2">
+              <h2>عمرو المنفاخ</h2>
+              <div class="desc">علي العشره وعلي الايام</div>
+            </div> -->
+          </div>
+          <div class="grid--item">
+            <div
+              class="img"
+              style="background-image: url(image/port2.jpg)"></div>
+            <!-- <div class="container2">
+              <h2>Amr Diap</h2>
+              <div class="desc">جباااااااااااااار</div>
+            </div> -->
+          </div>
+          <div class="grid--item">
+            <div
+              class="img"
+              style="background-image: url(image/port3.jpg)"></div>
+            <!-- <div class="container2">
+              <h2>Amr diap</h2>
+              <div class="desc">احلي مسا عليكي يا صفرا</div>
+            </div> -->
+          </div>
+          <div class="grid--item">
+            <div
+              class="img"
+              style="background-image: url(image/port4.jpg)"></div>
+            <!-- <div class="container2">
+              <h2>Amr Diap</h2>
+              <div class="desc">يا بخه يا ام دماغين</div>
+            </div> -->
+          </div>
+          <div class="grid--item">
+            <div
+              class="img"
+              style="background-image: url(image/port5.jpg)"></div>
+            <!-- <div class="container2">
+              <h2>3mr diap</h2>
+              <div class="desc">اللي اوله كفته اخره سيخ</div>
+            </div> -->
+          </div>
+          <div class="grid--item">
+            <div
+              class="img"
+              style="background-image: url(image/port6.jpg)"></div>
+            <!-- <div class="container2">
+              <h2>Amr Diap</h2>
+              <div class="desc">جااااامد والله يا جدعان</div>
+            </div> -->
+          </div>
+          <div class="grid--item">
+            <div
+              class="img"
+              style="background-image: url(image/port7.jpg)"></div>
+            <!-- <div class="container2">
+              <h2>Amr Diap</h2>
+              <div class="desc">ههههههه هههههههه</div>
+            </div> -->
+          </div>
+        </div>
+      </div>
+      <!-- <div id="CONT-GEN">
+        <div class="resize-cont-gen">
+          <div class="cont-cajas3d">
+            <div class="-cont-caja3d -box1">
+              <div class="box-caja3d" style="animation-delay: -4.23234s">
+                <div class="cond-caja3d -caja-1">
+                  <div class="-caja3d">1</div>
+                </div>
+                <div class="cond-caja3d -caja-2">
+                  <div class="-caja3d">2</div>
+                </div>
+                <div class="cond-caja3d -caja-3">
+                  <div class="-caja3d">3</div>
+                </div>
+                <div class="cond-caja3d -caja-4">
+                  <div class="-caja3d">4</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="-cont-caja3d -box2">
+              <div class="box-caja3d" style="animation-delay: -4.37689s">
+                <div class="cond-caja3d -caja-1">
+                  <div class="-caja3d">1</div>
+                </div>
+                <div class="cond-caja3d -caja-2">
+                  <div class="-caja3d">2</div>
+                </div>
+                <div class="cond-caja3d -caja-3">
+                  <div class="-caja3d">3</div>
+                </div>
+                <div class="cond-caja3d -caja-4">
+                  <div class="-caja3d">4</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="-cont-caja3d -box3">
+              <div class="box-caja3d" style="animation-delay: -6.03085s">
+                <div class="cond-caja3d -caja-1">
+                  <div class="-caja3d">1</div>
+                </div>
+                <div class="cond-caja3d -caja-2">
+                  <div class="-caja3d">2</div>
+                </div>
+                <div class="cond-caja3d -caja-3">
+                  <div class="-caja3d">3</div>
+                </div>
+                <div class="cond-caja3d -caja-4">
+                  <div class="-caja3d">4</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="-cont-caja3d -box4">
+              <div class="box-caja3d" style="animation-delay: -12.0432s">
+                <div class="cond-caja3d -caja-1">
+                  <div class="-caja3d">1</div>
+                </div>
+                <div class="cond-caja3d -caja-2">
+                  <div class="-caja3d">2</div>
+                </div>
+                <div class="cond-caja3d -caja-3">
+                  <div class="-caja3d">3</div>
+                </div>
+                <div class="cond-caja3d -caja-4">
+                  <div class="-caja3d">4</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="-cont-caja3d -box5">
+              <div class="box-caja3d" style="animation-delay: -11.478s">
+                <div class="cond-caja3d -caja-1">
+                  <div class="-caja3d">1</div>
+                </div>
+                <div class="cond-caja3d -caja-2">
+                  <div class="-caja3d">2</div>
+                </div>
+                <div class="cond-caja3d -caja-3">
+                  <div class="-caja3d">3</div>
+                </div>
+                <div class="cond-caja3d -caja-4">
+                  <div class="-caja3d">4</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="-cont-caja3d -box6">
+              <div class="box-caja3d" style="animation-delay: -12.6021s">
+                <div class="cond-caja3d -caja-1">
+                  <div class="-caja3d">1</div>
+                </div>
+                <div class="cond-caja3d -caja-2">
+                  <div class="-caja3d">2</div>
+                </div>
+                <div class="cond-caja3d -caja-3">
+                  <div class="-caja3d">3</div>
+                </div>
+                <div class="cond-caja3d -caja-4">
+                  <div class="-caja3d">4</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="-cont-caja3d -box7">
+              <div class="box-caja3d" style="animation-delay: -13.0611s">
+                <div class="cond-caja3d -caja-1">
+                  <div class="-caja3d">1</div>
+                </div>
+                <div class="cond-caja3d -caja-2">
+                  <div class="-caja3d">2</div>
+                </div>
+                <div class="cond-caja3d -caja-3">
+                  <div class="-caja3d">3</div>
+                </div>
+                <div class="cond-caja3d -caja-4">
+                  <div class="-caja3d">4</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="-cont-caja3d -box8">
+              <div class="box-caja3d" style="animation-delay: -11.0782s">
+                <div class="cond-caja3d -caja-1">
+                  <div class="-caja3d">1</div>
+                </div>
+                <div class="cond-caja3d -caja-2">
+                  <div class="-caja3d">2</div>
+                </div>
+                <div class="cond-caja3d -caja-3">
+                  <div class="-caja3d">3</div>
+                </div>
+                <div class="cond-caja3d -caja-4">
+                  <div class="-caja3d">4</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="-cont-caja3d -box9">
+              <div class="box-caja3d" style="animation-delay: -7.82807s">
+                <div class="cond-caja3d -caja-1">
+                  <div class="-caja3d">1</div>
+                </div>
+                <div class="cond-caja3d -caja-2">
+                  <div class="-caja3d">2</div>
+                </div>
+                <div class="cond-caja3d -caja-3">
+                  <div class="-caja3d">3</div>
+                </div>
+                <div class="cond-caja3d -caja-4">
+                  <div class="-caja3d">4</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="-cont-caja3d -box10">
+              <div class="box-caja3d" style="animation-delay: -8.67957s">
+                <div class="cond-caja3d -caja-1">
+                  <div class="-caja3d">1</div>
+                </div>
+                <div class="cond-caja3d -caja-2">
+                  <div class="-caja3d">2</div>
+                </div>
+                <div class="cond-caja3d -caja-3">
+                  <div class="-caja3d">3</div>
+                </div>
+                <div class="cond-caja3d -caja-4">
+                  <div class="-caja3d">4</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="-cont-caja3d -box11">
+              <div class="box-caja3d" style="animation-delay: -13.5758s">
+                <div class="cond-caja3d -caja-1">
+                  <div class="-caja3d">1</div>
+                </div>
+                <div class="cond-caja3d -caja-2">
+                  <div class="-caja3d">2</div>
+                </div>
+                <div class="cond-caja3d -caja-3">
+                  <div class="-caja3d">3</div>
+                </div>
+                <div class="cond-caja3d -caja-4">
+                  <div class="-caja3d">4</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> -->
+    </section>
+
+    <section id="contact" class="contacts graaay">
+      <div class="mainhead">
+        <h2>contact</h2>
+      </div>
+
+      <div id class="container">
+        <div id="CONTform" class="form">
+          <form action="mailto:barbieblus154@gmail.com" class="form">
+            <div class="grid">
+              <div class="form-group">
+                <input
+                  type="text"
+                  name="name"
+                  id="name"
+                  placeholder="Full name" />
+              </div>
+              <div class="form-group">
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="Your email" />
+              </div>
+              <div class="form-group">
+                <input
+                  type="text"
+                  name="subject"
+                  id="subject"
+                  placeholder="Subject" />
+              </div>
+              <div class="form-group">
+                <textarea
+                  name="message"
+                  id="message"
+                  placeholder="Your message goes here"></textarea>
+              </div>
+              <button type="submit" class="btn">Send message</button>
+            </div>
+          </form>
+        </div>
+        <div id="linksForm" class="linkks">
+          <div class="profile">
+            <div class="photo">
+              <img src="image/radwa_cutted_face.jpeg" />
+            </div>
+
+            <div class="content">
+              <div class="text">
+                <h3>Radwa Ehap</h3>
+
+                <h6>Graphic Designer</h6>
+              </div>
+
+              <div id="contactbtn" class="btn"><span></span></div>
+            </div>
+
+            <div id="contactbox" class="box">
+              <a href="tel:01122414413"><i class="fa-solid fa-phone"></i></a>
+
+              <a href="https://web.facebook.com/profile.php?id=100011579193746">
+                <i class="fa-brands fa-facebook-f"></i>
+              </a>
+              <a href="https://www.instagram.com/radwa.ehab99/">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/radwa-ehab-209555218">
+                <i class="fa-brands fa-linkedin-in"></i>
+              </a>
+              <a href="https://www.behance.net/rodyro">
+                <i class="fa-brands fa-behance"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="linksformop">
+          <div id="contactbox" class="box">
+            <a href="tel:01122414413" href="#"
+              ><i class="fa-solid fa-phone"></i
+            ></a>
+
+            <a href="https://web.facebook.com/profile.php?id=100011579193746">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a href="https://www.instagram.com/radwa.ehab99/">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/radwa-ehab-209555218">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+            <a href="https://www.behance.net/rodyro">
+              <i class="fa-brands fa-behance"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <footer>
       <div id="sky"></div>
-      <svg class="section-divider" viewBox="0 0 1920 60" aria-hidden="true">
+      <!-- <svg class="section-divider" viewBox="0 0 1920 60" aria-hidden="true">
         <path
           data-theme="softSecondary"
           fill="var(--color-bg)"
           d="M0,80.75H1920V45.833H1742.083a80.491,80.491,0,0,1,12.863-1.55c5.2-.26,17.24-.3,24.153-.24,26.69.222,54.377,1.094,79.341.96,19.287-.1,37.1-.372,53.573-.788L1920,44V34.078l-6.614.216-9.221.256c-6.252.147-12.7.249-19.265.32-13.132.14-26.739.15-40.206.125-26.935-.052-53.313-.247-74.22.168-14.367-1.4-32.582-.756-48.293-1.92-10.145.509-20.876.936-24.149,2.4-16.09-.266-37.611,2.532-50.019.479V34.684c-10.959-2.291-33.371-1.869-48.292-3.84-15.861-.512-26.214,1.347-39.671,1.92-7.032.178-5.941-.773-13.8-.481-40.751-.071-41.131,5.477-62.087,8.16-4.569-5.691-47.085-5.126-77.622-5.04-2.333-4.154-22.643-5.808-50.015-6.479-4.677-2.069-17.763-2.969-22.423-5.04-4.7-.175-3.474.477-6.9.479-11.485-2.964-40.092-2.449-63.813-3.36-23.312.6-29.4,3.589-55.195,3.841-8.3-3.783-56.5-4.561-84.513-3.361-.316-1.857-5.682-3.862-20.7-4.8-2.193-.137-6.78.122-10.352,0-16.331-.564-22.974-3.145-39.671-1.441-22.812-1.938-73.831-3.919-98.311-.719-4.315-2.2-15.369-3.462-20.7-5.521-23.122-.714-41.26-2.815-65.54-2.64-13.5,1-29.918,1.6-39.671,3.12.27,1.317-1.305,2.38-6.9,2.88-35.562-1.333-83.117-2.545-93.139,2.88-14.338-.314-8.341,2.2-22.423,1.92-5.17-.16-2.615-1.4-6.9-1.68-36.327-1.894-80.653-1.762-100.041,2.161-12.433-1.631-21.648-3.708-36.221-5.04-13.359.1-36.33-.325-48.293-1.2-32.483.6-42.463,4.331-53.471,7.92-25.227-.147-43.752,2.274-58.641,4.321-11.966-1.189-27.56-.426-39.67-1.441-19.514,1.284-40.772,2.328-53.468,4.561C301.584,31.04,294,33.888,283.7,37.8c-15.047-.774-19.865-3.5-36.221-4.321-10.453-.522-37.12-1.01-48.3-.959-10.184.046-17.188,1.062-27.595.719-18.244,2.022-31.516,4.736-46.57,7.2-3.726,2.091-9.8,3.854-17.5,5.39H4.061c-.734-1.281-1.512-2.592-2.344-3.949-.546-.09-1.13-.175-1.717-.26Z"></path>
-      </svg>
+      </svg> -->
 
       <div class="container">
         <div class="top">
@@ -437,10 +856,16 @@
             <img src="image/fotor_2023-1-19_17_34_42.png" alt="" />
           </div>
           <div class="links">
-            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://web.facebook.com/profile.php?id=100011579193746"
+              ><i class="fa-brands fa-facebook-f"></i
+            ></a>
             <a href="#"><i class="fa-brands fa-instagram"></i></a>
-            <a href="#"> <i class="fa-brands fa-linkedin-in"></i></a>
-            <a href="#"> <i class="fa-brands fa-behance"></i></a>
+            <a href="https://www.linkedin.com/in/radwa-ehab-209555218">
+              <i class="fa-brands fa-linkedin-in"></i
+            ></a>
+            <a href="https://www.behance.net/rodyro">
+              <i class="fa-brands fa-behance"></i
+            ></a>
           </div>
         </div>
         <div class="allright">
