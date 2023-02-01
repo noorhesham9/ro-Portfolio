@@ -285,9 +285,9 @@ header .navForMob .bottom {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin-bottom: 80px;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -295,6 +295,19 @@ header .navForMob .bottom {
   gap: 10px;
 }
 header .navForMob .bottom i {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 40px;
+  border-radius: 50%;
+  height: 40px;
+  background-color: #999999;
   font-size: 18px;
 }
 @-webkit-keyframes opazero {
@@ -817,16 +830,16 @@ section .mainhead h2 {
 }
 .meteor-1 {
   position: absolute;
-  top: 76px;
-  left: 17%;
+  top: 163px;
+  left: 97%;
   width: 300px;
   height: 1px;
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
   background-image: -webkit-gradient(linear, left top, right top, from(#fff), to(rgba(255, 255, 255, 0)));
   background-image: linear-gradient(to right, #fff, rgba(255, 255, 255, 0));
-  -webkit-animation: meteor 6.9s linear infinite;
-          animation: meteor 6.9s linear infinite;
+  -webkit-animation: meteor 7.2s linear infinite;
+          animation: meteor 7.2s linear infinite;
 }
 .meteor-1:before {
   content: "";
@@ -842,16 +855,16 @@ section .mainhead h2 {
 
 .meteor-2 {
   position: absolute;
-  top: 105px;
-  left: 77%;
+  top: 156px;
+  left: 74%;
   width: 300px;
   height: 1px;
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
   background-image: -webkit-gradient(linear, left top, right top, from(#fff), to(rgba(255, 255, 255, 0)));
   background-image: linear-gradient(to right, #fff, rgba(255, 255, 255, 0));
-  -webkit-animation: meteor 3.1s linear infinite;
-          animation: meteor 3.1s linear infinite;
+  -webkit-animation: meteor 9.8s linear infinite;
+          animation: meteor 9.8s linear infinite;
 }
 .meteor-2:before {
   content: "";
@@ -867,16 +880,16 @@ section .mainhead h2 {
 
 .meteor-3 {
   position: absolute;
-  top: 287px;
-  left: 76%;
+  top: 183px;
+  left: 60%;
   width: 300px;
   height: 1px;
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
   background-image: -webkit-gradient(linear, left top, right top, from(#fff), to(rgba(255, 255, 255, 0)));
   background-image: linear-gradient(to right, #fff, rgba(255, 255, 255, 0));
-  -webkit-animation: meteor 3.1s linear infinite;
-          animation: meteor 3.1s linear infinite;
+  -webkit-animation: meteor 6.5s linear infinite;
+          animation: meteor 6.5s linear infinite;
 }
 .meteor-3:before {
   content: "";
@@ -892,16 +905,16 @@ section .mainhead h2 {
 
 .meteor-4 {
   position: absolute;
-  top: 253px;
-  left: 64%;
+  top: 235px;
+  left: 48%;
   width: 300px;
   height: 1px;
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
   background-image: -webkit-gradient(linear, left top, right top, from(#fff), to(rgba(255, 255, 255, 0)));
   background-image: linear-gradient(to right, #fff, rgba(255, 255, 255, 0));
-  -webkit-animation: meteor 6.5s linear infinite;
-          animation: meteor 6.5s linear infinite;
+  -webkit-animation: meteor 3.7s linear infinite;
+          animation: meteor 3.7s linear infinite;
 }
 .meteor-4:before {
   content: "";
@@ -917,16 +930,16 @@ section .mainhead h2 {
 
 .meteor-5 {
   position: absolute;
-  top: 65px;
-  left: 41%;
+  top: 202px;
+  left: 51%;
   width: 300px;
   height: 1px;
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
   background-image: -webkit-gradient(linear, left top, right top, from(#fff), to(rgba(255, 255, 255, 0)));
   background-image: linear-gradient(to right, #fff, rgba(255, 255, 255, 0));
-  -webkit-animation: meteor 5.2s linear infinite;
-          animation: meteor 5.2s linear infinite;
+  -webkit-animation: meteor 3.4s linear infinite;
+          animation: meteor 3.4s linear infinite;
 }
 .meteor-5:before {
   content: "";
@@ -942,16 +955,16 @@ section .mainhead h2 {
 
 .meteor-6 {
   position: absolute;
-  top: 186px;
-  left: 92%;
+  top: 208px;
+  left: 30%;
   width: 300px;
   height: 1px;
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
   background-image: -webkit-gradient(linear, left top, right top, from(#fff), to(rgba(255, 255, 255, 0)));
   background-image: linear-gradient(to right, #fff, rgba(255, 255, 255, 0));
-  -webkit-animation: meteor 6.3s linear infinite;
-          animation: meteor 6.3s linear infinite;
+  -webkit-animation: meteor 9.8s linear infinite;
+          animation: meteor 9.8s linear infinite;
 }
 .meteor-6:before {
   content: "";
@@ -967,16 +980,16 @@ section .mainhead h2 {
 
 .meteor-7 {
   position: absolute;
-  top: 132px;
-  left: 85%;
+  top: 118px;
+  left: 20%;
   width: 300px;
   height: 1px;
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
   background-image: -webkit-gradient(linear, left top, right top, from(#fff), to(rgba(255, 255, 255, 0)));
   background-image: linear-gradient(to right, #fff, rgba(255, 255, 255, 0));
-  -webkit-animation: meteor 5.5s linear infinite;
-          animation: meteor 5.5s linear infinite;
+  -webkit-animation: meteor 3.6s linear infinite;
+          animation: meteor 3.6s linear infinite;
 }
 .meteor-7:before {
   content: "";
@@ -2951,1444 +2964,1444 @@ footer .size-2 {
   height: 3px;
 }
 footer .axis-1 {
-  -webkit-animation: anim0 15907ms, fade6 15907ms;
-          animation: anim0 15907ms, fade6 15907ms;
+  -webkit-animation: anim0 5844ms, fade6 5844ms;
+          animation: anim0 5844ms, fade6 5844ms;
 }
 footer .axis-2 {
-  -webkit-animation: anim0 44483ms, fade3 44483ms;
-          animation: anim0 44483ms, fade3 44483ms;
+  -webkit-animation: anim0 8571ms, fade9 8571ms;
+          animation: anim0 8571ms, fade9 8571ms;
 }
 footer .axis-3 {
-  -webkit-animation: anim0 30210ms, fade10 30210ms;
-          animation: anim0 30210ms, fade10 30210ms;
+  -webkit-animation: anim0 16538ms, fade8 16538ms;
+          animation: anim0 16538ms, fade8 16538ms;
 }
 footer .axis-4 {
-  -webkit-animation: anim4 31543ms, fade10 31543ms;
-          animation: anim4 31543ms, fade10 31543ms;
+  -webkit-animation: anim4 5565ms, fade10 5565ms;
+          animation: anim4 5565ms, fade10 5565ms;
 }
 footer .axis-5 {
-  -webkit-animation: anim4 16101ms, fade6 16101ms;
-          animation: anim4 16101ms, fade6 16101ms;
+  -webkit-animation: anim4 27601ms, fade5 27601ms;
+          animation: anim4 27601ms, fade5 27601ms;
 }
 footer .axis-6 {
-  -webkit-animation: anim4 38006ms, fade1 38006ms;
-          animation: anim4 38006ms, fade1 38006ms;
+  -webkit-animation: anim4 23098ms, fade10 23098ms;
+          animation: anim4 23098ms, fade10 23098ms;
 }
 footer .axis-7 {
-  -webkit-animation: anim4 40651ms, fade9 40651ms;
-          animation: anim4 40651ms, fade9 40651ms;
+  -webkit-animation: anim4 6923ms, fade9 6923ms;
+          animation: anim4 6923ms, fade9 6923ms;
 }
 footer .axis-8 {
-  -webkit-animation: anim8 35463ms, fade5 35463ms;
-          animation: anim8 35463ms, fade5 35463ms;
+  -webkit-animation: anim8 37730ms, fade1 37730ms;
+          animation: anim8 37730ms, fade1 37730ms;
 }
 footer .axis-9 {
-  -webkit-animation: anim8 28162ms, fade8 28162ms;
-          animation: anim8 28162ms, fade8 28162ms;
+  -webkit-animation: anim8 22413ms, fade10 22413ms;
+          animation: anim8 22413ms, fade10 22413ms;
 }
 footer .axis-10 {
-  -webkit-animation: anim8 15374ms, fade8 15374ms;
-          animation: anim8 15374ms, fade8 15374ms;
+  -webkit-animation: anim8 44084ms, fade3 44084ms;
+          animation: anim8 44084ms, fade3 44084ms;
 }
 footer .axis-11 {
-  -webkit-animation: anim8 6189ms, fade6 6189ms;
-          animation: anim8 6189ms, fade6 6189ms;
+  -webkit-animation: anim8 34971ms, fade2 34971ms;
+          animation: anim8 34971ms, fade2 34971ms;
 }
 footer .axis-12 {
-  -webkit-animation: anim12 39503ms, fade4 39503ms;
-          animation: anim12 39503ms, fade4 39503ms;
+  -webkit-animation: anim12 34004ms, fade4 34004ms;
+          animation: anim12 34004ms, fade4 34004ms;
 }
 footer .axis-13 {
-  -webkit-animation: anim12 12552ms, fade4 12552ms;
-          animation: anim12 12552ms, fade4 12552ms;
+  -webkit-animation: anim12 9976ms, fade10 9976ms;
+          animation: anim12 9976ms, fade10 9976ms;
 }
 footer .axis-14 {
-  -webkit-animation: anim12 41795ms, fade7 41795ms;
-          animation: anim12 41795ms, fade7 41795ms;
+  -webkit-animation: anim12 19431ms, fade1 19431ms;
+          animation: anim12 19431ms, fade1 19431ms;
 }
 footer .axis-15 {
-  -webkit-animation: anim12 23735ms, fade3 23735ms;
-          animation: anim12 23735ms, fade3 23735ms;
+  -webkit-animation: anim12 5855ms, fade2 5855ms;
+          animation: anim12 5855ms, fade2 5855ms;
 }
 footer .axis-16 {
-  -webkit-animation: anim16 6944ms, fade6 6944ms;
-          animation: anim16 6944ms, fade6 6944ms;
+  -webkit-animation: anim16 40544ms, fade4 40544ms;
+          animation: anim16 40544ms, fade4 40544ms;
 }
 footer .axis-17 {
-  -webkit-animation: anim16 34529ms, fade10 34529ms;
-          animation: anim16 34529ms, fade10 34529ms;
+  -webkit-animation: anim16 14174ms, fade7 14174ms;
+          animation: anim16 14174ms, fade7 14174ms;
 }
 footer .axis-18 {
-  -webkit-animation: anim16 41192ms, fade6 41192ms;
-          animation: anim16 41192ms, fade6 41192ms;
+  -webkit-animation: anim16 25954ms, fade1 25954ms;
+          animation: anim16 25954ms, fade1 25954ms;
 }
 footer .axis-19 {
-  -webkit-animation: anim16 10410ms, fade8 10410ms;
-          animation: anim16 10410ms, fade8 10410ms;
+  -webkit-animation: anim16 8089ms, fade8 8089ms;
+          animation: anim16 8089ms, fade8 8089ms;
 }
 footer .axis-20 {
-  -webkit-animation: anim20 43460ms, fade5 43460ms;
-          animation: anim20 43460ms, fade5 43460ms;
+  -webkit-animation: anim20 20973ms, fade2 20973ms;
+          animation: anim20 20973ms, fade2 20973ms;
 }
 footer .axis-21 {
-  -webkit-animation: anim20 40106ms, fade8 40106ms;
-          animation: anim20 40106ms, fade8 40106ms;
+  -webkit-animation: anim20 20173ms, fade1 20173ms;
+          animation: anim20 20173ms, fade1 20173ms;
 }
 footer .axis-22 {
-  -webkit-animation: anim20 32538ms, fade2 32538ms;
-          animation: anim20 32538ms, fade2 32538ms;
+  -webkit-animation: anim20 36271ms, fade5 36271ms;
+          animation: anim20 36271ms, fade5 36271ms;
 }
 footer .axis-23 {
-  -webkit-animation: anim20 36282ms, fade9 36282ms;
-          animation: anim20 36282ms, fade9 36282ms;
+  -webkit-animation: anim20 19891ms, fade6 19891ms;
+          animation: anim20 19891ms, fade6 19891ms;
 }
 footer .axis-24 {
-  -webkit-animation: anim24 38624ms, fade2 38624ms;
-          animation: anim24 38624ms, fade2 38624ms;
+  -webkit-animation: anim24 32229ms, fade4 32229ms;
+          animation: anim24 32229ms, fade4 32229ms;
 }
 footer .axis-25 {
-  -webkit-animation: anim24 21995ms, fade9 21995ms;
-          animation: anim24 21995ms, fade9 21995ms;
+  -webkit-animation: anim24 14823ms, fade8 14823ms;
+          animation: anim24 14823ms, fade8 14823ms;
 }
 footer .axis-26 {
-  -webkit-animation: anim24 16969ms, fade2 16969ms;
-          animation: anim24 16969ms, fade2 16969ms;
+  -webkit-animation: anim24 14995ms, fade10 14995ms;
+          animation: anim24 14995ms, fade10 14995ms;
 }
 footer .axis-27 {
-  -webkit-animation: anim24 9392ms, fade8 9392ms;
-          animation: anim24 9392ms, fade8 9392ms;
+  -webkit-animation: anim24 36607ms, fade8 36607ms;
+          animation: anim24 36607ms, fade8 36607ms;
 }
 footer .axis-28 {
-  -webkit-animation: anim28 15557ms, fade5 15557ms;
-          animation: anim28 15557ms, fade5 15557ms;
+  -webkit-animation: anim28 33076ms, fade5 33076ms;
+          animation: anim28 33076ms, fade5 33076ms;
 }
 footer .axis-29 {
-  -webkit-animation: anim28 14591ms, fade4 14591ms;
-          animation: anim28 14591ms, fade4 14591ms;
+  -webkit-animation: anim28 12680ms, fade5 12680ms;
+          animation: anim28 12680ms, fade5 12680ms;
 }
 footer .axis-30 {
-  -webkit-animation: anim28 5919ms, fade4 5919ms;
-          animation: anim28 5919ms, fade4 5919ms;
+  -webkit-animation: anim28 28414ms, fade2 28414ms;
+          animation: anim28 28414ms, fade2 28414ms;
 }
 footer .axis-31 {
-  -webkit-animation: anim28 22717ms, fade10 22717ms;
-          animation: anim28 22717ms, fade10 22717ms;
+  -webkit-animation: anim28 44724ms, fade5 44724ms;
+          animation: anim28 44724ms, fade5 44724ms;
 }
 footer .axis-32 {
-  -webkit-animation: anim32 15590ms, fade7 15590ms;
-          animation: anim32 15590ms, fade7 15590ms;
+  -webkit-animation: anim32 28134ms, fade2 28134ms;
+          animation: anim32 28134ms, fade2 28134ms;
 }
 footer .axis-33 {
-  -webkit-animation: anim32 16699ms, fade1 16699ms;
-          animation: anim32 16699ms, fade1 16699ms;
+  -webkit-animation: anim32 39931ms, fade4 39931ms;
+          animation: anim32 39931ms, fade4 39931ms;
 }
 footer .axis-34 {
-  -webkit-animation: anim32 6364ms, fade3 6364ms;
-          animation: anim32 6364ms, fade3 6364ms;
+  -webkit-animation: anim32 43635ms, fade2 43635ms;
+          animation: anim32 43635ms, fade2 43635ms;
 }
 footer .axis-35 {
-  -webkit-animation: anim32 10654ms, fade3 10654ms;
-          animation: anim32 10654ms, fade3 10654ms;
+  -webkit-animation: anim32 38750ms, fade2 38750ms;
+          animation: anim32 38750ms, fade2 38750ms;
 }
 footer .axis-36 {
-  -webkit-animation: anim36 19657ms, fade2 19657ms;
-          animation: anim36 19657ms, fade2 19657ms;
+  -webkit-animation: anim36 21617ms, fade1 21617ms;
+          animation: anim36 21617ms, fade1 21617ms;
 }
 footer .axis-37 {
-  -webkit-animation: anim36 37137ms, fade2 37137ms;
-          animation: anim36 37137ms, fade2 37137ms;
+  -webkit-animation: anim36 6692ms, fade6 6692ms;
+          animation: anim36 6692ms, fade6 6692ms;
 }
 footer .axis-38 {
-  -webkit-animation: anim36 43755ms, fade6 43755ms;
-          animation: anim36 43755ms, fade6 43755ms;
+  -webkit-animation: anim36 31403ms, fade1 31403ms;
+          animation: anim36 31403ms, fade1 31403ms;
 }
 footer .axis-39 {
-  -webkit-animation: anim36 29125ms, fade6 29125ms;
-          animation: anim36 29125ms, fade6 29125ms;
+  -webkit-animation: anim36 39035ms, fade9 39035ms;
+          animation: anim36 39035ms, fade9 39035ms;
 }
 footer .axis-40 {
-  -webkit-animation: anim40 43315ms, fade10 43315ms;
-          animation: anim40 43315ms, fade10 43315ms;
+  -webkit-animation: anim40 6278ms, fade3 6278ms;
+          animation: anim40 6278ms, fade3 6278ms;
 }
 footer .axis-41 {
-  -webkit-animation: anim40 12759ms, fade9 12759ms;
-          animation: anim40 12759ms, fade9 12759ms;
+  -webkit-animation: anim40 5492ms, fade6 5492ms;
+          animation: anim40 5492ms, fade6 5492ms;
 }
 footer .axis-42 {
-  -webkit-animation: anim40 22309ms, fade5 22309ms;
-          animation: anim40 22309ms, fade5 22309ms;
+  -webkit-animation: anim40 29002ms, fade1 29002ms;
+          animation: anim40 29002ms, fade1 29002ms;
 }
 footer .axis-43 {
-  -webkit-animation: anim40 42689ms, fade5 42689ms;
-          animation: anim40 42689ms, fade5 42689ms;
+  -webkit-animation: anim40 14344ms, fade9 14344ms;
+          animation: anim40 14344ms, fade9 14344ms;
 }
 footer .axis-44 {
-  -webkit-animation: anim44 29771ms, fade7 29771ms;
-          animation: anim44 29771ms, fade7 29771ms;
+  -webkit-animation: anim44 16594ms, fade7 16594ms;
+          animation: anim44 16594ms, fade7 16594ms;
 }
 footer .axis-45 {
-  -webkit-animation: anim44 13497ms, fade7 13497ms;
-          animation: anim44 13497ms, fade7 13497ms;
+  -webkit-animation: anim44 5562ms, fade2 5562ms;
+          animation: anim44 5562ms, fade2 5562ms;
 }
 footer .axis-46 {
-  -webkit-animation: anim44 10246ms, fade7 10246ms;
-          animation: anim44 10246ms, fade7 10246ms;
+  -webkit-animation: anim44 16908ms, fade5 16908ms;
+          animation: anim44 16908ms, fade5 16908ms;
 }
 footer .axis-47 {
-  -webkit-animation: anim44 16406ms, fade10 16406ms;
-          animation: anim44 16406ms, fade10 16406ms;
+  -webkit-animation: anim44 20553ms, fade7 20553ms;
+          animation: anim44 20553ms, fade7 20553ms;
 }
 footer .axis-48 {
-  -webkit-animation: anim48 35442ms, fade6 35442ms;
-          animation: anim48 35442ms, fade6 35442ms;
+  -webkit-animation: anim48 40958ms, fade2 40958ms;
+          animation: anim48 40958ms, fade2 40958ms;
 }
 footer .axis-49 {
-  -webkit-animation: anim48 17193ms, fade2 17193ms;
-          animation: anim48 17193ms, fade2 17193ms;
+  -webkit-animation: anim48 25615ms, fade7 25615ms;
+          animation: anim48 25615ms, fade7 25615ms;
 }
 footer .axis-50 {
-  -webkit-animation: anim48 9015ms, fade2 9015ms;
-          animation: anim48 9015ms, fade2 9015ms;
+  -webkit-animation: anim48 30387ms, fade9 30387ms;
+          animation: anim48 30387ms, fade9 30387ms;
 }
 footer .axis-51 {
-  -webkit-animation: anim48 34438ms, fade2 34438ms;
-          animation: anim48 34438ms, fade2 34438ms;
+  -webkit-animation: anim48 28394ms, fade1 28394ms;
+          animation: anim48 28394ms, fade1 28394ms;
 }
 footer .axis-52 {
-  -webkit-animation: anim52 41242ms, fade10 41242ms;
-          animation: anim52 41242ms, fade10 41242ms;
+  -webkit-animation: anim52 37584ms, fade9 37584ms;
+          animation: anim52 37584ms, fade9 37584ms;
 }
 footer .axis-53 {
-  -webkit-animation: anim52 6156ms, fade3 6156ms;
-          animation: anim52 6156ms, fade3 6156ms;
+  -webkit-animation: anim52 22568ms, fade3 22568ms;
+          animation: anim52 22568ms, fade3 22568ms;
 }
 footer .axis-54 {
-  -webkit-animation: anim52 39766ms, fade5 39766ms;
-          animation: anim52 39766ms, fade5 39766ms;
+  -webkit-animation: anim52 30614ms, fade10 30614ms;
+          animation: anim52 30614ms, fade10 30614ms;
 }
 footer .axis-55 {
-  -webkit-animation: anim52 38164ms, fade2 38164ms;
-          animation: anim52 38164ms, fade2 38164ms;
+  -webkit-animation: anim52 32979ms, fade10 32979ms;
+          animation: anim52 32979ms, fade10 32979ms;
 }
 footer .axis-56 {
-  -webkit-animation: anim56 19269ms, fade4 19269ms;
-          animation: anim56 19269ms, fade4 19269ms;
+  -webkit-animation: anim56 26485ms, fade2 26485ms;
+          animation: anim56 26485ms, fade2 26485ms;
 }
 footer .axis-57 {
-  -webkit-animation: anim56 7933ms, fade2 7933ms;
-          animation: anim56 7933ms, fade2 7933ms;
+  -webkit-animation: anim56 23995ms, fade10 23995ms;
+          animation: anim56 23995ms, fade10 23995ms;
 }
 footer .axis-58 {
-  -webkit-animation: anim56 37017ms, fade9 37017ms;
-          animation: anim56 37017ms, fade9 37017ms;
+  -webkit-animation: anim56 35312ms, fade10 35312ms;
+          animation: anim56 35312ms, fade10 35312ms;
 }
 footer .axis-59 {
-  -webkit-animation: anim56 25978ms, fade6 25978ms;
-          animation: anim56 25978ms, fade6 25978ms;
+  -webkit-animation: anim56 27310ms, fade10 27310ms;
+          animation: anim56 27310ms, fade10 27310ms;
 }
 footer .axis-60 {
-  -webkit-animation: anim60 40652ms, fade2 40652ms;
-          animation: anim60 40652ms, fade2 40652ms;
+  -webkit-animation: anim60 44826ms, fade8 44826ms;
+          animation: anim60 44826ms, fade8 44826ms;
 }
 footer .axis-61 {
-  -webkit-animation: anim60 7799ms, fade3 7799ms;
-          animation: anim60 7799ms, fade3 7799ms;
+  -webkit-animation: anim60 37365ms, fade1 37365ms;
+          animation: anim60 37365ms, fade1 37365ms;
 }
 footer .axis-62 {
-  -webkit-animation: anim60 36971ms, fade6 36971ms;
-          animation: anim60 36971ms, fade6 36971ms;
+  -webkit-animation: anim60 7102ms, fade9 7102ms;
+          animation: anim60 7102ms, fade9 7102ms;
 }
 footer .axis-63 {
-  -webkit-animation: anim60 40132ms, fade5 40132ms;
-          animation: anim60 40132ms, fade5 40132ms;
+  -webkit-animation: anim60 15209ms, fade2 15209ms;
+          animation: anim60 15209ms, fade2 15209ms;
 }
 footer .axis-64 {
-  -webkit-animation: anim64 28579ms, fade9 28579ms;
-          animation: anim64 28579ms, fade9 28579ms;
+  -webkit-animation: anim64 42563ms, fade5 42563ms;
+          animation: anim64 42563ms, fade5 42563ms;
 }
 footer .axis-65 {
-  -webkit-animation: anim64 44124ms, fade9 44124ms;
-          animation: anim64 44124ms, fade9 44124ms;
+  -webkit-animation: anim64 22215ms, fade8 22215ms;
+          animation: anim64 22215ms, fade8 22215ms;
 }
 footer .axis-66 {
-  -webkit-animation: anim64 16190ms, fade2 16190ms;
-          animation: anim64 16190ms, fade2 16190ms;
+  -webkit-animation: anim64 36814ms, fade9 36814ms;
+          animation: anim64 36814ms, fade9 36814ms;
 }
 footer .axis-67 {
-  -webkit-animation: anim64 35765ms, fade2 35765ms;
-          animation: anim64 35765ms, fade2 35765ms;
+  -webkit-animation: anim64 14031ms, fade2 14031ms;
+          animation: anim64 14031ms, fade2 14031ms;
 }
 footer .axis-68 {
-  -webkit-animation: anim68 12859ms, fade8 12859ms;
-          animation: anim68 12859ms, fade8 12859ms;
+  -webkit-animation: anim68 27681ms, fade1 27681ms;
+          animation: anim68 27681ms, fade1 27681ms;
 }
 footer .axis-69 {
-  -webkit-animation: anim68 37389ms, fade6 37389ms;
-          animation: anim68 37389ms, fade6 37389ms;
+  -webkit-animation: anim68 22685ms, fade9 22685ms;
+          animation: anim68 22685ms, fade9 22685ms;
 }
 footer .axis-70 {
-  -webkit-animation: anim68 27821ms, fade5 27821ms;
-          animation: anim68 27821ms, fade5 27821ms;
+  -webkit-animation: anim68 36108ms, fade5 36108ms;
+          animation: anim68 36108ms, fade5 36108ms;
 }
 footer .axis-71 {
-  -webkit-animation: anim68 33384ms, fade5 33384ms;
-          animation: anim68 33384ms, fade5 33384ms;
+  -webkit-animation: anim68 25547ms, fade5 25547ms;
+          animation: anim68 25547ms, fade5 25547ms;
 }
 footer .axis-72 {
-  -webkit-animation: anim72 7631ms, fade5 7631ms;
-          animation: anim72 7631ms, fade5 7631ms;
+  -webkit-animation: anim72 15004ms, fade10 15004ms;
+          animation: anim72 15004ms, fade10 15004ms;
 }
 footer .axis-73 {
-  -webkit-animation: anim72 17035ms, fade8 17035ms;
-          animation: anim72 17035ms, fade8 17035ms;
+  -webkit-animation: anim72 33480ms, fade6 33480ms;
+          animation: anim72 33480ms, fade6 33480ms;
 }
 footer .axis-74 {
-  -webkit-animation: anim72 10483ms, fade3 10483ms;
-          animation: anim72 10483ms, fade3 10483ms;
+  -webkit-animation: anim72 19128ms, fade7 19128ms;
+          animation: anim72 19128ms, fade7 19128ms;
 }
 footer .axis-75 {
-  -webkit-animation: anim72 35456ms, fade4 35456ms;
-          animation: anim72 35456ms, fade4 35456ms;
+  -webkit-animation: anim72 15630ms, fade2 15630ms;
+          animation: anim72 15630ms, fade2 15630ms;
 }
 footer .axis-76 {
-  -webkit-animation: anim76 39577ms, fade2 39577ms;
-          animation: anim76 39577ms, fade2 39577ms;
+  -webkit-animation: anim76 43523ms, fade4 43523ms;
+          animation: anim76 43523ms, fade4 43523ms;
 }
 footer .axis-77 {
-  -webkit-animation: anim76 20958ms, fade8 20958ms;
-          animation: anim76 20958ms, fade8 20958ms;
+  -webkit-animation: anim76 15966ms, fade5 15966ms;
+          animation: anim76 15966ms, fade5 15966ms;
 }
 footer .axis-78 {
-  -webkit-animation: anim76 14507ms, fade9 14507ms;
-          animation: anim76 14507ms, fade9 14507ms;
+  -webkit-animation: anim76 39722ms, fade10 39722ms;
+          animation: anim76 39722ms, fade10 39722ms;
 }
 footer .axis-79 {
-  -webkit-animation: anim76 12758ms, fade8 12758ms;
-          animation: anim76 12758ms, fade8 12758ms;
+  -webkit-animation: anim76 24559ms, fade9 24559ms;
+          animation: anim76 24559ms, fade9 24559ms;
 }
 footer .axis-80 {
-  -webkit-animation: anim80 17549ms, fade5 17549ms;
-          animation: anim80 17549ms, fade5 17549ms;
+  -webkit-animation: anim80 42967ms, fade6 42967ms;
+          animation: anim80 42967ms, fade6 42967ms;
 }
 footer .axis-81 {
-  -webkit-animation: anim80 19591ms, fade3 19591ms;
-          animation: anim80 19591ms, fade3 19591ms;
+  -webkit-animation: anim80 13927ms, fade9 13927ms;
+          animation: anim80 13927ms, fade9 13927ms;
 }
 footer .axis-82 {
-  -webkit-animation: anim80 16462ms, fade9 16462ms;
-          animation: anim80 16462ms, fade9 16462ms;
+  -webkit-animation: anim80 19863ms, fade10 19863ms;
+          animation: anim80 19863ms, fade10 19863ms;
 }
 footer .axis-83 {
-  -webkit-animation: anim80 24107ms, fade3 24107ms;
-          animation: anim80 24107ms, fade3 24107ms;
+  -webkit-animation: anim80 13136ms, fade7 13136ms;
+          animation: anim80 13136ms, fade7 13136ms;
 }
 footer .axis-84 {
-  -webkit-animation: anim84 17874ms, fade2 17874ms;
-          animation: anim84 17874ms, fade2 17874ms;
+  -webkit-animation: anim84 38081ms, fade4 38081ms;
+          animation: anim84 38081ms, fade4 38081ms;
 }
 footer .axis-85 {
-  -webkit-animation: anim84 17569ms, fade5 17569ms;
-          animation: anim84 17569ms, fade5 17569ms;
+  -webkit-animation: anim84 38485ms, fade5 38485ms;
+          animation: anim84 38485ms, fade5 38485ms;
 }
 footer .axis-86 {
-  -webkit-animation: anim84 11655ms, fade9 11655ms;
-          animation: anim84 11655ms, fade9 11655ms;
+  -webkit-animation: anim84 39852ms, fade1 39852ms;
+          animation: anim84 39852ms, fade1 39852ms;
 }
 footer .axis-87 {
-  -webkit-animation: anim84 33025ms, fade5 33025ms;
-          animation: anim84 33025ms, fade5 33025ms;
+  -webkit-animation: anim84 19033ms, fade8 19033ms;
+          animation: anim84 19033ms, fade8 19033ms;
 }
 footer .axis-88 {
-  -webkit-animation: anim88 21380ms, fade3 21380ms;
-          animation: anim88 21380ms, fade3 21380ms;
+  -webkit-animation: anim88 14898ms, fade10 14898ms;
+          animation: anim88 14898ms, fade10 14898ms;
 }
 footer .axis-89 {
-  -webkit-animation: anim88 32025ms, fade6 32025ms;
-          animation: anim88 32025ms, fade6 32025ms;
+  -webkit-animation: anim88 34944ms, fade6 34944ms;
+          animation: anim88 34944ms, fade6 34944ms;
 }
 footer .axis-90 {
-  -webkit-animation: anim88 30175ms, fade3 30175ms;
-          animation: anim88 30175ms, fade3 30175ms;
+  -webkit-animation: anim88 27343ms, fade2 27343ms;
+          animation: anim88 27343ms, fade2 27343ms;
 }
 footer .axis-91 {
-  -webkit-animation: anim88 27564ms, fade5 27564ms;
-          animation: anim88 27564ms, fade5 27564ms;
+  -webkit-animation: anim88 17146ms, fade7 17146ms;
+          animation: anim88 17146ms, fade7 17146ms;
 }
 footer .axis-92 {
-  -webkit-animation: anim92 15047ms, fade10 15047ms;
-          animation: anim92 15047ms, fade10 15047ms;
+  -webkit-animation: anim92 11029ms, fade10 11029ms;
+          animation: anim92 11029ms, fade10 11029ms;
 }
 footer .axis-93 {
-  -webkit-animation: anim92 42440ms, fade6 42440ms;
-          animation: anim92 42440ms, fade6 42440ms;
+  -webkit-animation: anim92 40581ms, fade3 40581ms;
+          animation: anim92 40581ms, fade3 40581ms;
 }
 footer .axis-94 {
-  -webkit-animation: anim92 24756ms, fade9 24756ms;
-          animation: anim92 24756ms, fade9 24756ms;
+  -webkit-animation: anim92 10849ms, fade8 10849ms;
+          animation: anim92 10849ms, fade8 10849ms;
 }
 footer .axis-95 {
-  -webkit-animation: anim92 32553ms, fade2 32553ms;
-          animation: anim92 32553ms, fade2 32553ms;
+  -webkit-animation: anim92 13597ms, fade9 13597ms;
+          animation: anim92 13597ms, fade9 13597ms;
 }
 footer .axis-96 {
-  -webkit-animation: anim96 21606ms, fade5 21606ms;
-          animation: anim96 21606ms, fade5 21606ms;
+  -webkit-animation: anim96 8686ms, fade7 8686ms;
+          animation: anim96 8686ms, fade7 8686ms;
 }
 footer .axis-97 {
-  -webkit-animation: anim96 26814ms, fade3 26814ms;
-          animation: anim96 26814ms, fade3 26814ms;
+  -webkit-animation: anim96 30624ms, fade9 30624ms;
+          animation: anim96 30624ms, fade9 30624ms;
 }
 footer .axis-98 {
-  -webkit-animation: anim96 20215ms, fade8 20215ms;
-          animation: anim96 20215ms, fade8 20215ms;
+  -webkit-animation: anim96 18887ms, fade3 18887ms;
+          animation: anim96 18887ms, fade3 18887ms;
 }
 footer .axis-99 {
-  -webkit-animation: anim96 21875ms, fade1 21875ms;
-          animation: anim96 21875ms, fade1 21875ms;
+  -webkit-animation: anim96 5957ms, fade6 5957ms;
+          animation: anim96 5957ms, fade6 5957ms;
 }
 footer .axis-100 {
-  -webkit-animation: anim100 20407ms, fade8 20407ms;
-          animation: anim100 20407ms, fade8 20407ms;
+  -webkit-animation: anim100 44171ms, fade10 44171ms;
+          animation: anim100 44171ms, fade10 44171ms;
 }
 footer .axis-101 {
-  -webkit-animation: anim100 26098ms, fade5 26098ms;
-          animation: anim100 26098ms, fade5 26098ms;
+  -webkit-animation: anim100 35646ms, fade7 35646ms;
+          animation: anim100 35646ms, fade7 35646ms;
 }
 footer .axis-102 {
-  -webkit-animation: anim100 6244ms, fade9 6244ms;
-          animation: anim100 6244ms, fade9 6244ms;
+  -webkit-animation: anim100 29950ms, fade7 29950ms;
+          animation: anim100 29950ms, fade7 29950ms;
 }
 footer .axis-103 {
-  -webkit-animation: anim100 12624ms, fade2 12624ms;
-          animation: anim100 12624ms, fade2 12624ms;
+  -webkit-animation: anim100 12810ms, fade6 12810ms;
+          animation: anim100 12810ms, fade6 12810ms;
 }
 footer .axis-104 {
-  -webkit-animation: anim104 32206ms, fade4 32206ms;
-          animation: anim104 32206ms, fade4 32206ms;
+  -webkit-animation: anim104 36360ms, fade6 36360ms;
+          animation: anim104 36360ms, fade6 36360ms;
 }
 footer .axis-105 {
-  -webkit-animation: anim104 36803ms, fade6 36803ms;
-          animation: anim104 36803ms, fade6 36803ms;
+  -webkit-animation: anim104 41059ms, fade10 41059ms;
+          animation: anim104 41059ms, fade10 41059ms;
 }
 footer .axis-106 {
-  -webkit-animation: anim104 29706ms, fade4 29706ms;
-          animation: anim104 29706ms, fade4 29706ms;
+  -webkit-animation: anim104 40432ms, fade2 40432ms;
+          animation: anim104 40432ms, fade2 40432ms;
 }
 footer .axis-107 {
-  -webkit-animation: anim104 39507ms, fade6 39507ms;
-          animation: anim104 39507ms, fade6 39507ms;
+  -webkit-animation: anim104 44724ms, fade6 44724ms;
+          animation: anim104 44724ms, fade6 44724ms;
 }
 footer .axis-108 {
-  -webkit-animation: anim108 23801ms, fade2 23801ms;
-          animation: anim108 23801ms, fade2 23801ms;
+  -webkit-animation: anim108 19901ms, fade8 19901ms;
+          animation: anim108 19901ms, fade8 19901ms;
 }
 footer .axis-109 {
-  -webkit-animation: anim108 22603ms, fade1 22603ms;
-          animation: anim108 22603ms, fade1 22603ms;
+  -webkit-animation: anim108 27268ms, fade7 27268ms;
+          animation: anim108 27268ms, fade7 27268ms;
 }
 footer .axis-110 {
-  -webkit-animation: anim108 22397ms, fade8 22397ms;
-          animation: anim108 22397ms, fade8 22397ms;
+  -webkit-animation: anim108 5727ms, fade9 5727ms;
+          animation: anim108 5727ms, fade9 5727ms;
 }
 footer .axis-111 {
-  -webkit-animation: anim108 22238ms, fade2 22238ms;
-          animation: anim108 22238ms, fade2 22238ms;
+  -webkit-animation: anim108 21095ms, fade2 21095ms;
+          animation: anim108 21095ms, fade2 21095ms;
 }
 footer .axis-112 {
-  -webkit-animation: anim112 30132ms, fade4 30132ms;
-          animation: anim112 30132ms, fade4 30132ms;
+  -webkit-animation: anim112 17458ms, fade7 17458ms;
+          animation: anim112 17458ms, fade7 17458ms;
 }
 footer .axis-113 {
-  -webkit-animation: anim112 10165ms, fade5 10165ms;
-          animation: anim112 10165ms, fade5 10165ms;
+  -webkit-animation: anim112 27762ms, fade6 27762ms;
+          animation: anim112 27762ms, fade6 27762ms;
 }
 footer .axis-114 {
-  -webkit-animation: anim112 39279ms, fade7 39279ms;
-          animation: anim112 39279ms, fade7 39279ms;
+  -webkit-animation: anim112 11733ms, fade1 11733ms;
+          animation: anim112 11733ms, fade1 11733ms;
 }
 footer .axis-115 {
-  -webkit-animation: anim112 29040ms, fade2 29040ms;
-          animation: anim112 29040ms, fade2 29040ms;
+  -webkit-animation: anim112 38936ms, fade1 38936ms;
+          animation: anim112 38936ms, fade1 38936ms;
 }
 footer .axis-116 {
-  -webkit-animation: anim116 24302ms, fade6 24302ms;
-          animation: anim116 24302ms, fade6 24302ms;
+  -webkit-animation: anim116 17744ms, fade6 17744ms;
+          animation: anim116 17744ms, fade6 17744ms;
 }
 footer .axis-117 {
-  -webkit-animation: anim116 20158ms, fade8 20158ms;
-          animation: anim116 20158ms, fade8 20158ms;
+  -webkit-animation: anim116 25642ms, fade7 25642ms;
+          animation: anim116 25642ms, fade7 25642ms;
 }
 footer .axis-118 {
-  -webkit-animation: anim116 10826ms, fade3 10826ms;
-          animation: anim116 10826ms, fade3 10826ms;
+  -webkit-animation: anim116 14059ms, fade5 14059ms;
+          animation: anim116 14059ms, fade5 14059ms;
 }
 footer .axis-119 {
-  -webkit-animation: anim116 40349ms, fade1 40349ms;
-          animation: anim116 40349ms, fade1 40349ms;
+  -webkit-animation: anim116 10617ms, fade3 10617ms;
+          animation: anim116 10617ms, fade3 10617ms;
 }
 footer .axis-120 {
-  -webkit-animation: anim120 14514ms, fade4 14514ms;
-          animation: anim120 14514ms, fade4 14514ms;
+  -webkit-animation: anim120 39490ms, fade2 39490ms;
+          animation: anim120 39490ms, fade2 39490ms;
 }
 footer .axis-121 {
-  -webkit-animation: anim120 12607ms, fade6 12607ms;
-          animation: anim120 12607ms, fade6 12607ms;
+  -webkit-animation: anim120 28085ms, fade9 28085ms;
+          animation: anim120 28085ms, fade9 28085ms;
 }
 footer .axis-122 {
-  -webkit-animation: anim120 5426ms, fade1 5426ms;
-          animation: anim120 5426ms, fade1 5426ms;
+  -webkit-animation: anim120 20091ms, fade9 20091ms;
+          animation: anim120 20091ms, fade9 20091ms;
 }
 footer .axis-123 {
-  -webkit-animation: anim120 5178ms, fade6 5178ms;
-          animation: anim120 5178ms, fade6 5178ms;
+  -webkit-animation: anim120 24839ms, fade6 24839ms;
+          animation: anim120 24839ms, fade6 24839ms;
 }
 footer .axis-124 {
-  -webkit-animation: anim124 38674ms, fade6 38674ms;
-          animation: anim124 38674ms, fade6 38674ms;
+  -webkit-animation: anim124 16914ms, fade9 16914ms;
+          animation: anim124 16914ms, fade9 16914ms;
 }
 footer .axis-125 {
-  -webkit-animation: anim124 29106ms, fade5 29106ms;
-          animation: anim124 29106ms, fade5 29106ms;
+  -webkit-animation: anim124 33174ms, fade9 33174ms;
+          animation: anim124 33174ms, fade9 33174ms;
 }
 footer .axis-126 {
-  -webkit-animation: anim124 18213ms, fade4 18213ms;
-          animation: anim124 18213ms, fade4 18213ms;
+  -webkit-animation: anim124 14971ms, fade7 14971ms;
+          animation: anim124 14971ms, fade7 14971ms;
 }
 footer .axis-127 {
-  -webkit-animation: anim124 16290ms, fade3 16290ms;
-          animation: anim124 16290ms, fade3 16290ms;
+  -webkit-animation: anim124 43011ms, fade8 43011ms;
+          animation: anim124 43011ms, fade8 43011ms;
 }
 footer .axis-128 {
-  -webkit-animation: anim128 16807ms, fade1 16807ms;
-          animation: anim128 16807ms, fade1 16807ms;
+  -webkit-animation: anim128 32287ms, fade7 32287ms;
+          animation: anim128 32287ms, fade7 32287ms;
 }
 footer .axis-129 {
-  -webkit-animation: anim128 44850ms, fade8 44850ms;
-          animation: anim128 44850ms, fade8 44850ms;
+  -webkit-animation: anim128 38454ms, fade10 38454ms;
+          animation: anim128 38454ms, fade10 38454ms;
 }
 footer .axis-130 {
-  -webkit-animation: anim128 23179ms, fade8 23179ms;
-          animation: anim128 23179ms, fade8 23179ms;
+  -webkit-animation: anim128 24037ms, fade4 24037ms;
+          animation: anim128 24037ms, fade4 24037ms;
 }
 footer .axis-131 {
-  -webkit-animation: anim128 19274ms, fade10 19274ms;
-          animation: anim128 19274ms, fade10 19274ms;
+  -webkit-animation: anim128 31541ms, fade2 31541ms;
+          animation: anim128 31541ms, fade2 31541ms;
 }
 footer .axis-132 {
-  -webkit-animation: anim132 7502ms, fade10 7502ms;
-          animation: anim132 7502ms, fade10 7502ms;
+  -webkit-animation: anim132 26760ms, fade1 26760ms;
+          animation: anim132 26760ms, fade1 26760ms;
 }
 footer .axis-133 {
-  -webkit-animation: anim132 35962ms, fade2 35962ms;
-          animation: anim132 35962ms, fade2 35962ms;
+  -webkit-animation: anim132 12431ms, fade10 12431ms;
+          animation: anim132 12431ms, fade10 12431ms;
 }
 footer .axis-134 {
-  -webkit-animation: anim132 27493ms, fade10 27493ms;
-          animation: anim132 27493ms, fade10 27493ms;
+  -webkit-animation: anim132 11028ms, fade2 11028ms;
+          animation: anim132 11028ms, fade2 11028ms;
 }
 footer .axis-135 {
-  -webkit-animation: anim132 9318ms, fade1 9318ms;
-          animation: anim132 9318ms, fade1 9318ms;
+  -webkit-animation: anim132 17320ms, fade9 17320ms;
+          animation: anim132 17320ms, fade9 17320ms;
 }
 footer .axis-136 {
-  -webkit-animation: anim136 27713ms, fade7 27713ms;
-          animation: anim136 27713ms, fade7 27713ms;
+  -webkit-animation: anim136 10272ms, fade9 10272ms;
+          animation: anim136 10272ms, fade9 10272ms;
 }
 footer .axis-137 {
-  -webkit-animation: anim136 19250ms, fade2 19250ms;
-          animation: anim136 19250ms, fade2 19250ms;
+  -webkit-animation: anim136 10489ms, fade3 10489ms;
+          animation: anim136 10489ms, fade3 10489ms;
 }
 footer .axis-138 {
-  -webkit-animation: anim136 7549ms, fade1 7549ms;
-          animation: anim136 7549ms, fade1 7549ms;
+  -webkit-animation: anim136 34733ms, fade7 34733ms;
+          animation: anim136 34733ms, fade7 34733ms;
 }
 footer .axis-139 {
-  -webkit-animation: anim136 19192ms, fade7 19192ms;
-          animation: anim136 19192ms, fade7 19192ms;
+  -webkit-animation: anim136 17471ms, fade2 17471ms;
+          animation: anim136 17471ms, fade2 17471ms;
 }
 footer .axis-140 {
-  -webkit-animation: anim140 27043ms, fade7 27043ms;
-          animation: anim140 27043ms, fade7 27043ms;
+  -webkit-animation: anim140 36431ms, fade6 36431ms;
+          animation: anim140 36431ms, fade6 36431ms;
 }
 footer .axis-141 {
-  -webkit-animation: anim140 38345ms, fade1 38345ms;
-          animation: anim140 38345ms, fade1 38345ms;
+  -webkit-animation: anim140 35378ms, fade1 35378ms;
+          animation: anim140 35378ms, fade1 35378ms;
 }
 footer .axis-142 {
-  -webkit-animation: anim140 16186ms, fade1 16186ms;
-          animation: anim140 16186ms, fade1 16186ms;
+  -webkit-animation: anim140 22850ms, fade3 22850ms;
+          animation: anim140 22850ms, fade3 22850ms;
 }
 footer .axis-143 {
-  -webkit-animation: anim140 17812ms, fade1 17812ms;
-          animation: anim140 17812ms, fade1 17812ms;
+  -webkit-animation: anim140 20185ms, fade5 20185ms;
+          animation: anim140 20185ms, fade5 20185ms;
 }
 footer .axis-144 {
-  -webkit-animation: anim144 24484ms, fade8 24484ms;
-          animation: anim144 24484ms, fade8 24484ms;
+  -webkit-animation: anim144 35814ms, fade4 35814ms;
+          animation: anim144 35814ms, fade4 35814ms;
 }
 footer .axis-145 {
-  -webkit-animation: anim144 35693ms, fade6 35693ms;
-          animation: anim144 35693ms, fade6 35693ms;
+  -webkit-animation: anim144 43923ms, fade6 43923ms;
+          animation: anim144 43923ms, fade6 43923ms;
 }
 footer .axis-146 {
-  -webkit-animation: anim144 19934ms, fade5 19934ms;
-          animation: anim144 19934ms, fade5 19934ms;
+  -webkit-animation: anim144 18683ms, fade8 18683ms;
+          animation: anim144 18683ms, fade8 18683ms;
 }
 footer .axis-147 {
-  -webkit-animation: anim144 26094ms, fade5 26094ms;
-          animation: anim144 26094ms, fade5 26094ms;
+  -webkit-animation: anim144 27804ms, fade9 27804ms;
+          animation: anim144 27804ms, fade9 27804ms;
 }
 footer .axis-148 {
-  -webkit-animation: anim148 15104ms, fade2 15104ms;
-          animation: anim148 15104ms, fade2 15104ms;
+  -webkit-animation: anim148 19491ms, fade4 19491ms;
+          animation: anim148 19491ms, fade4 19491ms;
 }
 footer .axis-149 {
-  -webkit-animation: anim148 30960ms, fade2 30960ms;
-          animation: anim148 30960ms, fade2 30960ms;
+  -webkit-animation: anim148 18525ms, fade3 18525ms;
+          animation: anim148 18525ms, fade3 18525ms;
 }
 footer .axis-150 {
-  -webkit-animation: anim148 31168ms, fade2 31168ms;
-          animation: anim148 31168ms, fade2 31168ms;
+  -webkit-animation: anim148 38523ms, fade9 38523ms;
+          animation: anim148 38523ms, fade9 38523ms;
 }
 footer .axis-151 {
-  -webkit-animation: anim148 41287ms, fade10 41287ms;
-          animation: anim148 41287ms, fade10 41287ms;
+  -webkit-animation: anim148 6664ms, fade9 6664ms;
+          animation: anim148 6664ms, fade9 6664ms;
 }
 footer .axis-152 {
-  -webkit-animation: anim152 27809ms, fade2 27809ms;
-          animation: anim152 27809ms, fade2 27809ms;
+  -webkit-animation: anim152 16515ms, fade8 16515ms;
+          animation: anim152 16515ms, fade8 16515ms;
 }
 footer .axis-153 {
-  -webkit-animation: anim152 26329ms, fade5 26329ms;
-          animation: anim152 26329ms, fade5 26329ms;
+  -webkit-animation: anim152 29151ms, fade6 29151ms;
+          animation: anim152 29151ms, fade6 29151ms;
 }
 footer .axis-154 {
-  -webkit-animation: anim152 10045ms, fade9 10045ms;
-          animation: anim152 10045ms, fade9 10045ms;
+  -webkit-animation: anim152 20213ms, fade2 20213ms;
+          animation: anim152 20213ms, fade2 20213ms;
 }
 footer .axis-155 {
-  -webkit-animation: anim152 30283ms, fade9 30283ms;
-          animation: anim152 30283ms, fade9 30283ms;
+  -webkit-animation: anim152 13393ms, fade7 13393ms;
+          animation: anim152 13393ms, fade7 13393ms;
 }
 footer .axis-156 {
-  -webkit-animation: anim156 42148ms, fade5 42148ms;
-          animation: anim156 42148ms, fade5 42148ms;
+  -webkit-animation: anim156 19575ms, fade8 19575ms;
+          animation: anim156 19575ms, fade8 19575ms;
 }
 footer .axis-157 {
-  -webkit-animation: anim156 18086ms, fade4 18086ms;
-          animation: anim156 18086ms, fade4 18086ms;
+  -webkit-animation: anim156 42647ms, fade2 42647ms;
+          animation: anim156 42647ms, fade2 42647ms;
 }
 footer .axis-158 {
-  -webkit-animation: anim156 13065ms, fade3 13065ms;
-          animation: anim156 13065ms, fade3 13065ms;
+  -webkit-animation: anim156 18124ms, fade6 18124ms;
+          animation: anim156 18124ms, fade6 18124ms;
 }
 footer .axis-159 {
-  -webkit-animation: anim156 32254ms, fade3 32254ms;
-          animation: anim156 32254ms, fade3 32254ms;
+  -webkit-animation: anim156 27460ms, fade6 27460ms;
+          animation: anim156 27460ms, fade6 27460ms;
 }
 footer .axis-160 {
-  -webkit-animation: anim160 43588ms, fade9 43588ms;
-          animation: anim160 43588ms, fade9 43588ms;
+  -webkit-animation: anim160 15955ms, fade1 15955ms;
+          animation: anim160 15955ms, fade1 15955ms;
 }
 footer .axis-161 {
-  -webkit-animation: anim160 44776ms, fade10 44776ms;
-          animation: anim160 44776ms, fade10 44776ms;
+  -webkit-animation: anim160 15372ms, fade7 15372ms;
+          animation: anim160 15372ms, fade7 15372ms;
 }
 footer .axis-162 {
-  -webkit-animation: anim160 33953ms, fade1 33953ms;
-          animation: anim160 33953ms, fade1 33953ms;
+  -webkit-animation: anim160 24561ms, fade10 24561ms;
+          animation: anim160 24561ms, fade10 24561ms;
 }
 footer .axis-163 {
-  -webkit-animation: anim160 26289ms, fade9 26289ms;
-          animation: anim160 26289ms, fade9 26289ms;
+  -webkit-animation: anim160 17545ms, fade3 17545ms;
+          animation: anim160 17545ms, fade3 17545ms;
 }
 footer .axis-164 {
-  -webkit-animation: anim164 37796ms, fade2 37796ms;
-          animation: anim164 37796ms, fade2 37796ms;
+  -webkit-animation: anim164 6338ms, fade6 6338ms;
+          animation: anim164 6338ms, fade6 6338ms;
 }
 footer .axis-165 {
-  -webkit-animation: anim164 41949ms, fade9 41949ms;
-          animation: anim164 41949ms, fade9 41949ms;
+  -webkit-animation: anim164 24608ms, fade8 24608ms;
+          animation: anim164 24608ms, fade8 24608ms;
 }
 footer .axis-166 {
-  -webkit-animation: anim164 42799ms, fade6 42799ms;
-          animation: anim164 42799ms, fade6 42799ms;
+  -webkit-animation: anim164 21452ms, fade4 21452ms;
+          animation: anim164 21452ms, fade4 21452ms;
 }
 footer .axis-167 {
-  -webkit-animation: anim164 24973ms, fade1 24973ms;
-          animation: anim164 24973ms, fade1 24973ms;
+  -webkit-animation: anim164 37619ms, fade6 37619ms;
+          animation: anim164 37619ms, fade6 37619ms;
 }
 footer .axis-168 {
-  -webkit-animation: anim168 22102ms, fade2 22102ms;
-          animation: anim168 22102ms, fade2 22102ms;
+  -webkit-animation: anim168 11330ms, fade6 11330ms;
+          animation: anim168 11330ms, fade6 11330ms;
 }
 footer .axis-169 {
-  -webkit-animation: anim168 17718ms, fade3 17718ms;
-          animation: anim168 17718ms, fade3 17718ms;
+  -webkit-animation: anim168 16389ms, fade3 16389ms;
+          animation: anim168 16389ms, fade3 16389ms;
 }
 footer .axis-170 {
-  -webkit-animation: anim168 36242ms, fade1 36242ms;
-          animation: anim168 36242ms, fade1 36242ms;
+  -webkit-animation: anim168 17383ms, fade4 17383ms;
+          animation: anim168 17383ms, fade4 17383ms;
 }
 footer .axis-171 {
-  -webkit-animation: anim168 12249ms, fade6 12249ms;
-          animation: anim168 12249ms, fade6 12249ms;
+  -webkit-animation: anim168 19500ms, fade9 19500ms;
+          animation: anim168 19500ms, fade9 19500ms;
 }
 footer .axis-172 {
-  -webkit-animation: anim172 5687ms, fade3 5687ms;
-          animation: anim172 5687ms, fade3 5687ms;
+  -webkit-animation: anim172 8662ms, fade6 8662ms;
+          animation: anim172 8662ms, fade6 8662ms;
 }
 footer .axis-173 {
-  -webkit-animation: anim172 14548ms, fade6 14548ms;
-          animation: anim172 14548ms, fade6 14548ms;
+  -webkit-animation: anim172 27794ms, fade6 27794ms;
+          animation: anim172 27794ms, fade6 27794ms;
 }
 footer .axis-174 {
-  -webkit-animation: anim172 33322ms, fade9 33322ms;
-          animation: anim172 33322ms, fade9 33322ms;
+  -webkit-animation: anim172 29835ms, fade4 29835ms;
+          animation: anim172 29835ms, fade4 29835ms;
 }
 footer .axis-175 {
-  -webkit-animation: anim172 12619ms, fade7 12619ms;
-          animation: anim172 12619ms, fade7 12619ms;
+  -webkit-animation: anim172 29954ms, fade5 29954ms;
+          animation: anim172 29954ms, fade5 29954ms;
 }
 footer .axis-176 {
-  -webkit-animation: anim176 25252ms, fade6 25252ms;
-          animation: anim176 25252ms, fade6 25252ms;
+  -webkit-animation: anim176 23234ms, fade8 23234ms;
+          animation: anim176 23234ms, fade8 23234ms;
 }
 footer .axis-177 {
-  -webkit-animation: anim176 30002ms, fade10 30002ms;
-          animation: anim176 30002ms, fade10 30002ms;
+  -webkit-animation: anim176 30544ms, fade9 30544ms;
+          animation: anim176 30544ms, fade9 30544ms;
 }
 footer .axis-178 {
-  -webkit-animation: anim176 13393ms, fade8 13393ms;
-          animation: anim176 13393ms, fade8 13393ms;
+  -webkit-animation: anim176 27872ms, fade10 27872ms;
+          animation: anim176 27872ms, fade10 27872ms;
 }
 footer .axis-179 {
-  -webkit-animation: anim176 10226ms, fade6 10226ms;
-          animation: anim176 10226ms, fade6 10226ms;
+  -webkit-animation: anim176 41324ms, fade7 41324ms;
+          animation: anim176 41324ms, fade7 41324ms;
 }
 footer .axis-180 {
-  -webkit-animation: anim180 9327ms, fade10 9327ms;
-          animation: anim180 9327ms, fade10 9327ms;
+  -webkit-animation: anim180 15775ms, fade7 15775ms;
+          animation: anim180 15775ms, fade7 15775ms;
 }
 footer .axis-181 {
-  -webkit-animation: anim180 34646ms, fade7 34646ms;
-          animation: anim180 34646ms, fade7 34646ms;
+  -webkit-animation: anim180 25257ms, fade9 25257ms;
+          animation: anim180 25257ms, fade9 25257ms;
 }
 footer .axis-182 {
-  -webkit-animation: anim180 37240ms, fade8 37240ms;
-          animation: anim180 37240ms, fade8 37240ms;
+  -webkit-animation: anim180 17183ms, fade5 17183ms;
+          animation: anim180 17183ms, fade5 17183ms;
 }
 footer .axis-183 {
-  -webkit-animation: anim180 5295ms, fade9 5295ms;
-          animation: anim180 5295ms, fade9 5295ms;
+  -webkit-animation: anim180 42088ms, fade10 42088ms;
+          animation: anim180 42088ms, fade10 42088ms;
 }
 footer .axis-184 {
-  -webkit-animation: anim184 44043ms, fade3 44043ms;
-          animation: anim184 44043ms, fade3 44043ms;
+  -webkit-animation: anim184 6283ms, fade6 6283ms;
+          animation: anim184 6283ms, fade6 6283ms;
 }
 footer .axis-185 {
-  -webkit-animation: anim184 22259ms, fade9 22259ms;
-          animation: anim184 22259ms, fade9 22259ms;
+  -webkit-animation: anim184 41804ms, fade1 41804ms;
+          animation: anim184 41804ms, fade1 41804ms;
 }
 footer .axis-186 {
-  -webkit-animation: anim184 20770ms, fade1 20770ms;
-          animation: anim184 20770ms, fade1 20770ms;
+  -webkit-animation: anim184 23454ms, fade2 23454ms;
+          animation: anim184 23454ms, fade2 23454ms;
 }
 footer .axis-187 {
-  -webkit-animation: anim184 26726ms, fade7 26726ms;
-          animation: anim184 26726ms, fade7 26726ms;
+  -webkit-animation: anim184 33424ms, fade1 33424ms;
+          animation: anim184 33424ms, fade1 33424ms;
 }
 footer .axis-188 {
-  -webkit-animation: anim188 39929ms, fade4 39929ms;
-          animation: anim188 39929ms, fade4 39929ms;
+  -webkit-animation: anim188 9086ms, fade4 9086ms;
+          animation: anim188 9086ms, fade4 9086ms;
 }
 footer .axis-189 {
-  -webkit-animation: anim188 14284ms, fade9 14284ms;
-          animation: anim188 14284ms, fade9 14284ms;
+  -webkit-animation: anim188 42151ms, fade1 42151ms;
+          animation: anim188 42151ms, fade1 42151ms;
 }
 footer .axis-190 {
-  -webkit-animation: anim188 17635ms, fade6 17635ms;
-          animation: anim188 17635ms, fade6 17635ms;
+  -webkit-animation: anim188 42075ms, fade8 42075ms;
+          animation: anim188 42075ms, fade8 42075ms;
 }
 footer .axis-191 {
-  -webkit-animation: anim188 34180ms, fade6 34180ms;
-          animation: anim188 34180ms, fade6 34180ms;
+  -webkit-animation: anim188 20648ms, fade8 20648ms;
+          animation: anim188 20648ms, fade8 20648ms;
 }
 footer .axis-192 {
-  -webkit-animation: anim192 10706ms, fade9 10706ms;
-          animation: anim192 10706ms, fade9 10706ms;
+  -webkit-animation: anim192 42367ms, fade1 42367ms;
+          animation: anim192 42367ms, fade1 42367ms;
 }
 footer .axis-193 {
-  -webkit-animation: anim192 40083ms, fade6 40083ms;
-          animation: anim192 40083ms, fade6 40083ms;
+  -webkit-animation: anim192 5575ms, fade5 5575ms;
+          animation: anim192 5575ms, fade5 5575ms;
 }
 footer .axis-194 {
-  -webkit-animation: anim192 43571ms, fade8 43571ms;
-          animation: anim192 43571ms, fade8 43571ms;
+  -webkit-animation: anim192 42769ms, fade6 42769ms;
+          animation: anim192 42769ms, fade6 42769ms;
 }
 footer .axis-195 {
-  -webkit-animation: anim192 35300ms, fade9 35300ms;
-          animation: anim192 35300ms, fade9 35300ms;
+  -webkit-animation: anim192 33345ms, fade6 33345ms;
+          animation: anim192 33345ms, fade6 33345ms;
 }
 footer .axis-196 {
-  -webkit-animation: anim196 43800ms, fade7 43800ms;
-          animation: anim196 43800ms, fade7 43800ms;
+  -webkit-animation: anim196 9628ms, fade6 9628ms;
+          animation: anim196 9628ms, fade6 9628ms;
 }
 footer .axis-197 {
-  -webkit-animation: anim196 30996ms, fade7 30996ms;
-          animation: anim196 30996ms, fade7 30996ms;
+  -webkit-animation: anim196 12215ms, fade10 12215ms;
+          animation: anim196 12215ms, fade10 12215ms;
 }
 footer .axis-198 {
-  -webkit-animation: anim196 33241ms, fade5 33241ms;
-          animation: anim196 33241ms, fade5 33241ms;
+  -webkit-animation: anim196 8401ms, fade6 8401ms;
+          animation: anim196 8401ms, fade6 8401ms;
 }
 footer .axis-199 {
-  -webkit-animation: anim196 6464ms, fade4 6464ms;
-          animation: anim196 6464ms, fade4 6464ms;
+  -webkit-animation: anim196 29982ms, fade6 29982ms;
+          animation: anim196 29982ms, fade6 29982ms;
 }
 footer .axis-200 {
-  -webkit-animation: anim200 42927ms, fade2 42927ms;
-          animation: anim200 42927ms, fade2 42927ms;
+  -webkit-animation: anim200 25857ms, fade1 25857ms;
+          animation: anim200 25857ms, fade1 25857ms;
 }
 footer .axis-201 {
-  -webkit-animation: anim200 10826ms, fade4 10826ms;
-          animation: anim200 10826ms, fade4 10826ms;
+  -webkit-animation: anim200 6601ms, fade5 6601ms;
+          animation: anim200 6601ms, fade5 6601ms;
 }
 footer .axis-202 {
-  -webkit-animation: anim200 18418ms, fade3 18418ms;
-          animation: anim200 18418ms, fade3 18418ms;
+  -webkit-animation: anim200 6439ms, fade6 6439ms;
+          animation: anim200 6439ms, fade6 6439ms;
 }
 footer .axis-203 {
-  -webkit-animation: anim200 16090ms, fade1 16090ms;
-          animation: anim200 16090ms, fade1 16090ms;
+  -webkit-animation: anim200 39924ms, fade7 39924ms;
+          animation: anim200 39924ms, fade7 39924ms;
 }
 footer .axis-204 {
-  -webkit-animation: anim204 24755ms, fade6 24755ms;
-          animation: anim204 24755ms, fade6 24755ms;
+  -webkit-animation: anim204 13335ms, fade1 13335ms;
+          animation: anim204 13335ms, fade1 13335ms;
 }
 footer .axis-205 {
-  -webkit-animation: anim204 24928ms, fade4 24928ms;
-          animation: anim204 24928ms, fade4 24928ms;
+  -webkit-animation: anim204 15577ms, fade8 15577ms;
+          animation: anim204 15577ms, fade8 15577ms;
 }
 footer .axis-206 {
-  -webkit-animation: anim204 6084ms, fade1 6084ms;
-          animation: anim204 6084ms, fade1 6084ms;
+  -webkit-animation: anim204 44311ms, fade8 44311ms;
+          animation: anim204 44311ms, fade8 44311ms;
 }
 footer .axis-207 {
-  -webkit-animation: anim204 41421ms, fade7 41421ms;
-          animation: anim204 41421ms, fade7 41421ms;
+  -webkit-animation: anim204 42700ms, fade6 42700ms;
+          animation: anim204 42700ms, fade6 42700ms;
 }
 footer .axis-208 {
-  -webkit-animation: anim208 5511ms, fade2 5511ms;
-          animation: anim208 5511ms, fade2 5511ms;
+  -webkit-animation: anim208 41639ms, fade8 41639ms;
+          animation: anim208 41639ms, fade8 41639ms;
 }
 footer .axis-209 {
-  -webkit-animation: anim208 30914ms, fade6 30914ms;
-          animation: anim208 30914ms, fade6 30914ms;
+  -webkit-animation: anim208 38851ms, fade3 38851ms;
+          animation: anim208 38851ms, fade3 38851ms;
 }
 footer .axis-210 {
-  -webkit-animation: anim208 37678ms, fade3 37678ms;
-          animation: anim208 37678ms, fade3 37678ms;
+  -webkit-animation: anim208 29953ms, fade9 29953ms;
+          animation: anim208 29953ms, fade9 29953ms;
 }
 footer .axis-211 {
-  -webkit-animation: anim208 8729ms, fade1 8729ms;
-          animation: anim208 8729ms, fade1 8729ms;
+  -webkit-animation: anim208 42091ms, fade6 42091ms;
+          animation: anim208 42091ms, fade6 42091ms;
 }
 footer .axis-212 {
-  -webkit-animation: anim212 38797ms, fade10 38797ms;
-          animation: anim212 38797ms, fade10 38797ms;
+  -webkit-animation: anim212 40370ms, fade1 40370ms;
+          animation: anim212 40370ms, fade1 40370ms;
 }
 footer .axis-213 {
-  -webkit-animation: anim212 41146ms, fade9 41146ms;
-          animation: anim212 41146ms, fade9 41146ms;
+  -webkit-animation: anim212 17787ms, fade5 17787ms;
+          animation: anim212 17787ms, fade5 17787ms;
 }
 footer .axis-214 {
-  -webkit-animation: anim212 35748ms, fade2 35748ms;
-          animation: anim212 35748ms, fade2 35748ms;
+  -webkit-animation: anim212 12760ms, fade8 12760ms;
+          animation: anim212 12760ms, fade8 12760ms;
 }
 footer .axis-215 {
-  -webkit-animation: anim212 17881ms, fade6 17881ms;
-          animation: anim212 17881ms, fade6 17881ms;
+  -webkit-animation: anim212 33831ms, fade9 33831ms;
+          animation: anim212 33831ms, fade9 33831ms;
 }
 footer .axis-216 {
-  -webkit-animation: anim216 43400ms, fade9 43400ms;
-          animation: anim216 43400ms, fade9 43400ms;
+  -webkit-animation: anim216 37529ms, fade9 37529ms;
+          animation: anim216 37529ms, fade9 37529ms;
 }
 footer .axis-217 {
-  -webkit-animation: anim216 21009ms, fade1 21009ms;
-          animation: anim216 21009ms, fade1 21009ms;
+  -webkit-animation: anim216 23116ms, fade3 23116ms;
+          animation: anim216 23116ms, fade3 23116ms;
 }
 footer .axis-218 {
-  -webkit-animation: anim216 14174ms, fade4 14174ms;
-          animation: anim216 14174ms, fade4 14174ms;
+  -webkit-animation: anim216 33716ms, fade8 33716ms;
+          animation: anim216 33716ms, fade8 33716ms;
 }
 footer .axis-219 {
-  -webkit-animation: anim216 11656ms, fade2 11656ms;
-          animation: anim216 11656ms, fade2 11656ms;
+  -webkit-animation: anim216 38914ms, fade7 38914ms;
+          animation: anim216 38914ms, fade7 38914ms;
 }
 footer .axis-220 {
-  -webkit-animation: anim220 35997ms, fade5 35997ms;
-          animation: anim220 35997ms, fade5 35997ms;
+  -webkit-animation: anim220 17637ms, fade3 17637ms;
+          animation: anim220 17637ms, fade3 17637ms;
 }
 footer .axis-221 {
-  -webkit-animation: anim220 18923ms, fade3 18923ms;
-          animation: anim220 18923ms, fade3 18923ms;
+  -webkit-animation: anim220 10107ms, fade5 10107ms;
+          animation: anim220 10107ms, fade5 10107ms;
 }
 footer .axis-222 {
-  -webkit-animation: anim220 33915ms, fade2 33915ms;
-          animation: anim220 33915ms, fade2 33915ms;
+  -webkit-animation: anim220 43955ms, fade1 43955ms;
+          animation: anim220 43955ms, fade1 43955ms;
 }
 footer .axis-223 {
-  -webkit-animation: anim220 28256ms, fade2 28256ms;
-          animation: anim220 28256ms, fade2 28256ms;
+  -webkit-animation: anim220 19599ms, fade9 19599ms;
+          animation: anim220 19599ms, fade9 19599ms;
 }
 footer .axis-224 {
-  -webkit-animation: anim224 37398ms, fade10 37398ms;
-          animation: anim224 37398ms, fade10 37398ms;
+  -webkit-animation: anim224 25455ms, fade2 25455ms;
+          animation: anim224 25455ms, fade2 25455ms;
 }
 footer .axis-225 {
-  -webkit-animation: anim224 33645ms, fade1 33645ms;
-          animation: anim224 33645ms, fade1 33645ms;
+  -webkit-animation: anim224 28885ms, fade2 28885ms;
+          animation: anim224 28885ms, fade2 28885ms;
 }
 footer .axis-226 {
-  -webkit-animation: anim224 44737ms, fade2 44737ms;
-          animation: anim224 44737ms, fade2 44737ms;
+  -webkit-animation: anim224 42518ms, fade5 42518ms;
+          animation: anim224 42518ms, fade5 42518ms;
 }
 footer .axis-227 {
-  -webkit-animation: anim224 12810ms, fade2 12810ms;
-          animation: anim224 12810ms, fade2 12810ms;
+  -webkit-animation: anim224 39410ms, fade3 39410ms;
+          animation: anim224 39410ms, fade3 39410ms;
 }
 footer .axis-228 {
-  -webkit-animation: anim228 31542ms, fade9 31542ms;
-          animation: anim228 31542ms, fade9 31542ms;
+  -webkit-animation: anim228 21404ms, fade5 21404ms;
+          animation: anim228 21404ms, fade5 21404ms;
 }
 footer .axis-229 {
-  -webkit-animation: anim228 11339ms, fade8 11339ms;
-          animation: anim228 11339ms, fade8 11339ms;
+  -webkit-animation: anim228 10818ms, fade8 10818ms;
+          animation: anim228 10818ms, fade8 10818ms;
 }
 footer .axis-230 {
-  -webkit-animation: anim228 44062ms, fade3 44062ms;
-          animation: anim228 44062ms, fade3 44062ms;
+  -webkit-animation: anim228 32762ms, fade2 32762ms;
+          animation: anim228 32762ms, fade2 32762ms;
 }
 footer .axis-231 {
-  -webkit-animation: anim228 32743ms, fade2 32743ms;
-          animation: anim228 32743ms, fade2 32743ms;
+  -webkit-animation: anim228 41687ms, fade7 41687ms;
+          animation: anim228 41687ms, fade7 41687ms;
 }
 footer .axis-232 {
-  -webkit-animation: anim232 7803ms, fade6 7803ms;
-          animation: anim232 7803ms, fade6 7803ms;
+  -webkit-animation: anim232 44679ms, fade10 44679ms;
+          animation: anim232 44679ms, fade10 44679ms;
 }
 footer .axis-233 {
-  -webkit-animation: anim232 43076ms, fade6 43076ms;
-          animation: anim232 43076ms, fade6 43076ms;
+  -webkit-animation: anim232 38184ms, fade3 38184ms;
+          animation: anim232 38184ms, fade3 38184ms;
 }
 footer .axis-234 {
-  -webkit-animation: anim232 14975ms, fade2 14975ms;
-          animation: anim232 14975ms, fade2 14975ms;
+  -webkit-animation: anim232 15595ms, fade9 15595ms;
+          animation: anim232 15595ms, fade9 15595ms;
 }
 footer .axis-235 {
-  -webkit-animation: anim232 22649ms, fade8 22649ms;
-          animation: anim232 22649ms, fade8 22649ms;
+  -webkit-animation: anim232 13164ms, fade4 13164ms;
+          animation: anim232 13164ms, fade4 13164ms;
 }
 footer .axis-236 {
-  -webkit-animation: anim236 11480ms, fade7 11480ms;
-          animation: anim236 11480ms, fade7 11480ms;
+  -webkit-animation: anim236 6530ms, fade4 6530ms;
+          animation: anim236 6530ms, fade4 6530ms;
 }
 footer .axis-237 {
-  -webkit-animation: anim236 19702ms, fade7 19702ms;
-          animation: anim236 19702ms, fade7 19702ms;
+  -webkit-animation: anim236 15087ms, fade6 15087ms;
+          animation: anim236 15087ms, fade6 15087ms;
 }
 footer .axis-238 {
-  -webkit-animation: anim236 42126ms, fade3 42126ms;
-          animation: anim236 42126ms, fade3 42126ms;
+  -webkit-animation: anim236 13288ms, fade8 13288ms;
+          animation: anim236 13288ms, fade8 13288ms;
 }
 footer .axis-239 {
-  -webkit-animation: anim236 17687ms, fade7 17687ms;
-          animation: anim236 17687ms, fade7 17687ms;
+  -webkit-animation: anim236 22844ms, fade4 22844ms;
+          animation: anim236 22844ms, fade4 22844ms;
 }
 footer .axis-240 {
-  -webkit-animation: anim240 13665ms, fade8 13665ms;
-          animation: anim240 13665ms, fade8 13665ms;
+  -webkit-animation: anim240 31498ms, fade3 31498ms;
+          animation: anim240 31498ms, fade3 31498ms;
 }
 footer .axis-241 {
-  -webkit-animation: anim240 13584ms, fade5 13584ms;
-          animation: anim240 13584ms, fade5 13584ms;
+  -webkit-animation: anim240 24994ms, fade9 24994ms;
+          animation: anim240 24994ms, fade9 24994ms;
 }
 footer .axis-242 {
-  -webkit-animation: anim240 26751ms, fade2 26751ms;
-          animation: anim240 26751ms, fade2 26751ms;
+  -webkit-animation: anim240 37651ms, fade4 37651ms;
+          animation: anim240 37651ms, fade4 37651ms;
 }
 footer .axis-243 {
-  -webkit-animation: anim240 37443ms, fade8 37443ms;
-          animation: anim240 37443ms, fade8 37443ms;
+  -webkit-animation: anim240 23909ms, fade1 23909ms;
+          animation: anim240 23909ms, fade1 23909ms;
 }
 footer .axis-244 {
-  -webkit-animation: anim244 25014ms, fade1 25014ms;
-          animation: anim244 25014ms, fade1 25014ms;
+  -webkit-animation: anim244 10824ms, fade6 10824ms;
+          animation: anim244 10824ms, fade6 10824ms;
 }
 footer .axis-245 {
-  -webkit-animation: anim244 10625ms, fade6 10625ms;
-          animation: anim244 10625ms, fade6 10625ms;
+  -webkit-animation: anim244 20076ms, fade8 20076ms;
+          animation: anim244 20076ms, fade8 20076ms;
 }
 footer .axis-246 {
-  -webkit-animation: anim244 19711ms, fade2 19711ms;
-          animation: anim244 19711ms, fade2 19711ms;
+  -webkit-animation: anim244 19569ms, fade7 19569ms;
+          animation: anim244 19569ms, fade7 19569ms;
 }
 footer .axis-247 {
-  -webkit-animation: anim244 20295ms, fade9 20295ms;
-          animation: anim244 20295ms, fade9 20295ms;
+  -webkit-animation: anim244 21775ms, fade2 21775ms;
+          animation: anim244 21775ms, fade2 21775ms;
 }
 footer .axis-248 {
-  -webkit-animation: anim248 44599ms, fade10 44599ms;
-          animation: anim248 44599ms, fade10 44599ms;
+  -webkit-animation: anim248 37265ms, fade8 37265ms;
+          animation: anim248 37265ms, fade8 37265ms;
 }
 footer .axis-249 {
-  -webkit-animation: anim248 9078ms, fade6 9078ms;
-          animation: anim248 9078ms, fade6 9078ms;
+  -webkit-animation: anim248 25560ms, fade4 25560ms;
+          animation: anim248 25560ms, fade4 25560ms;
 }
 footer .axis-250 {
-  -webkit-animation: anim248 24464ms, fade3 24464ms;
-          animation: anim248 24464ms, fade3 24464ms;
+  -webkit-animation: anim248 38535ms, fade2 38535ms;
+          animation: anim248 38535ms, fade2 38535ms;
 }
 footer .axis-251 {
-  -webkit-animation: anim248 30586ms, fade5 30586ms;
-          animation: anim248 30586ms, fade5 30586ms;
+  -webkit-animation: anim248 41725ms, fade4 41725ms;
+          animation: anim248 41725ms, fade4 41725ms;
 }
 footer .axis-252 {
-  -webkit-animation: anim252 26418ms, fade4 26418ms;
-          animation: anim252 26418ms, fade4 26418ms;
+  -webkit-animation: anim252 29320ms, fade6 29320ms;
+          animation: anim252 29320ms, fade6 29320ms;
 }
 footer .axis-253 {
-  -webkit-animation: anim252 23316ms, fade8 23316ms;
-          animation: anim252 23316ms, fade8 23316ms;
+  -webkit-animation: anim252 15035ms, fade3 15035ms;
+          animation: anim252 15035ms, fade3 15035ms;
 }
 footer .axis-254 {
-  -webkit-animation: anim252 39210ms, fade5 39210ms;
-          animation: anim252 39210ms, fade5 39210ms;
+  -webkit-animation: anim252 28058ms, fade1 28058ms;
+          animation: anim252 28058ms, fade1 28058ms;
 }
 footer .axis-255 {
-  -webkit-animation: anim252 18268ms, fade7 18268ms;
-          animation: anim252 18268ms, fade7 18268ms;
+  -webkit-animation: anim252 29984ms, fade1 29984ms;
+          animation: anim252 29984ms, fade1 29984ms;
 }
 footer .axis-256 {
-  -webkit-animation: anim256 42358ms, fade9 42358ms;
-          animation: anim256 42358ms, fade9 42358ms;
+  -webkit-animation: anim256 10369ms, fade9 10369ms;
+          animation: anim256 10369ms, fade9 10369ms;
 }
 footer .axis-257 {
-  -webkit-animation: anim256 40069ms, fade2 40069ms;
-          animation: anim256 40069ms, fade2 40069ms;
+  -webkit-animation: anim256 21199ms, fade8 21199ms;
+          animation: anim256 21199ms, fade8 21199ms;
 }
 footer .axis-258 {
-  -webkit-animation: anim256 18936ms, fade7 18936ms;
-          animation: anim256 18936ms, fade7 18936ms;
+  -webkit-animation: anim256 23287ms, fade6 23287ms;
+          animation: anim256 23287ms, fade6 23287ms;
 }
 footer .axis-259 {
-  -webkit-animation: anim256 6304ms, fade2 6304ms;
-          animation: anim256 6304ms, fade2 6304ms;
+  -webkit-animation: anim256 22007ms, fade10 22007ms;
+          animation: anim256 22007ms, fade10 22007ms;
 }
 footer .axis-260 {
-  -webkit-animation: anim260 19285ms, fade1 19285ms;
-          animation: anim260 19285ms, fade1 19285ms;
+  -webkit-animation: anim260 24274ms, fade9 24274ms;
+          animation: anim260 24274ms, fade9 24274ms;
 }
 footer .axis-261 {
-  -webkit-animation: anim260 43732ms, fade6 43732ms;
-          animation: anim260 43732ms, fade6 43732ms;
+  -webkit-animation: anim260 37391ms, fade2 37391ms;
+          animation: anim260 37391ms, fade2 37391ms;
 }
 footer .axis-262 {
-  -webkit-animation: anim260 28688ms, fade10 28688ms;
-          animation: anim260 28688ms, fade10 28688ms;
+  -webkit-animation: anim260 25497ms, fade10 25497ms;
+          animation: anim260 25497ms, fade10 25497ms;
 }
 footer .axis-263 {
-  -webkit-animation: anim260 30688ms, fade4 30688ms;
-          animation: anim260 30688ms, fade4 30688ms;
+  -webkit-animation: anim260 8239ms, fade1 8239ms;
+          animation: anim260 8239ms, fade1 8239ms;
 }
 footer .axis-264 {
-  -webkit-animation: anim264 28506ms, fade8 28506ms;
-          animation: anim264 28506ms, fade8 28506ms;
+  -webkit-animation: anim264 10303ms, fade7 10303ms;
+          animation: anim264 10303ms, fade7 10303ms;
 }
 footer .axis-265 {
-  -webkit-animation: anim264 15926ms, fade8 15926ms;
-          animation: anim264 15926ms, fade8 15926ms;
+  -webkit-animation: anim264 16963ms, fade8 16963ms;
+          animation: anim264 16963ms, fade8 16963ms;
 }
 footer .axis-266 {
-  -webkit-animation: anim264 33924ms, fade1 33924ms;
-          animation: anim264 33924ms, fade1 33924ms;
+  -webkit-animation: anim264 34912ms, fade3 34912ms;
+          animation: anim264 34912ms, fade3 34912ms;
 }
 footer .axis-267 {
-  -webkit-animation: anim264 41520ms, fade1 41520ms;
-          animation: anim264 41520ms, fade1 41520ms;
+  -webkit-animation: anim264 7568ms, fade6 7568ms;
+          animation: anim264 7568ms, fade6 7568ms;
 }
 footer .axis-268 {
-  -webkit-animation: anim268 33073ms, fade2 33073ms;
-          animation: anim268 33073ms, fade2 33073ms;
+  -webkit-animation: anim268 40440ms, fade3 40440ms;
+          animation: anim268 40440ms, fade3 40440ms;
 }
 footer .axis-269 {
-  -webkit-animation: anim268 20537ms, fade10 20537ms;
-          animation: anim268 20537ms, fade10 20537ms;
+  -webkit-animation: anim268 26862ms, fade2 26862ms;
+          animation: anim268 26862ms, fade2 26862ms;
 }
 footer .axis-270 {
-  -webkit-animation: anim268 16846ms, fade6 16846ms;
-          animation: anim268 16846ms, fade6 16846ms;
+  -webkit-animation: anim268 12862ms, fade8 12862ms;
+          animation: anim268 12862ms, fade8 12862ms;
 }
 footer .axis-271 {
-  -webkit-animation: anim268 13960ms, fade3 13960ms;
-          animation: anim268 13960ms, fade3 13960ms;
+  -webkit-animation: anim268 6212ms, fade7 6212ms;
+          animation: anim268 6212ms, fade7 6212ms;
 }
 footer .axis-272 {
-  -webkit-animation: anim272 44219ms, fade5 44219ms;
-          animation: anim272 44219ms, fade5 44219ms;
+  -webkit-animation: anim272 40643ms, fade4 40643ms;
+          animation: anim272 40643ms, fade4 40643ms;
 }
 footer .axis-273 {
-  -webkit-animation: anim272 35759ms, fade8 35759ms;
-          animation: anim272 35759ms, fade8 35759ms;
+  -webkit-animation: anim272 32087ms, fade7 32087ms;
+          animation: anim272 32087ms, fade7 32087ms;
 }
 footer .axis-274 {
-  -webkit-animation: anim272 32619ms, fade10 32619ms;
-          animation: anim272 32619ms, fade10 32619ms;
+  -webkit-animation: anim272 9901ms, fade2 9901ms;
+          animation: anim272 9901ms, fade2 9901ms;
 }
 footer .axis-275 {
-  -webkit-animation: anim272 21150ms, fade8 21150ms;
-          animation: anim272 21150ms, fade8 21150ms;
+  -webkit-animation: anim272 44523ms, fade2 44523ms;
+          animation: anim272 44523ms, fade2 44523ms;
 }
 footer .axis-276 {
-  -webkit-animation: anim276 22306ms, fade4 22306ms;
-          animation: anim276 22306ms, fade4 22306ms;
+  -webkit-animation: anim276 14557ms, fade5 14557ms;
+          animation: anim276 14557ms, fade5 14557ms;
 }
 footer .axis-277 {
-  -webkit-animation: anim276 41829ms, fade8 41829ms;
-          animation: anim276 41829ms, fade8 41829ms;
+  -webkit-animation: anim276 21706ms, fade10 21706ms;
+          animation: anim276 21706ms, fade10 21706ms;
 }
 footer .axis-278 {
-  -webkit-animation: anim276 27775ms, fade10 27775ms;
-          animation: anim276 27775ms, fade10 27775ms;
+  -webkit-animation: anim276 18821ms, fade9 18821ms;
+          animation: anim276 18821ms, fade9 18821ms;
 }
 footer .axis-279 {
-  -webkit-animation: anim276 41199ms, fade7 41199ms;
-          animation: anim276 41199ms, fade7 41199ms;
+  -webkit-animation: anim276 39744ms, fade4 39744ms;
+          animation: anim276 39744ms, fade4 39744ms;
 }
 footer .axis-280 {
-  -webkit-animation: anim280 18919ms, fade1 18919ms;
-          animation: anim280 18919ms, fade1 18919ms;
+  -webkit-animation: anim280 40344ms, fade2 40344ms;
+          animation: anim280 40344ms, fade2 40344ms;
 }
 footer .axis-281 {
-  -webkit-animation: anim280 11123ms, fade6 11123ms;
-          animation: anim280 11123ms, fade6 11123ms;
+  -webkit-animation: anim280 39878ms, fade10 39878ms;
+          animation: anim280 39878ms, fade10 39878ms;
 }
 footer .axis-282 {
-  -webkit-animation: anim280 12308ms, fade9 12308ms;
-          animation: anim280 12308ms, fade9 12308ms;
+  -webkit-animation: anim280 13342ms, fade3 13342ms;
+          animation: anim280 13342ms, fade3 13342ms;
 }
 footer .axis-283 {
-  -webkit-animation: anim280 9320ms, fade6 9320ms;
-          animation: anim280 9320ms, fade6 9320ms;
+  -webkit-animation: anim280 30178ms, fade8 30178ms;
+          animation: anim280 30178ms, fade8 30178ms;
 }
 footer .axis-284 {
-  -webkit-animation: anim284 32988ms, fade2 32988ms;
-          animation: anim284 32988ms, fade2 32988ms;
+  -webkit-animation: anim284 20426ms, fade7 20426ms;
+          animation: anim284 20426ms, fade7 20426ms;
 }
 footer .axis-285 {
-  -webkit-animation: anim284 10011ms, fade6 10011ms;
-          animation: anim284 10011ms, fade6 10011ms;
+  -webkit-animation: anim284 7065ms, fade1 7065ms;
+          animation: anim284 7065ms, fade1 7065ms;
 }
 footer .axis-286 {
-  -webkit-animation: anim284 25020ms, fade9 25020ms;
-          animation: anim284 25020ms, fade9 25020ms;
+  -webkit-animation: anim284 40660ms, fade8 40660ms;
+          animation: anim284 40660ms, fade8 40660ms;
 }
 footer .axis-287 {
-  -webkit-animation: anim284 43473ms, fade9 43473ms;
-          animation: anim284 43473ms, fade9 43473ms;
+  -webkit-animation: anim284 42341ms, fade9 42341ms;
+          animation: anim284 42341ms, fade9 42341ms;
 }
 footer .axis-288 {
-  -webkit-animation: anim288 9301ms, fade8 9301ms;
-          animation: anim288 9301ms, fade8 9301ms;
+  -webkit-animation: anim288 11382ms, fade1 11382ms;
+          animation: anim288 11382ms, fade1 11382ms;
 }
 footer .axis-289 {
-  -webkit-animation: anim288 10580ms, fade5 10580ms;
-          animation: anim288 10580ms, fade5 10580ms;
+  -webkit-animation: anim288 22062ms, fade7 22062ms;
+          animation: anim288 22062ms, fade7 22062ms;
 }
 footer .axis-290 {
-  -webkit-animation: anim288 20523ms, fade9 20523ms;
-          animation: anim288 20523ms, fade9 20523ms;
+  -webkit-animation: anim288 13028ms, fade6 13028ms;
+          animation: anim288 13028ms, fade6 13028ms;
 }
 footer .axis-291 {
-  -webkit-animation: anim288 13935ms, fade5 13935ms;
-          animation: anim288 13935ms, fade5 13935ms;
+  -webkit-animation: anim288 27861ms, fade3 27861ms;
+          animation: anim288 27861ms, fade3 27861ms;
 }
 footer .axis-292 {
-  -webkit-animation: anim292 38055ms, fade9 38055ms;
-          animation: anim292 38055ms, fade9 38055ms;
+  -webkit-animation: anim292 20361ms, fade1 20361ms;
+          animation: anim292 20361ms, fade1 20361ms;
 }
 footer .axis-293 {
-  -webkit-animation: anim292 10421ms, fade5 10421ms;
-          animation: anim292 10421ms, fade5 10421ms;
+  -webkit-animation: anim292 43977ms, fade7 43977ms;
+          animation: anim292 43977ms, fade7 43977ms;
 }
 footer .axis-294 {
-  -webkit-animation: anim292 37666ms, fade7 37666ms;
-          animation: anim292 37666ms, fade7 37666ms;
+  -webkit-animation: anim292 41186ms, fade4 41186ms;
+          animation: anim292 41186ms, fade4 41186ms;
 }
 footer .axis-295 {
-  -webkit-animation: anim292 11650ms, fade5 11650ms;
-          animation: anim292 11650ms, fade5 11650ms;
+  -webkit-animation: anim292 17141ms, fade4 17141ms;
+          animation: anim292 17141ms, fade4 17141ms;
 }
 footer .axis-296 {
-  -webkit-animation: anim296 20032ms, fade1 20032ms;
-          animation: anim296 20032ms, fade1 20032ms;
+  -webkit-animation: anim296 34513ms, fade6 34513ms;
+          animation: anim296 34513ms, fade6 34513ms;
 }
 footer .axis-297 {
-  -webkit-animation: anim296 8135ms, fade1 8135ms;
-          animation: anim296 8135ms, fade1 8135ms;
+  -webkit-animation: anim296 40301ms, fade9 40301ms;
+          animation: anim296 40301ms, fade9 40301ms;
 }
 footer .axis-298 {
-  -webkit-animation: anim296 41403ms, fade8 41403ms;
-          animation: anim296 41403ms, fade8 41403ms;
+  -webkit-animation: anim296 20504ms, fade6 20504ms;
+          animation: anim296 20504ms, fade6 20504ms;
 }
 footer .axis-299 {
-  -webkit-animation: anim296 29070ms, fade6 29070ms;
-          animation: anim296 29070ms, fade6 29070ms;
+  -webkit-animation: anim296 19105ms, fade4 19105ms;
+          animation: anim296 19105ms, fade4 19105ms;
 }
 footer .axis-300 {
-  -webkit-animation: anim300 22490ms, fade2 22490ms;
-          animation: anim300 22490ms, fade2 22490ms;
+  -webkit-animation: anim300 21119ms, fade8 21119ms;
+          animation: anim300 21119ms, fade8 21119ms;
 }
 footer .axis-301 {
-  -webkit-animation: anim300 18230ms, fade5 18230ms;
-          animation: anim300 18230ms, fade5 18230ms;
+  -webkit-animation: anim300 33397ms, fade4 33397ms;
+          animation: anim300 33397ms, fade4 33397ms;
 }
 footer .axis-302 {
-  -webkit-animation: anim300 18604ms, fade8 18604ms;
-          animation: anim300 18604ms, fade8 18604ms;
+  -webkit-animation: anim300 28576ms, fade10 28576ms;
+          animation: anim300 28576ms, fade10 28576ms;
 }
 footer .axis-303 {
-  -webkit-animation: anim300 31760ms, fade4 31760ms;
-          animation: anim300 31760ms, fade4 31760ms;
+  -webkit-animation: anim300 22024ms, fade9 22024ms;
+          animation: anim300 22024ms, fade9 22024ms;
 }
 footer .axis-304 {
-  -webkit-animation: anim304 16318ms, fade3 16318ms;
-          animation: anim304 16318ms, fade3 16318ms;
+  -webkit-animation: anim304 34526ms, fade6 34526ms;
+          animation: anim304 34526ms, fade6 34526ms;
 }
 footer .axis-305 {
-  -webkit-animation: anim304 14449ms, fade8 14449ms;
-          animation: anim304 14449ms, fade8 14449ms;
+  -webkit-animation: anim304 23374ms, fade4 23374ms;
+          animation: anim304 23374ms, fade4 23374ms;
 }
 footer .axis-306 {
-  -webkit-animation: anim304 10549ms, fade3 10549ms;
-          animation: anim304 10549ms, fade3 10549ms;
+  -webkit-animation: anim304 42730ms, fade5 42730ms;
+          animation: anim304 42730ms, fade5 42730ms;
 }
 footer .axis-307 {
-  -webkit-animation: anim304 15146ms, fade2 15146ms;
-          animation: anim304 15146ms, fade2 15146ms;
+  -webkit-animation: anim304 10725ms, fade9 10725ms;
+          animation: anim304 10725ms, fade9 10725ms;
 }
 footer .axis-308 {
-  -webkit-animation: anim308 30192ms, fade1 30192ms;
-          animation: anim308 30192ms, fade1 30192ms;
+  -webkit-animation: anim308 26382ms, fade3 26382ms;
+          animation: anim308 26382ms, fade3 26382ms;
 }
 footer .axis-309 {
-  -webkit-animation: anim308 6365ms, fade9 6365ms;
-          animation: anim308 6365ms, fade9 6365ms;
+  -webkit-animation: anim308 30703ms, fade8 30703ms;
+          animation: anim308 30703ms, fade8 30703ms;
 }
 footer .axis-310 {
-  -webkit-animation: anim308 28076ms, fade5 28076ms;
-          animation: anim308 28076ms, fade5 28076ms;
+  -webkit-animation: anim308 31053ms, fade9 31053ms;
+          animation: anim308 31053ms, fade9 31053ms;
 }
 footer .axis-311 {
-  -webkit-animation: anim308 42995ms, fade10 42995ms;
-          animation: anim308 42995ms, fade10 42995ms;
+  -webkit-animation: anim308 14422ms, fade6 14422ms;
+          animation: anim308 14422ms, fade6 14422ms;
 }
 footer .axis-312 {
-  -webkit-animation: anim312 25035ms, fade9 25035ms;
-          animation: anim312 25035ms, fade9 25035ms;
+  -webkit-animation: anim312 8298ms, fade4 8298ms;
+          animation: anim312 8298ms, fade4 8298ms;
 }
 footer .axis-313 {
-  -webkit-animation: anim312 29961ms, fade6 29961ms;
-          animation: anim312 29961ms, fade6 29961ms;
+  -webkit-animation: anim312 40413ms, fade9 40413ms;
+          animation: anim312 40413ms, fade9 40413ms;
 }
 footer .axis-314 {
-  -webkit-animation: anim312 31269ms, fade7 31269ms;
-          animation: anim312 31269ms, fade7 31269ms;
+  -webkit-animation: anim312 30903ms, fade2 30903ms;
+          animation: anim312 30903ms, fade2 30903ms;
 }
 footer .axis-315 {
-  -webkit-animation: anim312 5681ms, fade1 5681ms;
-          animation: anim312 5681ms, fade1 5681ms;
+  -webkit-animation: anim312 38864ms, fade3 38864ms;
+          animation: anim312 38864ms, fade3 38864ms;
 }
 footer .axis-316 {
-  -webkit-animation: anim316 33093ms, fade10 33093ms;
-          animation: anim316 33093ms, fade10 33093ms;
+  -webkit-animation: anim316 33003ms, fade5 33003ms;
+          animation: anim316 33003ms, fade5 33003ms;
 }
 footer .axis-317 {
-  -webkit-animation: anim316 6301ms, fade10 6301ms;
-          animation: anim316 6301ms, fade10 6301ms;
+  -webkit-animation: anim316 25733ms, fade10 25733ms;
+          animation: anim316 25733ms, fade10 25733ms;
 }
 footer .axis-318 {
-  -webkit-animation: anim316 21427ms, fade8 21427ms;
-          animation: anim316 21427ms, fade8 21427ms;
+  -webkit-animation: anim316 22704ms, fade7 22704ms;
+          animation: anim316 22704ms, fade7 22704ms;
 }
 footer .axis-319 {
-  -webkit-animation: anim316 41524ms, fade5 41524ms;
-          animation: anim316 41524ms, fade5 41524ms;
+  -webkit-animation: anim316 38052ms, fade7 38052ms;
+          animation: anim316 38052ms, fade7 38052ms;
 }
 footer .axis-320 {
-  -webkit-animation: anim320 28441ms, fade3 28441ms;
-          animation: anim320 28441ms, fade3 28441ms;
+  -webkit-animation: anim320 7442ms, fade5 7442ms;
+          animation: anim320 7442ms, fade5 7442ms;
 }
 footer .axis-321 {
-  -webkit-animation: anim320 8569ms, fade10 8569ms;
-          animation: anim320 8569ms, fade10 8569ms;
+  -webkit-animation: anim320 29643ms, fade6 29643ms;
+          animation: anim320 29643ms, fade6 29643ms;
 }
 footer .axis-322 {
-  -webkit-animation: anim320 36640ms, fade1 36640ms;
-          animation: anim320 36640ms, fade1 36640ms;
+  -webkit-animation: anim320 34643ms, fade9 34643ms;
+          animation: anim320 34643ms, fade9 34643ms;
 }
 footer .axis-323 {
-  -webkit-animation: anim320 13544ms, fade5 13544ms;
-          animation: anim320 13544ms, fade5 13544ms;
+  -webkit-animation: anim320 41595ms, fade4 41595ms;
+          animation: anim320 41595ms, fade4 41595ms;
 }
 footer .axis-324 {
-  -webkit-animation: anim324 43648ms, fade5 43648ms;
-          animation: anim324 43648ms, fade5 43648ms;
+  -webkit-animation: anim324 36608ms, fade8 36608ms;
+          animation: anim324 36608ms, fade8 36608ms;
 }
 footer .axis-325 {
-  -webkit-animation: anim324 29209ms, fade7 29209ms;
-          animation: anim324 29209ms, fade7 29209ms;
+  -webkit-animation: anim324 28476ms, fade5 28476ms;
+          animation: anim324 28476ms, fade5 28476ms;
 }
 footer .axis-326 {
-  -webkit-animation: anim324 22611ms, fade5 22611ms;
-          animation: anim324 22611ms, fade5 22611ms;
+  -webkit-animation: anim324 11113ms, fade8 11113ms;
+          animation: anim324 11113ms, fade8 11113ms;
 }
 footer .axis-327 {
-  -webkit-animation: anim324 26879ms, fade8 26879ms;
-          animation: anim324 26879ms, fade8 26879ms;
+  -webkit-animation: anim324 9777ms, fade10 9777ms;
+          animation: anim324 9777ms, fade10 9777ms;
 }
 footer .axis-328 {
-  -webkit-animation: anim328 26418ms, fade5 26418ms;
-          animation: anim328 26418ms, fade5 26418ms;
+  -webkit-animation: anim328 20700ms, fade1 20700ms;
+          animation: anim328 20700ms, fade1 20700ms;
 }
 footer .axis-329 {
-  -webkit-animation: anim328 18627ms, fade4 18627ms;
-          animation: anim328 18627ms, fade4 18627ms;
+  -webkit-animation: anim328 44554ms, fade8 44554ms;
+          animation: anim328 44554ms, fade8 44554ms;
 }
 footer .axis-330 {
-  -webkit-animation: anim328 34719ms, fade6 34719ms;
-          animation: anim328 34719ms, fade6 34719ms;
+  -webkit-animation: anim328 25743ms, fade7 25743ms;
+          animation: anim328 25743ms, fade7 25743ms;
 }
 footer .axis-331 {
-  -webkit-animation: anim328 34744ms, fade7 34744ms;
-          animation: anim328 34744ms, fade7 34744ms;
+  -webkit-animation: anim328 36568ms, fade9 36568ms;
+          animation: anim328 36568ms, fade9 36568ms;
 }
 footer .axis-332 {
-  -webkit-animation: anim332 20605ms, fade3 20605ms;
-          animation: anim332 20605ms, fade3 20605ms;
+  -webkit-animation: anim332 24278ms, fade5 24278ms;
+          animation: anim332 24278ms, fade5 24278ms;
 }
 footer .axis-333 {
-  -webkit-animation: anim332 19248ms, fade10 19248ms;
-          animation: anim332 19248ms, fade10 19248ms;
+  -webkit-animation: anim332 39880ms, fade3 39880ms;
+          animation: anim332 39880ms, fade3 39880ms;
 }
 footer .axis-334 {
-  -webkit-animation: anim332 28036ms, fade6 28036ms;
-          animation: anim332 28036ms, fade6 28036ms;
+  -webkit-animation: anim332 35793ms, fade9 35793ms;
+          animation: anim332 35793ms, fade9 35793ms;
 }
 footer .axis-335 {
-  -webkit-animation: anim332 13976ms, fade4 13976ms;
-          animation: anim332 13976ms, fade4 13976ms;
+  -webkit-animation: anim332 27730ms, fade2 27730ms;
+          animation: anim332 27730ms, fade2 27730ms;
 }
 footer .axis-336 {
-  -webkit-animation: anim336 6410ms, fade7 6410ms;
-          animation: anim336 6410ms, fade7 6410ms;
+  -webkit-animation: anim336 22456ms, fade1 22456ms;
+          animation: anim336 22456ms, fade1 22456ms;
 }
 footer .axis-337 {
-  -webkit-animation: anim336 13454ms, fade3 13454ms;
-          animation: anim336 13454ms, fade3 13454ms;
+  -webkit-animation: anim336 42352ms, fade3 42352ms;
+          animation: anim336 42352ms, fade3 42352ms;
 }
 footer .axis-338 {
-  -webkit-animation: anim336 11421ms, fade9 11421ms;
-          animation: anim336 11421ms, fade9 11421ms;
+  -webkit-animation: anim336 29797ms, fade1 29797ms;
+          animation: anim336 29797ms, fade1 29797ms;
 }
 footer .axis-339 {
-  -webkit-animation: anim336 43628ms, fade4 43628ms;
-          animation: anim336 43628ms, fade4 43628ms;
+  -webkit-animation: anim336 26738ms, fade3 26738ms;
+          animation: anim336 26738ms, fade3 26738ms;
 }
 footer .axis-340 {
-  -webkit-animation: anim340 22008ms, fade5 22008ms;
-          animation: anim340 22008ms, fade5 22008ms;
+  -webkit-animation: anim340 16005ms, fade6 16005ms;
+          animation: anim340 16005ms, fade6 16005ms;
 }
 footer .axis-341 {
-  -webkit-animation: anim340 39939ms, fade10 39939ms;
-          animation: anim340 39939ms, fade10 39939ms;
+  -webkit-animation: anim340 33738ms, fade8 33738ms;
+          animation: anim340 33738ms, fade8 33738ms;
 }
 footer .axis-342 {
-  -webkit-animation: anim340 16761ms, fade4 16761ms;
-          animation: anim340 16761ms, fade4 16761ms;
+  -webkit-animation: anim340 33926ms, fade10 33926ms;
+          animation: anim340 33926ms, fade10 33926ms;
 }
 footer .axis-343 {
-  -webkit-animation: anim340 18458ms, fade2 18458ms;
-          animation: anim340 18458ms, fade2 18458ms;
+  -webkit-animation: anim340 24727ms, fade4 24727ms;
+          animation: anim340 24727ms, fade4 24727ms;
 }
 footer .axis-344 {
-  -webkit-animation: anim344 44834ms, fade3 44834ms;
-          animation: anim344 44834ms, fade3 44834ms;
+  -webkit-animation: anim344 8544ms, fade4 8544ms;
+          animation: anim344 8544ms, fade4 8544ms;
 }
 footer .axis-345 {
-  -webkit-animation: anim344 29406ms, fade2 29406ms;
-          animation: anim344 29406ms, fade2 29406ms;
+  -webkit-animation: anim344 18697ms, fade4 18697ms;
+          animation: anim344 18697ms, fade4 18697ms;
 }
 footer .axis-346 {
-  -webkit-animation: anim344 11802ms, fade4 11802ms;
-          animation: anim344 11802ms, fade4 11802ms;
+  -webkit-animation: anim344 31748ms, fade6 31748ms;
+          animation: anim344 31748ms, fade6 31748ms;
 }
 footer .axis-347 {
-  -webkit-animation: anim344 43551ms, fade9 43551ms;
-          animation: anim344 43551ms, fade9 43551ms;
+  -webkit-animation: anim344 34804ms, fade8 34804ms;
+          animation: anim344 34804ms, fade8 34804ms;
 }
 footer .axis-348 {
-  -webkit-animation: anim348 38446ms, fade9 38446ms;
-          animation: anim348 38446ms, fade9 38446ms;
+  -webkit-animation: anim348 34989ms, fade9 34989ms;
+          animation: anim348 34989ms, fade9 34989ms;
 }
 footer .axis-349 {
-  -webkit-animation: anim348 11010ms, fade7 11010ms;
-          animation: anim348 11010ms, fade7 11010ms;
+  -webkit-animation: anim348 43154ms, fade10 43154ms;
+          animation: anim348 43154ms, fade10 43154ms;
 }
 footer .axis-350 {
-  -webkit-animation: anim348 38364ms, fade2 38364ms;
-          animation: anim348 38364ms, fade2 38364ms;
+  -webkit-animation: anim348 11689ms, fade4 11689ms;
+          animation: anim348 11689ms, fade4 11689ms;
 }
 footer .axis-351 {
-  -webkit-animation: anim348 25050ms, fade4 25050ms;
-          animation: anim348 25050ms, fade4 25050ms;
+  -webkit-animation: anim348 16239ms, fade7 16239ms;
+          animation: anim348 16239ms, fade7 16239ms;
 }
 footer .axis-352 {
-  -webkit-animation: anim352 11893ms, fade2 11893ms;
-          animation: anim352 11893ms, fade2 11893ms;
+  -webkit-animation: anim352 13873ms, fade5 13873ms;
+          animation: anim352 13873ms, fade5 13873ms;
 }
 footer .axis-353 {
-  -webkit-animation: anim352 25038ms, fade5 25038ms;
-          animation: anim352 25038ms, fade5 25038ms;
+  -webkit-animation: anim352 22482ms, fade9 22482ms;
+          animation: anim352 22482ms, fade9 22482ms;
 }
 footer .axis-354 {
-  -webkit-animation: anim352 8005ms, fade9 8005ms;
-          animation: anim352 8005ms, fade9 8005ms;
+  -webkit-animation: anim352 18941ms, fade5 18941ms;
+          animation: anim352 18941ms, fade5 18941ms;
 }
 footer .axis-355 {
-  -webkit-animation: anim352 27341ms, fade3 27341ms;
-          animation: anim352 27341ms, fade3 27341ms;
+  -webkit-animation: anim352 11382ms, fade4 11382ms;
+          animation: anim352 11382ms, fade4 11382ms;
 }
 footer .axis-356 {
-  -webkit-animation: anim356 10324ms, fade2 10324ms;
-          animation: anim356 10324ms, fade2 10324ms;
+  -webkit-animation: anim356 39612ms, fade4 39612ms;
+          animation: anim356 39612ms, fade4 39612ms;
 }
 footer .axis-357 {
-  -webkit-animation: anim356 19313ms, fade3 19313ms;
-          animation: anim356 19313ms, fade3 19313ms;
+  -webkit-animation: anim356 11724ms, fade10 11724ms;
+          animation: anim356 11724ms, fade10 11724ms;
 }
 footer .axis-358 {
-  -webkit-animation: anim356 9543ms, fade9 9543ms;
-          animation: anim356 9543ms, fade9 9543ms;
+  -webkit-animation: anim356 9494ms, fade9 9494ms;
+          animation: anim356 9494ms, fade9 9494ms;
 }
 footer .axis-359 {
-  -webkit-animation: anim356 31773ms, fade3 31773ms;
-          animation: anim356 31773ms, fade3 31773ms;
+  -webkit-animation: anim356 7452ms, fade3 7452ms;
+          animation: anim356 7452ms, fade3 7452ms;
 }
 footer .axis-360 {
-  -webkit-animation: anim360 10678ms, fade8 10678ms;
-          animation: anim360 10678ms, fade8 10678ms;
+  -webkit-animation: anim360 25913ms, fade4 25913ms;
+          animation: anim360 25913ms, fade4 25913ms;
 }
 footer .axis-0,
 footer .axis-1,
@@ -4397,10 +4410,10 @@ footer .axis-3 {
   display: none;
 }
 @-webkit-keyframes fade1 {
-  6% {
+  8% {
     opacity: 0;
   }
-  16% {
+  18% {
     opacity: 1;
   }
   100% {
@@ -4408,10 +4421,10 @@ footer .axis-3 {
   }
 }
 @keyframes fade1 {
-  6% {
+  8% {
     opacity: 0;
   }
-  16% {
+  18% {
     opacity: 1;
   }
   100% {
@@ -4441,10 +4454,10 @@ footer .axis-3 {
   }
 }
 @-webkit-keyframes fade3 {
-  13% {
+  19% {
     opacity: 0;
   }
-  23% {
+  29% {
     opacity: 1;
   }
   100% {
@@ -4452,10 +4465,10 @@ footer .axis-3 {
   }
 }
 @keyframes fade3 {
-  13% {
+  19% {
     opacity: 0;
   }
-  23% {
+  29% {
     opacity: 1;
   }
   100% {
@@ -4463,10 +4476,10 @@ footer .axis-3 {
   }
 }
 @-webkit-keyframes fade4 {
-  8% {
+  2% {
     opacity: 0;
   }
-  18% {
+  12% {
     opacity: 1;
   }
   100% {
@@ -4474,10 +4487,10 @@ footer .axis-3 {
   }
 }
 @keyframes fade4 {
-  8% {
+  2% {
     opacity: 0;
   }
-  18% {
+  12% {
     opacity: 1;
   }
   100% {
@@ -4485,10 +4498,10 @@ footer .axis-3 {
   }
 }
 @-webkit-keyframes fade5 {
-  13% {
+  9% {
     opacity: 0;
   }
-  23% {
+  19% {
     opacity: 1;
   }
   100% {
@@ -4496,10 +4509,10 @@ footer .axis-3 {
   }
 }
 @keyframes fade5 {
-  13% {
+  9% {
     opacity: 0;
   }
-  23% {
+  19% {
     opacity: 1;
   }
   100% {
@@ -4507,10 +4520,10 @@ footer .axis-3 {
   }
 }
 @-webkit-keyframes fade6 {
-  3% {
+  11% {
     opacity: 0;
   }
-  13% {
+  21% {
     opacity: 1;
   }
   100% {
@@ -4518,10 +4531,10 @@ footer .axis-3 {
   }
 }
 @keyframes fade6 {
-  3% {
+  11% {
     opacity: 0;
   }
-  13% {
+  21% {
     opacity: 1;
   }
   100% {
@@ -4529,10 +4542,10 @@ footer .axis-3 {
   }
 }
 @-webkit-keyframes fade7 {
-  16% {
+  1% {
     opacity: 0;
   }
-  26% {
+  11% {
     opacity: 1;
   }
   100% {
@@ -4540,10 +4553,10 @@ footer .axis-3 {
   }
 }
 @keyframes fade7 {
-  16% {
+  1% {
     opacity: 0;
   }
-  26% {
+  11% {
     opacity: 1;
   }
   100% {
@@ -4551,10 +4564,10 @@ footer .axis-3 {
   }
 }
 @-webkit-keyframes fade8 {
-  8% {
+  2% {
     opacity: 0;
   }
-  18% {
+  12% {
     opacity: 1;
   }
   100% {
@@ -4562,10 +4575,10 @@ footer .axis-3 {
   }
 }
 @keyframes fade8 {
-  8% {
+  2% {
     opacity: 0;
   }
-  18% {
+  12% {
     opacity: 1;
   }
   100% {
@@ -4573,10 +4586,10 @@ footer .axis-3 {
   }
 }
 @-webkit-keyframes fade9 {
-  12% {
+  9% {
     opacity: 0;
   }
-  22% {
+  19% {
     opacity: 1;
   }
   100% {
@@ -4584,10 +4597,10 @@ footer .axis-3 {
   }
 }
 @keyframes fade9 {
-  12% {
+  9% {
     opacity: 0;
   }
-  22% {
+  19% {
     opacity: 1;
   }
   100% {
@@ -4595,10 +4608,10 @@ footer .axis-3 {
   }
 }
 @-webkit-keyframes fade10 {
-  3% {
+  19% {
     opacity: 0;
   }
-  13% {
+  29% {
     opacity: 1;
   }
   100% {
@@ -4606,10 +4619,10 @@ footer .axis-3 {
   }
 }
 @keyframes fade10 {
-  3% {
+  19% {
     opacity: 0;
   }
-  13% {
+  29% {
     opacity: 1;
   }
   100% {

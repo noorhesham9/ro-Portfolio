@@ -265,11 +265,18 @@ header {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
-      justify-content: end;
+      justify-content: center;
       margin-bottom: 80px;
       align-items: center;
       gap: 10px;
       i {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40px;
+        border-radius: 50%;
+        height: 40px;
+        background-color: #999999;
         font-size: 18px;
       }
     }
